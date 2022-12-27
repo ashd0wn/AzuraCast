@@ -1,3 +1,9 @@
+# Attention
+
+In this branch i changed some things in a really dirty way. You should not use it. It will not work on your side. Ill using the AzuraCast AutoDJ only in an iFrame integration with another product. So i only needed a few parts of this product.
+
+---
+
 ![](https://github.com/AzuraCast/AzuraCast/raw/main/resources/azuracast.png)![](https://static.scarf.sh/a.png?x-pxid=d5169ead-cdcf-482c-ab64-c7137d3f8769)
 
 # AzuraCast: A Simple, Self-Hosted Web Radio Management Suite

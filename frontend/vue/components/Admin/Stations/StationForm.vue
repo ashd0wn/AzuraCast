@@ -13,7 +13,7 @@
                                                  :show-advanced="showAdvanced"></admin-stations-profile-form>
                 </b-tab>
 
-                <b-tab :title-link-class="getTabClass($v.frontendTab)">
+                <b-tab :title-link-class="getTabClass($v.frontendTab)" v-if="doNotShow">
                     <template #title>
                         <translate key="tab_frontend">Broadcasting</translate>
                     </template>

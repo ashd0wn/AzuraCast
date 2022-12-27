@@ -40,10 +40,14 @@
                             <icon icon="edit"></icon>
                             <translate key="lang_btn_edit_profile">Edit Profile</translate>
                         </b-button>
+                        <b-button variant="outline-primary" @click.prevent="doChangePassword">
+                            <icon icon="vpn_key"></icon>
+                            <translate key="lang_btn_change_password">Change Password</translate>
+                        </b-button>
                     </div>
                 </section>
 
-                <section class="card" role="region">
+                <section v-if="doNotShow" class="card" role="region">
                     <b-card-header header-bg-variant="primary-dark">
                         <h2 class="card-title">
                             <translate key="lang_hdr_security">Security</translate>
@@ -85,7 +89,7 @@
                     </div>
                 </section>
             </b-col>
-            <b-col sm="12" md="6" lg="7">
+            <b-col v-if="doNotShow" sm="12" md="6" lg="7">
                 <b-card no-body>
                     <b-card-header header-bg-variant="primary-dark">
                         <h2 class="card-title">

@@ -213,7 +213,7 @@ final class ProfileController
                 $this->stationFormComponent->getProps($request),
                 [
                     'editUrl' => $router->fromHere('api:stations:profile:edit'),
-                    'continueUrl' => $router->fromHere('stations:profile:index'),
+                    'continueUrl' => $router->fromHere('stations:profile:edit'),
                 ]
             )
         );

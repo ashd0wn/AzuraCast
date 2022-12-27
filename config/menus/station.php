@@ -54,6 +54,7 @@ return static function (App\Event\BuildStationMenu $e) {
                 'label' => __('Profile'),
                 'icon' => 'image',
                 'url' => $router->fromHere('stations:profile:index'),
+                'permission' => StationPermissions::ProfileShow,
             ],
             'public' => [
                 'label' => __('Public Page'),
@@ -66,6 +67,7 @@ return static function (App\Event\BuildStationMenu $e) {
                 'label' => __('Media'),
                 'icon' => 'library_music',
                 'visible' => StationFeatures::Media->supportedForStation($station),
+                'permission' => StationPermissions::Media,
                 'items' => [
                     'files' => [
                         'label' => __('Music Files'),
@@ -110,7 +112,7 @@ return static function (App\Event\BuildStationMenu $e) {
                         'label' => __('Bulk Media Import/Export'),
                         'class' => 'text-muted',
                         'url' => $router->fromHere('stations:bulk-media'),
-                        'permission' => StationPermissions::Media,
+                        'permission' => StationPermissions::MediaImportExport,
                     ],
                 ],
             ],
@@ -176,23 +178,28 @@ return static function (App\Event\BuildStationMenu $e) {
                     'reports_overview' => [
                         'label' => __('Station Statistics'),
                         'url' => $router->fromHere('stations:reports:overview'),
+                        'permission' => StationPermissions::ReportsStatistics,
                     ],
                     'reports_listeners' => [
                         'label' => __('Listeners'),
                         'url' => $router->fromHere('stations:reports:listeners'),
+                        'permission' => StationPermissions::ReportsListeners,
                     ],
                     'reports_requests' => [
                         'label' => __('Song Requests'),
                         'url' => $router->fromHere('stations:reports:requests'),
                         'visible' => $station->getEnableRequests(),
+                        'permission' => StationPermissions::ReportsSongRequests,
                     ],
                     'reports_timeline' => [
                         'label' => __('Song Playback Timeline'),
                         'url' => $router->fromHere('stations:reports:timeline'),
+                        'permission' => StationPermissions::ReportsSongTimeline,
                     ],
                     'reports_soundexchange' => [
                         'label' => __('SoundExchange Royalties'),
                         'url' => $router->fromHere('stations:reports:soundexchange'),
+                        'permission' => StationPermissions::ReportsSoundExchange,
                     ],
                 ],
             ],
@@ -226,14 +233,14 @@ return static function (App\Event\BuildStationMenu $e) {
                         'class' => 'text-muted',
                         'url' => $router->fromHere('stations:fallback'),
                         'visible' => StationFeatures::Media->supportedForStation($station),
-                        'permission' => StationPermissions::Broadcasting,
+                        'permission' => StationPermissions::BroadcastingFallbackFile,
                     ],
                     'ls_config' => [
                         'label' => __('Edit Liquidsoap Configuration'),
                         'class' => 'text-muted',
                         'url' => $router->fromHere('stations:util:ls_config'),
                         'visible' => StationFeatures::CustomLiquidsoapConfig->supportedForStation($station),
-                        'permission' => StationPermissions::Broadcasting,
+                        'permission' => StationPermissions::BroadcastingLiquidsoapConfig,
                     ],
                     'stations:stereo_tool_config' => [
                         'label' => __('Upload Stereo Tool Configuration'),

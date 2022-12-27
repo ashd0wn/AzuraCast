@@ -2,26 +2,26 @@
     <div>
         <b-form-fieldset>
             <b-form-row>
-                <b-wrapped-form-group class="col-md-12" id="edit_form_name" :field="form.name">
+                <b-wrapped-form-group v-if="doNotShow" class="col-md-12" id="edit_form_name" :field="form.name">
                     <template #label="{lang}">
                         <translate :key="lang">Name</translate>
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group class="col-md-12" id="edit_form_description" :field="form.description"
+                <b-wrapped-form-group v-if="doNotShow" class="col-md-12" id="edit_form_description" :field="form.description"
                                       input-type="textarea">
                     <template #label="{lang}">
                         <translate :key="lang">Description</translate>
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group class="col-md-6" id="edit_form_genre" :field="form.genre">
+                <b-wrapped-form-group v-if="doNotShow" class="col-md-6" id="edit_form_genre" :field="form.genre">
                     <template #label="{lang}">
                         <translate :key="lang">Genre</translate>
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group class="col-md-6" id="edit_form_url" :field="form.url" input-type="url">
+                <b-wrapped-form-group v-if="doNotShow" class="col-md-6" id="edit_form_url" :field="form.url" input-type="url">
                     <template #label="{lang}">
                         <translate :key="lang">Web Site URL</translate>
                     </template>
@@ -53,7 +53,7 @@
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group v-if="showAdvanced" class="col-md-6" id="edit_form_short_name"
+                <b-wrapped-form-group v-if="showAdvanced && doNotShow" class="col-md-6" id="edit_form_short_name"
                                       :field="form.short_name" advanced>
                     <template #label="{lang}">
                         <translate :key="lang">URL Stub</translate>
@@ -63,7 +63,7 @@
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group v-if="showAdvanced" class="col-md-6" id="edit_form_api_history_items"
+                <b-wrapped-form-group v-if="showAdvanced && doNotShow" class="col-md-6" id="edit_form_api_history_items"
                                       :field="form.api_history_items" advanced>
                     <template #label="{lang}">
                         <translate :key="lang">Number of Visible Recent Songs</translate>
@@ -79,7 +79,7 @@
             </b-form-row>
         </b-form-fieldset>
 
-        <b-form-fieldset>
+        <b-form-fieldset v-if="doNotShow">
             <template #label>
                 <translate key="lang_header_public_pages">Public Pages</translate>
             </template>
@@ -97,7 +97,7 @@
             </b-form-row>
         </b-form-fieldset>
 
-        <b-form-fieldset>
+        <b-form-fieldset v-if="doNotShow">
             <template #label>
                 <translate key="lang_header_on_demand">On-Demand Streaming</translate>
             </template>

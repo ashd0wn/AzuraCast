@@ -73,7 +73,7 @@
                 </b-form-row>
             </b-form-fieldset>
 
-            <b-form-fieldset v-if="doNotShow">
+            <b-form-fieldset>
                 <template #label>
                     <translate key="lang_hls">HTTP Live Streaming (HLS)</translate>
                 </template>
@@ -258,7 +258,7 @@
                     </b-form-row>
                 </b-form-fieldset>
 
-                <b-form-fieldset v-if="form.enable_streamers.$model && doNotShow">
+                <b-form-fieldset v-if="form.enable_streamers.$model">
                     <b-form-fieldset>
                         <b-form-row>
                             <b-wrapped-form-checkbox class="col-md-12" id="edit_form_backend_record_streams"
@@ -321,7 +321,7 @@
                                 </template>
                             </b-wrapped-form-group>
 
-                            <b-wrapped-form-group v-if="showAdvanced && doNotShow" class="col-md-6"
+                            <b-wrapped-form-group v-if="showAdvanced" class="col-md-6"
                                                   id="edit_form_backend_dj_port"
                                                   :field="form.backend_config.dj_port" input-type="number"
                                                   :input-attrs="{ min: '0' }" advanced>
@@ -353,7 +353,7 @@
                                 </template>
                             </b-wrapped-form-group>
 
-                            <b-wrapped-form-group v-if="showAdvanced && doNotShow" class="col-md-6"
+                            <b-wrapped-form-group v-if="showAdvanced" class="col-md-6"
                                                   id="edit_form_backend_dj_mount_point"
                                                   :field="form.backend_config.dj_mount_point" advanced>
                                 <template #label="{lang}">
@@ -376,7 +376,7 @@
                 </template>
 
                 <b-form-row>
-                    <b-wrapped-form-checkbox v-if="doNotShow" class="col-md-6"
+                    <b-wrapped-form-checkbox class="col-md-6"
                                              id="edit_form_backend_use_manual_autodj"
                                              :field="form.backend_config.use_manual_autodj" advanced>
                         <template #label="{lang}">
@@ -403,7 +403,7 @@
                         </template>
                     </b-wrapped-form-checkbox>
 
-                    <b-wrapped-form-group v-if="doNotShow" class="col-md-6" id="edit_form_backend_telnet_port"
+                    <b-wrapped-form-group class="col-md-6" id="edit_form_backend_telnet_port"
                                           :field="form.backend_config.telnet_port" input-type="number"
                                           :input-attrs="{ min: '0' }" advanced>
                         <template #label="{lang}">
@@ -447,7 +447,7 @@
                         </template>
                     </b-wrapped-form-group>
 
-                    <b-wrapped-form-group v-if="doNotShow" class="col-md-6" id="edit_form_backend_performance_mode"
+                    <b-wrapped-form-group class="col-md-6" id="edit_form_backend_performance_mode"
                                           :field="form.backend_config.performance_mode" advanced>
                         <template #label="{lang}">
                             <translate :key="lang">Liquidsoap Performance Tuning</translate>

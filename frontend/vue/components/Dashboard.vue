@@ -176,7 +176,7 @@
                             </div>
                         </td>
                         <td class="text-right">
-                            <a class="btn btn-primary" v-bind:href="item.links.manage">
+                            <a class="btn btn-primary" href="station/2/files">
                                 <translate key="dashboard_btn_manage_station">Manage</translate>
                             </a>
                         </td>

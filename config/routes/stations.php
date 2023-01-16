@@ -23,11 +23,13 @@ return static function (RouteCollectorProxy $app) {
 
             $group->get('/bulk-media', Controller\Stations\BulkMediaAction::class)
                 ->setName('stations:bulk-media')
-                ->add(new Middleware\Permissions(StationPermissions::Media, true));
+                ->add(new Middleware\Permissions(StationPermissions::Media, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get('/fallback', Controller\Stations\FallbackAction::class)
                 ->setName('stations:fallback')
-                ->add(new Middleware\Permissions(StationPermissions::Broadcasting, true));
+                ->add(new Middleware\Permissions(StationPermissions::Broadcasting, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get('/files', Controller\Stations\FilesAction::class)
                 ->setName('stations:files:index')
@@ -42,15 +44,18 @@ return static function (RouteCollectorProxy $app) {
             $group->get('/ls_config', Controller\Stations\EditLiquidsoapConfigAction::class)
                 ->setName('stations:util:ls_config')
                 ->add(new Middleware\StationSupportsFeature(StationFeatures::CustomLiquidsoapConfig))
-                ->add(new Middleware\Permissions(StationPermissions::Broadcasting, true));
+                ->add(new Middleware\Permissions(StationPermissions::Broadcasting, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get('/stereo_tool_config', Controller\Stations\UploadStereoToolConfigAction::class)
                 ->setName('stations:stereo_tool_config')
-                ->add(new Middleware\Permissions(StationPermissions::Broadcasting, true));
+                ->add(new Middleware\Permissions(StationPermissions::Broadcasting, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get('/logs', Controller\Stations\LogsAction::class)
                 ->setName('stations:logs')
-                ->add(new Middleware\Permissions(StationPermissions::Logs, true));
+                ->add(new Middleware\Permissions(StationPermissions::Logs, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get('/playlists', Controller\Stations\PlaylistsAction::class)
                 ->setName('stations:playlists:index')
@@ -60,15 +65,18 @@ return static function (RouteCollectorProxy $app) {
             $group->get('/podcasts', Controller\Stations\PodcastsAction::class)
                 ->setName('stations:podcasts:index')
                 ->add(new Middleware\StationSupportsFeature(StationFeatures::Podcasts))
-                ->add(new Middleware\Permissions(StationPermissions::Podcasts, true));
+                ->add(new Middleware\Permissions(StationPermissions::Podcasts, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get('/mounts', Controller\Stations\MountsAction::class)
                 ->setName('stations:mounts:index')
                 ->add(new Middleware\StationSupportsFeature(StationFeatures::MountPoints))
-                ->add(new Middleware\Permissions(StationPermissions::MountPoints, true));
+                ->add(new Middleware\Permissions(StationPermissions::MountPoints, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get('/profile', Controller\Stations\ProfileController::class)
-                ->setName('stations:profile:index');
+                ->setName('stations:profile:index')
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get(
                 '/profile/toggle/{feature}/{csrf}',
@@ -89,26 +97,30 @@ return static function (RouteCollectorProxy $app) {
             $group->get('/remotes', Controller\Stations\RemotesAction::class)
                 ->setName('stations:remotes:index')
                 ->add(new Middleware\StationSupportsFeature(StationFeatures::RemoteRelays))
-                ->add(new Middleware\Permissions(StationPermissions::RemoteRelays, true));
+                ->add(new Middleware\Permissions(StationPermissions::RemoteRelays, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->group(
                 '/reports',
                 function (RouteCollectorProxy $group) {
                     $group->get('/overview', Controller\Stations\Reports\OverviewAction::class)
-                        ->setName('stations:reports:overview');
+                        ->setName('stations:reports:overview')
+                        ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
                     $group->get('/timeline', Controller\Stations\Reports\TimelineAction::class)
                         ->setName('stations:reports:timeline');
 
                     $group->get('/listeners', Controller\Stations\Reports\ListenersAction::class)
-                        ->setName('stations:reports:listeners');
+                        ->setName('stations:reports:listeners')
+                        ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
                     $group->map(
                         ['GET', 'POST'],
                         '/soundexchange',
                         Controller\Stations\Reports\SoundExchangeAction::class
                     )
-                        ->setName('stations:reports:soundexchange');
+                        ->setName('stations:reports:soundexchange')
+                        ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
                     $group->get('/requests', Controller\Stations\Reports\RequestsAction::class)
                         ->setName('stations:reports:requests');
@@ -128,7 +140,8 @@ return static function (RouteCollectorProxy $app) {
             $group->get('/webhooks', Controller\Stations\WebhooksAction::class)
                 ->setName('stations:webhooks:index')
                 ->add(new Middleware\StationSupportsFeature(StationFeatures::Webhooks))
-                ->add(new Middleware\Permissions(StationPermissions::WebHooks, true));
+                ->add(new Middleware\Permissions(StationPermissions::WebHooks, true))
+                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
         }
     )
         ->add(Middleware\Module\Stations::class)

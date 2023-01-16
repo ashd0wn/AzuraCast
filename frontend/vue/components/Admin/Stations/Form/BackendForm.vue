@@ -73,7 +73,7 @@
                 </b-form-row>
             </b-form-fieldset>
 
-            <b-form-fieldset>
+            <!--<b-form-fieldset>
                 <template #label>
                     <translate key="lang_hls">HTTP Live Streaming (HLS)</translate>
                 </template>
@@ -140,9 +140,9 @@
                         </b-wrapped-form-group>
                     </b-form-row>
                 </b-form-fieldset>
-            </b-form-fieldset>
+            </b-form-fieldset>-->
 
-            <b-form-fieldset v-if="isStereoToolEnabled && isStereoToolInstalled">
+            <!--<b-form-fieldset v-if="isStereoToolEnabled && isStereoToolInstalled">
                 <template #label>
                     <translate key="lang_hdr_stereo_tool">Stereo Tool</translate>
                 </template>
@@ -176,7 +176,7 @@
                         </b-form-markup>
                     </b-form-row>
                 </b-form-fieldset>
-            </b-form-fieldset>
+            </b-form-fieldset>-->
 
             <b-form-fieldset>
                 <template #label>
@@ -242,7 +242,7 @@
                     <translate key="lang_hdr_streamers">Streamers/DJs</translate>
                 </template>
 
-                <b-form-fieldset>
+                <!--<b-form-fieldset>
                     <b-form-row>
                         <b-wrapped-form-checkbox class="col-md-12" id="edit_form_enable_streamers"
                                                  :field="form.enable_streamers">
@@ -256,10 +256,10 @@
                             </template>
                         </b-wrapped-form-checkbox>
                     </b-form-row>
-                </b-form-fieldset>
+                </b-form-fieldset>-->
 
                 <b-form-fieldset v-if="form.enable_streamers.$model">
-                    <b-form-fieldset>
+                    <!--<b-form-fieldset>
                         <b-form-row>
                             <b-wrapped-form-checkbox class="col-md-12" id="edit_form_backend_record_streams"
                                                      :field="form.backend_config.record_streams">
@@ -303,7 +303,7 @@
                                 </template>
                             </b-wrapped-form-group>
                         </b-form-row>
-                    </b-form-fieldset>
+                    </b-form-fieldset>-->
 
                     <b-form-fieldset>
                         <b-form-row>
@@ -321,7 +321,7 @@
                                 </template>
                             </b-wrapped-form-group>
 
-                            <b-wrapped-form-group v-if="showAdvanced" class="col-md-6"
+                            <!--<b-wrapped-form-group v-if="showAdvanced" class="col-md-6"
                                                   id="edit_form_backend_dj_port"
                                                   :field="form.backend_config.dj_port" input-type="number"
                                                   :input-attrs="{ min: '0' }" advanced>
@@ -337,7 +337,7 @@
                                         for legacy connections.
                                     </translate>
                                 </template>
-                            </b-wrapped-form-group>
+                            </b-wrapped-form-group>-->
 
                             <b-wrapped-form-group class="col-md-6" id="edit_form_backend_dj_buffer"
                                                   :field="form.backend_config.dj_buffer" input-type="number"
@@ -353,7 +353,7 @@
                                 </template>
                             </b-wrapped-form-group>
 
-                            <b-wrapped-form-group v-if="showAdvanced" class="col-md-6"
+                            <!--<b-wrapped-form-group v-if="showAdvanced" class="col-md-6"
                                                   id="edit_form_backend_dj_mount_point"
                                                   :field="form.backend_config.dj_mount_point" advanced>
                                 <template #label="{lang}">
@@ -364,7 +364,7 @@
                                         path, specify it here. Otherwise, use the default.
                                     </translate>
                                 </template>
-                            </b-wrapped-form-group>
+                            </b-wrapped-form-group>-->
                         </b-form-row>
                     </b-form-fieldset>
                 </b-form-fieldset>
@@ -376,7 +376,7 @@
                 </template>
 
                 <b-form-row>
-                    <b-wrapped-form-checkbox class="col-md-6"
+                    <!--<b-wrapped-form-checkbox class="col-md-6"
                                              id="edit_form_backend_use_manual_autodj"
                                              :field="form.backend_config.use_manual_autodj" advanced>
                         <template #label="{lang}">
@@ -388,7 +388,7 @@
                                 available.
                             </translate>
                         </template>
-                    </b-wrapped-form-checkbox>
+                    </b-wrapped-form-checkbox>-->
 
                     <b-wrapped-form-checkbox class="col-md-6"
                                              id="edit_form_backend_enable_replaygain_metadata"
@@ -403,7 +403,7 @@
                         </template>
                     </b-wrapped-form-checkbox>
 
-                    <b-wrapped-form-group class="col-md-6" id="edit_form_backend_telnet_port"
+                    <!--<b-wrapped-form-group class="col-md-6" id="edit_form_backend_telnet_port"
                                           :field="form.backend_config.telnet_port" input-type="number"
                                           :input-attrs="{ min: '0' }" advanced>
                         <template #label="{lang}">
@@ -427,7 +427,7 @@
                                 automatically fill the queue.
                             </translate>
                         </template>
-                    </b-wrapped-form-group>
+                    </b-wrapped-form-group>-->
 
                     <b-wrapped-form-group class="col-md-6" id="edit_form_backend_charset"
                                           :field="form.backend_config.charset" advanced>
@@ -447,7 +447,7 @@
                         </template>
                     </b-wrapped-form-group>
 
-                    <b-wrapped-form-group class="col-md-6" id="edit_form_backend_performance_mode"
+                    <!--<b-wrapped-form-group class="col-md-6" id="edit_form_backend_performance_mode"
                                           :field="form.backend_config.performance_mode" advanced>
                         <template #label="{lang}">
                             <translate :key="lang">Liquidsoap Performance Tuning</translate>
@@ -462,7 +462,7 @@
                                                 v-model="props.field.$model">
                             </b-form-radio-group>
                         </template>
-                    </b-wrapped-form-group>
+                    </b-wrapped-form-group>-->
 
                     <b-wrapped-form-group class="col-md-6" id="edit_form_backend_duplicate_prevention_time_range"
                                           :field="form.backend_config.duplicate_prevention_time_range"

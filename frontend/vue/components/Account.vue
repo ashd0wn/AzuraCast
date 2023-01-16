@@ -85,7 +85,7 @@
                     </div>
                 </section>
             </b-col>
-            <b-col sm="12" md="6" lg="7">
+            <!--<b-col sm="12" md="6" lg="7">
                 <b-card no-body>
                     <b-card-header header-bg-variant="primary-dark">
                         <h2 class="card-title">
@@ -118,7 +118,7 @@
                         </template>
                     </data-table>
                 </b-card>
-            </b-col>
+            </b-col>-->
         </b-row>
 
         <account-edit-modal ref="editModal" :user-url="userUrl" :supported-locales="supportedLocales"

@@ -13,7 +13,7 @@
                                                  :show-advanced="showAdvanced"></admin-stations-profile-form>
                 </b-tab>
 
-                <b-tab :title-link-class="getTabClass($v.frontendTab)">
+                <!--<b-tab :title-link-class="getTabClass($v.frontendTab)">
                     <template #title>
                         <translate key="tab_frontend">Broadcasting</translate>
                     </template>
@@ -22,7 +22,7 @@
                                                   :is-shoutcast-installed="isShoutcastInstalled"
                                                   :countries="countries"
                                                   :show-advanced="showAdvanced"></admin-stations-frontend-form>
-                </b-tab>
+                </b-tab>-->
 
                 <b-tab :title-link-class="getTabClass($v.backendTab)">
                     <template #title>

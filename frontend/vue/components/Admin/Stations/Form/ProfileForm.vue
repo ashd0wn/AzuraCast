@@ -2,7 +2,7 @@
     <div>
         <b-form-fieldset>
             <b-form-row>
-                <b-wrapped-form-group class="col-md-12" id="edit_form_name" :field="form.name">
+                <!--<b-wrapped-form-group class="col-md-12" id="edit_form_name" :field="form.name">
                     <template #label="{lang}">
                         <translate :key="lang">Name</translate>
                     </template>
@@ -28,7 +28,7 @@
                     <template #description="{lang}">
                         <translate :key="lang">Note: This should be the public-facing homepage of the radio station, not the AzuraCast URL. It will be included in broadcast details.</translate>
                     </template>
-                </b-wrapped-form-group>
+                </b-wrapped-form-group>-->
 
                 <b-wrapped-form-group class="col-md-12" id="edit_form_timezone" :field="form.timezone">
                     <template #label="{lang}">
@@ -53,7 +53,7 @@
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group v-if="showAdvanced" class="col-md-6" id="edit_form_short_name"
+                <!--<b-wrapped-form-group v-if="showAdvanced" class="col-md-6" id="edit_form_short_name"
                                       :field="form.short_name" advanced>
                     <template #label="{lang}">
                         <translate :key="lang">URL Stub</translate>
@@ -61,7 +61,7 @@
                     <template #description="{lang}">
                         <translate :key="lang">Optionally specify a short URL-friendly name, such as "my_station_name", that will be used in this station's URLs. Leave this field blank to automatically create one based on the station name.</translate>
                     </template>
-                </b-wrapped-form-group>
+                </b-wrapped-form-group>-->
 
                 <b-wrapped-form-group v-if="showAdvanced" class="col-md-6" id="edit_form_api_history_items"
                                       :field="form.api_history_items" advanced>
@@ -79,7 +79,7 @@
             </b-form-row>
         </b-form-fieldset>
 
-        <b-form-fieldset>
+        <!--<b-form-fieldset>
             <template #label>
                 <translate key="lang_header_public_pages">Public Pages</translate>
             </template>
@@ -124,7 +124,7 @@
                     </template>
                 </b-wrapped-form-checkbox>
             </b-form-row>
-        </b-form-fieldset>
+        </b-form-fieldset>-->
     </div>
 </template>
 

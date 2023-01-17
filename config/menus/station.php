@@ -56,13 +56,13 @@ return static function (App\Event\BuildStationMenu $e) {
                 'url' => $router->fromHere('stations:profile:index'),
                 'permission' => StationPermissions::spShowIt,
             ],
-            'public' => [
+            /*'public' => [
                 'label' => __('Public Page'),
                 'icon' => 'public',
                 'url' => $router->named('public:index', ['station_id' => $station->getShortName()]),
                 'external' => true,
                 'visible' => $station->getEnablePublicPage(),
-            ],
+            ],*/
             'media' => [
                 'label' => __('Media'),
                 'icon' => 'library_music',

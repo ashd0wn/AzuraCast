@@ -4,9 +4,9 @@
             <label>
                 <translate key="lang_playlist_schedule_not_scheduled">Not Scheduled</translate>
             </label>
-            <p>
+            <!--<p>
                 <translate key="lang_playlist_schedule_desc">This playlist currently has no scheduled times. It will play at all times. To add a new scheduled time, click the button below.</translate>
-            </p>
+            </p>-->
         </b-form-group>
 
         <b-card v-for="(row, index) in form.schedule_items.$each.$iter" :key="index" class="mb-3" no-body>

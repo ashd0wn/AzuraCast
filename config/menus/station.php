@@ -171,7 +171,7 @@ return static function (App\Event\BuildStationMenu $e) {
                 'permission' => StationPermissions::Streamers,
             ],
 
-            'web_dj' => [
+            /*'web_dj' => [
                 'label' => __('Web DJ'),
                 'icon' => 'surround_sound',
                 'url' => (string)(
@@ -184,7 +184,7 @@ return static function (App\Event\BuildStationMenu $e) {
                 ),
                 'visible' => $station->getEnablePublicPage(),
                 'external' => true,
-            ],
+            ],*/
 
             'webhooks' => [
                 'label' => __('Web Hooks'),

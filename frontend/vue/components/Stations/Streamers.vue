@@ -90,7 +90,7 @@ export default {
     data() {
         return {
             fields: [
-                {key: 'art', label: this.$gettext('Art'), sortable: false, class: 'shrink pr-0'},
+                //{key: 'art', label: this.$gettext('Art'), sortable: false, class: 'shrink pr-0'},
                 {key: 'display_name', label: this.$gettext('Display Name'), sortable: true},
                 {key: 'streamer_username', isRowHeader: true, label: this.$gettext('Username'), sortable: true},
                 {key: 'comments', label: this.$gettext('Notes'), sortable: false},

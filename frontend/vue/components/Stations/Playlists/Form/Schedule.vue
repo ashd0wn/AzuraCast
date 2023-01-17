@@ -100,9 +100,9 @@
                             <template #label="{lang}">
                                 <translate :key="lang">Scheduled Play Days of Week</translate>
                             </template>
-                            <template #description="{lang}">
+                            <!--<template #description="{lang}">
                                 <translate :key="lang">Leave blank to play on every day of the week.</translate>
-                            </template>
+                            </template>-->
                             <template #default="props">
                                 <b-checkbox-group stacked :id="'edit_form_days_'+index" v-model="row.days.$model"
                                                   :options="dayOptions"></b-checkbox-group>

@@ -69,7 +69,7 @@
                 </dd>
             </dl>
         </div>
-        <div class="card-body">
+        <!--<div class="card-body">
             <p class="card-text">
                 <translate key="lang_connection_wiki">Setup instructions for broadcasting software are available on the AzuraCast wiki.</translate>
                 <br>
@@ -77,7 +77,7 @@
                     <translate key="lang_connection_wiki_link">AzuraCast Wiki</translate>
                 </a>
             </p>
-        </div>
+        </div>-->
     </div>
 </template>
 <script>

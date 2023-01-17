@@ -195,10 +195,25 @@ return static function (App\Event\BuildStationMenu $e) {
                 'permission' => StationPermissions::spShowIt,
             ],
 
+            'reports_requests' => [
+                'label' => __('Song Requests'),
+                'icon' => 'list',
+                'url' => $router->fromHere('stations:reports:requests'),
+                'visible' => $station->getEnableRequests(),
+            ],
+
+            'reports_timeline' => [
+                'label' => __('Song Playback Timeline'),
+                'icon' => 'history',
+                'url' => $router->fromHere('stations:reports:timeline'),
+                'permission' => StationPermissions::Reports,
+            ],
+
             'reports' => [
                 'label' => __('Reports'),
                 'icon' => 'assignment',
                 'permission' => StationPermissions::Reports,
+                'permission' => StationPermissions::spShowIt,
                 'items' => [
                     'reports_overview' => [
                         'label' => __('Station Statistics'),
@@ -214,10 +229,12 @@ return static function (App\Event\BuildStationMenu $e) {
                         'label' => __('Song Requests'),
                         'url' => $router->fromHere('stations:reports:requests'),
                         'visible' => $station->getEnableRequests(),
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'reports_timeline' => [
                         'label' => __('Song Playback Timeline'),
                         'url' => $router->fromHere('stations:reports:timeline'),
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'reports_soundexchange' => [
                         'label' => __('SoundExchange Royalties'),

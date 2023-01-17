@@ -728,7 +728,7 @@ msgstr "AutoDJ auf Remote Sender übertragen"
 #: ./vue/components/Admin/Stations/StationForm.vue:1
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:201
 msgid "Broadcasting"
-msgstr "Übertragen"
+msgstr "Broadcasting"
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:6
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:1

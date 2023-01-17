@@ -56,7 +56,7 @@
                             </template>
                         </b-wrapped-form-checkbox>
 
-                        <b-wrapped-form-checkbox class="col-md-6" id="form_edit_include_in_on_demand"
+                        <!--<b-wrapped-form-checkbox class="col-md-6" id="form_edit_include_in_on_demand"
                                                  :field="form.include_in_on_demand">
                             <template #label="{lang}">
                                 <translate :key="lang">Include in On-Demand Player</translate>
@@ -64,7 +64,7 @@
                             <template #description="{lang}">
                                 <translate :key="lang">If this station has on-demand streaming and downloading enabled, only songs that are in playlists with this setting enabled will be visible.</translate>
                             </template>
-                        </b-wrapped-form-checkbox>
+                        </b-wrapped-form-checkbox>-->
 
                         <b-wrapped-form-group class="col-md-6" id="form_edit_include_in_requests"
                                               :field="form.include_in_requests">
@@ -112,7 +112,7 @@
                                         <translate key="lang_form_type_once_per_hour">Once per Hour</translate>
                                         <translate class="form-text mt-0" key="lang_form_type_once_per_hour_desc">Play once per hour at the specified minute.</translate>
                                     </b-form-radio>
-                                    <b-form-radio value="custom">
+                                    <!--<b-form-radio value="custom">
                                         <translate key="lang_form_type_custom">Advanced</translate>
                                         <span class="form-text mt-0">
                                 <translate key="lang_form_type_custom_desc">Manually define how this playlist is used in Liquidsoap configuration.</translate>
@@ -122,7 +122,7 @@
                                         key="lang_form_type_custom_more">Learn about Advanced Playlists</translate>
                                 </a>
                             </span>
-                                    </b-form-radio>
+                                    </b-form-radio>-->
                                 </b-form-radio-group>
                             </template>
                         </b-wrapped-form-group>
@@ -261,7 +261,7 @@
                             <template #label="{lang}">
                                 <translate :key="lang">Remote URL Type</translate>
                             </template>
-                            <template #default="props">
+                            <!--<template #default="props">
                                 <b-form-radio-group stacked :id="props.id" v-model="props.field.$model">
                                     <b-form-radio value="stream">
                                         <translate key="lang_edit_form_remote_type_stream">Direct Stream URL</translate>
@@ -271,7 +271,7 @@
                                             key="lang_edit_form_remote_type_playlist">Playlist (M3U/PLS) URL</translate>
                                     </b-form-radio>
                                 </b-form-radio-group>
-                            </template>
+                            </template>-->
                         </b-wrapped-form-group>
 
                         <b-wrapped-form-group class="col-md-6" id="form_edit_remote_buffer" :field="form.remote_buffer">

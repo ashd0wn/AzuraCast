@@ -25,7 +25,7 @@ msgstr "# Songs"
 
 #: ./vue/components/Stations/Webhooks/EditModal.vue:276
 msgid "%{ dj } is now live on %{ station }! Tune in now: %{ url }"
-msgstr ""
+msgstr "%{ dj } ist jetzt live auf %{ station }! Schalten Sie jetzt ein: %{ url }"
 
 #: ./vue/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:14
 msgid "%{ minutes } minutes"
@@ -37,11 +37,11 @@ msgstr "%{ seconds } Sekunden"
 
 #: ./vue/components/Stations/Webhooks/EditModal.vue:296
 msgid "%{ station } is back online! Tune in now: %{ url }"
-msgstr ""
+msgstr "%{ station } ist wieder online! Schalten Sie jetzt ein: %{ url }"
 
 #: ./vue/components/Stations/Webhooks/EditModal.vue:290
 msgid "%{ station } is going offline for now."
-msgstr ""
+msgstr "%{ station } ist vorerst offline."
 
 #: ./vue/components/Stations/Common/Quota.vue:52
 msgid "%{filesCount} File"
@@ -62,8 +62,8 @@ msgstr "%{name} - Kopieren"
 #: ./vue/components/Stations/Profile/BackendPanel.vue:32
 msgid "%{numPlaylists} playlist"
 msgid_plural "%{numPlaylists} playlists"
-msgstr[0] "%{numPlaylists} Wiedergabeliste"
-msgstr[1] "%{numPlaylists} Wiedergabelisten"
+msgstr[0] "%{numPlaylists} Playliste"
+msgstr[1] "%{numPlaylists} Playlisten"
 
 #: ./vue/components/Stations/Profile/BackendPanel.vue:29
 msgid "%{numSongs} uploaded song"
@@ -85,11 +85,11 @@ msgstr "%{station} - Kopie"
 
 #: ./vue/components/Account/EditForm.vue:44
 msgid "12 Hour"
-msgstr ""
+msgstr "12 Stunden"
 
 #: ./vue/components/Account/EditForm.vue:48
 msgid "24 Hour"
-msgstr ""
+msgstr "24 Stunden"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:135
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:8
@@ -99,7 +99,7 @@ msgstr "Jedes Mal, wenn die Warteschlange gefüllt wird, wird ein zufälliger Tr
 #: ./vue/components/Stations/HlsStreams/Form/BasicInfo.vue:9
 #: ./vue/components/Stations/HlsStreams/Form/BasicInfo.vue:1
 msgid "A name for this stream that will be used internally in code. Should only contain letters, numbers, and underscores (i.e. \"stream_lofi\")."
-msgstr ""
+msgstr "Ein Name für diesen Stream, der intern im Code verwendet werden soll. Er sollte nur Buchstaben, Zahlen und Unterstriche enthalten (z.B. \"stream_lofi\")."
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:27
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:4
@@ -109,7 +109,7 @@ msgstr "Eine Playlist mit Mediendateien, die auf diesem Server gehostet werden."
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:31
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:8
 msgid "A playlist that instructs the station to play from a remote URL."
-msgstr "Eine Wiedergabeliste, die den Sender anweist, von einer URL zu spielen."
+msgstr "Eine Playliste, die den Sender anweist, von einer Externen-URL zu spielen."
 
 #: ./vue/components/Admin/StorageLocations/Form.vue:57
 #: ./vue/components/Admin/StorageLocations/Form.vue:1
@@ -135,7 +135,7 @@ msgstr "Account ist Aktiviert"
 
 #: ./vue/components/Stations/Streamers.vue:32
 msgid "Account List"
-msgstr "Kontenliste"
+msgstr "Accountliste"
 
 #: ./vue/components/Account.vue:53
 #: ./vue/components/Admin/ApiKeys.vue:23
@@ -186,17 +186,17 @@ msgstr "Episode hinzufügen"
 
 #: ./vue/components/Public/WebDJ/PlaylistPanel.vue:58
 msgid "Add Files to Playlist"
-msgstr "Dateien zur Wiedergabeliste hinzufügen"
+msgstr "Dateien zur Playliste hinzufügen"
 
 #: ./vue/components/Stations/HlsStreams.vue:16
 #: ./vue/components/Stations/HlsStreams/EditModal.vue:24
 msgid "Add HLS Stream"
-msgstr ""
+msgstr "HLS-Stream hinzufügen"
 
 #: ./vue/components/Stations/Mounts.vue:16
 #: ./vue/components/Stations/Mounts/EditModal.vue:72
 msgid "Add Mount Point"
-msgstr "Einhängepunkt anlegen"
+msgstr "Mountpoint anlegen"
 
 #: ./vue/components/Stations/Help.vue:38
 msgid "Add New GitHub Issue"
@@ -205,7 +205,7 @@ msgstr "GitHub-Ticket erstellen"
 #: ./vue/components/Stations/Playlists.vue:18
 #: ./vue/components/Stations/Playlists/EditModal.vue:20
 msgid "Add Playlist"
-msgstr "Playlist hinzufügen"
+msgstr "Playliste hinzufügen"
 
 #: ./vue/components/Stations/Podcasts/ListView.vue:17
 #: ./vue/components/Stations/Podcasts/PodcastEditModal.vue:40
@@ -326,11 +326,11 @@ msgstr "Albumcover"
 #: ./vue/components/Admin/Settings/ServicesTab.vue:48
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
 msgid "All listed domain names should point to this AzuraCast installation. Separate multiple domain names with commas."
-msgstr ""
+msgstr "Alle aufgeführten Domainnamen sollten auf diese AzuraCast-Installation zeigen. Trennen Sie mehrere Domainnamen mit Kommas."
 
 #: ./vue/components/Stations/Playlists.vue:36
 msgid "All Playlists"
-msgstr "Alle Wiedergabelisten"
+msgstr "Alle Playlisten"
 
 #: ./vue/components/Stations/Podcasts/EpisodesView.vue:25
 #: ./vue/components/Stations/Podcasts/ListView.vue:35
@@ -344,7 +344,7 @@ msgstr "Alle Werte in der NowPlaying API-Antwort stehen zur Verwendung zur Verf�
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:72
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:2
 msgid "Allow Requests from This Playlist"
-msgstr "Anfragen aus dieser Wiedergabeliste zulassen"
+msgstr "Songanfragen innerhalb dieser Playliste zulassen"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:173
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
@@ -472,17 +472,17 @@ msgstr "Versuche ISRC automatisch abzurufen, wenn nicht vorhanden"
 #: ./vue/components/Stations/HlsStreams/Form/BasicInfo.vue:23
 #: ./vue/components/Stations/HlsStreams/Form/BasicInfo.vue:1
 msgid "Audio Bitrate (kbps)"
-msgstr ""
+msgstr "Audio-Bitrate (kbps)"
 
 #: ./vue/components/Stations/HlsStreams/Form/BasicInfo.vue:15
 #: ./vue/components/Stations/HlsStreams/Form/BasicInfo.vue:1
 msgid "Audio Format"
-msgstr ""
+msgstr "Audioformat"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:52
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "Audio Processing Method"
-msgstr ""
+msgstr "Audio-Verarbeitungsmethode"
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:17
 msgid "Audio transcoding applications like Liquidsoap use a consistent amount of CPU over time, which gradually drains this available credit. If you regularly see stolen CPU time, you should consider migrating to a VM that has CPU resources dedicated to your instance."
@@ -559,7 +559,7 @@ msgstr "Automatische Backups"
 
 #: ./vue/components/Common/StreamingLogView.vue:4
 msgid "Automatically Scroll to Bottom"
-msgstr ""
+msgstr "Automatisch nach unten scrollen"
 
 #: ./vue/components/Admin/CustomFields/Form.vue:23
 #: ./vue/components/Admin/CustomFields/Form.vue:1
@@ -588,7 +588,7 @@ msgstr "Durchschnittliche Zuhörer"
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:50
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "Avoid Duplicate Artists/Titles"
-msgstr "Vermeide doppelte Interpreten/Titel"
+msgstr "Vermeide doppelte Interpreten / Titel"
 
 #: ./vue/components/Setup/Register.vue:7
 msgid "AzuraCast First-Time Setup"
@@ -635,7 +635,7 @@ msgstr "Zurück"
 #: ./vue/components/Admin/Backups/ConfigureModal.vue:56
 #: ./vue/components/Admin/Backups/ConfigureModal.vue:1
 msgid "Backup Format"
-msgstr ""
+msgstr "Backupformat"
 
 #: ./vue/components/Admin/Backups.vue:3
 #: ./vue/components/Admin/Backups.vue:69
@@ -779,7 +779,7 @@ msgstr "Kategorien"
 #: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:58
 #: ./vue/components/Stations/Reports/Timeline.vue:43
 msgid "Change"
-msgstr "Ändern"
+msgstr "Abweichung"
 
 #: ./vue/components/Account.vue:71
 #: ./vue/components/Account/ChangePasswordModal.vue:37
@@ -819,16 +819,23 @@ msgstr "Suche in Webdiensten nach Albumcover beim Hochladen von Medien"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:55
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "Choose a method to use for processing audio which produces a more\n"
+msgid ""
+"Choose a method to use for processing audio which produces a more\n"
 "                                uniform and \"full\" sound for your station."
 msgstr ""
+"Wählen Sie eine Methode für die Audiobearbeitung, die einen gleichmäßigeren\n"
+"                                gleichmäßigeren und \"volleren\" Klang für Ihren Sender erzeugt."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:29
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "Choose a method to use when transitioning from one song to another.\n"
+msgid ""
+"Choose a method to use when transitioning from one song to another.\n"
 "                                Smart Mode considers the volume of the two tracks when fading for a smoother effect, but\n"
 "                                requires more CPU resources."
 msgstr ""
+"Wählen Sie eine Methode für den Übergang von einem Titel zum anderen.\n"
+"                                Der Smart-Modus berücksichtigt beim Überblenden die Lautstärke der beiden Tracks, um einen sanfteren Effekt zu erzielen,\n"
+"                                erfordert jedoch mehr CPU-Ressourcen."
 
 #: ./vue/components/Stations/Webhooks/Form/BasicInfo.vue:8
 #: ./vue/components/Stations/Webhooks/Form/BasicInfo.vue:1
@@ -898,15 +905,15 @@ msgstr "Klicke auf \"Generate new license key\"."
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:18
 msgid "Click \"New Application\""
-msgstr ""
+msgstr "Klicken Sie auf \"Neue Anwendung\""
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:15
 msgid "Click the \"Preferences\" link, then \"Development\" on the left side menu."
-msgstr ""
+msgstr "Klicken Sie auf den Link \"Einstellungen\" und dann auf \"Entwicklung\" im Menü auf der linken Seite."
 
 #: ./vue/components/Stations/BulkMedia.vue:12
 msgid "Click the button below to generate a CSV file with all of this station's media. You can make any necessary changes, and then import the file using the file picker on the right."
-msgstr ""
+msgstr "Klicken Sie auf die Schaltfläche unten, um eine CSV-Datei mit allen Medien dieses Senders zu erstellen. Sie können alle notwendigen Änderungen vornehmen und die Datei dann über die Dateiauswahl rechts erneut importieren."
 
 #: ./vue/components/Stations/Reports/Overview/ClientsTab.vue:12
 msgid "Client"
@@ -920,12 +927,12 @@ msgstr "Clients"
 #: ./vue/components/Stations/Reports/Overview/ClientsTab.vue:6
 #: ./vue/components/Stations/Reports/Overview/ClientsTab.vue:1
 msgid "Clients by Connected Time"
-msgstr ""
+msgstr "Nutzer nach verbundener Zeit"
 
 #: ./vue/components/Stations/Reports/Overview/ClientsTab.vue:3
 #: ./vue/components/Stations/Reports/Overview/ClientsTab.vue:1
 msgid "Clients by Listeners"
-msgstr ""
+msgstr "Nutzer nach Zuhörer"
 
 #: ./vue/components/Admin/Stations.vue:31
 #: ./vue/components/Admin/Stations.vue:6
@@ -1036,7 +1043,7 @@ msgstr "Kontinuierliche Wiedergabe"
 #: ./vue/components/Stations/Playlists/Form/Advanced.vue:9
 #: ./vue/components/Stations/Playlists/Form/Advanced.vue:1
 msgid "Control how this playlist is handled by the AutoDJ software."
-msgstr "Legen Sie fest, wie AutoDJ die Wiedergabeliste behandeln soll."
+msgstr "Legen Sie fest, wie der AutoDJ diese Playliste behandeln soll."
 
 #: ./vue/components/Admin/Backups/ConfigureModal.vue:41
 #: ./vue/components/Admin/Backups/ConfigureModal.vue:1
@@ -1068,7 +1075,7 @@ msgstr "In neuen Sender kopieren"
 
 #: ./vue/components/Common/FlowUpload.vue:90
 msgid "Could not upload file."
-msgstr ""
+msgstr "Datei konnte nicht hochgeladen werden."
 
 #: ./vue/components/Stations/Reports/Overview.vue:70
 #: ./vue/components/Stations/Reports/Overview.vue:1
@@ -1147,7 +1154,7 @@ msgstr "Warteschlange"
 #: ./vue/components/Stations/StereoToolConfig.vue:33
 #: ./vue/components/Stations/StereoToolConfig.vue:1
 msgid "Current Configuration File"
-msgstr ""
+msgstr "Aktuelle Konfigurationsdatei"
 
 #: ./vue/components/Stations/Fallback.vue:27
 #: ./vue/components/Stations/Fallback.vue:1
@@ -1307,7 +1314,7 @@ msgstr "Anpassen des source passwort"
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:66
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:1
 msgid "Customize the number of songs that will appear in the \"Song History\" section for this station and in all public APIs."
-msgstr "Passt die Anzahl der Songs an, die im Abschnitt \"Song Verlauf\" für diesen Sender und in allen öffentlichen APIs angezeigt werden."
+msgstr "Passt die Anzahl der Songs an, die im Abschnitt \"Songverlauf\" für diesen Sender und in allen öffentlichen APIs angezeigt werden."
 
 #: ./vue/components/Account/EditForm.vue:32
 #: ./vue/components/Admin/Branding/BrandingForm.vue:38
@@ -1317,11 +1324,11 @@ msgstr "Dunkel"
 
 #: ./vue/components/Stations/Reports/Requests.vue:35
 msgid "Date Played"
-msgstr "Wiedergabe Datum"
+msgstr "Wiedergabedatum"
 
 #: ./vue/components/Stations/Reports/Requests.vue:34
 msgid "Date Requested"
-msgstr "Wunsch Datum"
+msgstr "Wunschdatum"
 
 #: ./vue/components/Admin/AuditLog.vue:19
 msgid "Date/Time"
@@ -1329,7 +1336,7 @@ msgstr "Datum/Zeit"
 
 #: ./vue/components/Stations/Reports/Timeline.vue:24
 msgid "Date/Time (Browser)"
-msgstr "Datum/Zeit (Browser)"
+msgstr "Datum / Zeit (Browser)"
 
 #: ./vue/components/Stations/Reports/Timeline.vue:30
 msgid "Date/Time (Station)"
@@ -1338,7 +1345,7 @@ msgstr "Datum/Zeit (Sender)"
 #: ./vue/components/Admin/Settings/GeneralTab.vue:42
 #: ./vue/components/Admin/Settings/GeneralTab.vue:1
 msgid "Days of Playback History to Keep"
-msgstr "Zu speichernde Tage des Song Verlaufs"
+msgstr "Zu speichernde Tage des Songverlaufes"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:279
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
@@ -1447,7 +1454,7 @@ msgstr "Episode löschen?"
 
 #: ./vue/components/Stations/HlsStreams.vue:45
 msgid "Delete HLS Stream?"
-msgstr ""
+msgstr "HLS-Stream löschen?"
 
 #: ./vue/components/Stations/Mounts.vue:50
 msgid "Delete Mount Point?"
@@ -1455,7 +1462,7 @@ msgstr "Einhängepunkt löschen?"
 
 #: ./vue/components/Stations/Playlists.vue:144
 msgid "Delete Playlist?"
-msgstr "Wiedergabeliste löschen?"
+msgstr "Playliste löschen?"
 
 #: ./vue/components/Stations/Podcasts/ListView.vue:59
 msgid "Delete Podcast?"
@@ -1499,7 +1506,7 @@ msgstr "Benutzer löschen?"
 
 #: ./vue/components/Stations/Webhooks.vue:96
 msgid "Delete Web Hook?"
-msgstr "Web Hook löschen?"
+msgstr "WebHook löschen?"
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:12
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:1
@@ -1559,7 +1566,7 @@ msgstr "Optimierungen deaktivieren"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:70
 msgid "Disable Processing"
-msgstr ""
+msgstr "Verarbeitung deaktivieren"
 
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:28
 msgid "Disable public pages?"
@@ -1618,7 +1625,7 @@ msgstr "Discord WebHook URL"
 
 #: ./vue/components/Admin/Index/MemoryStatsHelpModal.vue:14
 msgid "Disk caching makes a system much faster and more responsive in general. It does not take memory away from applications in any way since it will automatically be released by the operating system when needed."
-msgstr ""
+msgstr "Die Zwischenspeicherung auf der Festplatte macht ein System im Allgemeinen viel schneller und reaktionsschneller. Es nimmt den Anwendungen keinen Speicherplatz weg, da er bei Bedarf automatisch vom Betriebssystem freigegeben wird."
 
 #: ./vue/components/Admin/Index.vue:81
 msgid "Disk Space"
@@ -1655,7 +1662,7 @@ msgstr "Keinen AutoDJ Dienst verwenden."
 #: ./vue/components/Admin/Settings/ServicesTab.vue:45
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
 msgid "Domain Name(s)"
-msgstr ""
+msgstr "Domänenname(n)"
 
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:26
 msgid "Down"
@@ -1675,7 +1682,7 @@ msgstr "Download"
 #: ./vue/components/Stations/Reports/Listeners.vue:14
 #: ./vue/components/Stations/Reports/Timeline.vue:10
 msgid "Download CSV"
-msgstr "CSV herunterladen"
+msgstr "CSV-Datei herunterladen"
 
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:97
 msgid "Download M3U"
@@ -1687,11 +1694,11 @@ msgstr "PLS herunterladen"
 
 #: ./vue/components/Admin/StereoTool.vue:31
 msgid "Download the appropriate binary from the Stereo Tool downloads page:"
-msgstr ""
+msgstr "Laden Sie die entsprechende Binärdatei von der Stereo Tool Download Seite herunter:"
 
 #: ./vue/components/Admin/Shoutcast.vue:27
 msgid "Download the Linux x64 binary from the Shoutcast Radio Manager:"
-msgstr ""
+msgstr "Laden Sie die Linux x64-Binärdatei im Shoutcast Radio Manager herunter:"
 
 #: ./vue/components/Common/FlowUpload.vue:13
 msgid "Drag file(s) here to upload or"
@@ -1738,7 +1745,7 @@ msgstr "E-Mail Adresse"
 #: ./vue/components/Admin/Settings/ServicesTab.vue:54
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
 msgid "E-mail Address (Optional)"
-msgstr ""
+msgstr "E-Mail-Adresse (Optional)"
 
 #: ./vue/components/Stations/Webhooks/Form/Email.vue:9
 #: ./vue/components/Stations/Webhooks/Form/Email.vue:1
@@ -1792,7 +1799,7 @@ msgstr "Episode bearbeiten"
 
 #: ./vue/components/Stations/HlsStreams/EditModal.vue:23
 msgid "Edit HLS Stream"
-msgstr ""
+msgstr "HLS-Stream bearbeiten"
 
 #: ./vue/components/Stations/LiquidsoapConfig.vue:5
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/EditLiquidsoapConfigAction.php:61
@@ -1810,7 +1817,7 @@ msgstr "Einhängepunkt bearbeiten"
 
 #: ./vue/components/Stations/Playlists/EditModal.vue:19
 msgid "Edit Playlist"
-msgstr "Wiedergabeliste bearbeiten"
+msgstr "Playliste bearbeiten"
 
 #: ./vue/components/Stations/Podcasts/PodcastEditModal.vue:39
 msgid "Edit Podcast"
@@ -1905,7 +1912,7 @@ msgstr "Übertragung aktivieren"
 #: ./vue/components/Admin/Settings/GeneralTab.vue:66
 #: ./vue/components/Admin/Settings/GeneralTab.vue:1
 msgid "Enable certain advanced features in the web interface, including advanced playlist configuration, station port assignment, changing base media directories and other functionality that should only be used by users who are comfortable with advanced functionality."
-msgstr "Aktiviere bestimmte erweiterte Funktionen im Webinterface, einschließlich der erweiterten Wiedergabelisten-Konfiguration, der Sendeport Zuweisung, Änderungen der Basis-Medienverzeichnisse und anderer Funktionalitäten, die nur von Benutzern genutzt werden sollten, die mit fortgeschrittener Funktionalität vertraut sind."
+msgstr "Aktivieren Sie bestimmte erweiterte Funktionen in der Weboberfläche, einschließlich der erweiterten Konfiguration von Playlisten, der Zuweisung von Senderports, der Änderung von Basis-Medienverzeichnissen und anderer Funktionen, die nur von Benutzern verwendet werden sollten, die mit den erweiterten Funktionen vertraut sind."
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:109
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:1
@@ -1915,13 +1922,16 @@ msgstr "Downloads auf On-Demand Seite aktivieren"
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:79
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "Enable HTTP Live Streaming (HLS)"
-msgstr ""
+msgstr "Aktivieren Sie HTTP-Live-Streaming (HLS)"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:176
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "Enable listeners to request a song for play on your station. Only\n"
+msgid ""
+"Enable listeners to request a song for play on your station. Only\n"
 "                                    songs that are already in your playlists are requestable."
 msgstr ""
+"Ermöglichen Sie es Zuhörern, einen Song für die Wiedergabe in Ihrem Sender anzufordern. Nur\n"
+"                                    Titel, die sich bereits in Ihren Playlisten befinden, können angefordert werden."
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:84
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
@@ -1953,7 +1963,7 @@ msgstr "Live-Streaming aktivieren?"
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:79
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "Enable this setting to prevent metadata from being sent to the AutoDJ for files in this playlist. This is useful if the playlist contains jingles or bumpers."
-msgstr "Aktiviere diese Einstellung, um zu verhindern, dass Metadaten für Dateien in dieser Wiedergabeliste an den AutoDJ gesendet werden. Dies ist nützlich, wenn die Playlist Jingles oder Bumpers enthält."
+msgstr "Aktivieren Sie diese Einstellung, um zu verhindern, dass Metadaten für Dateien in dieser Playliste an den AutoDJ gesendet werden. Dies ist nützlich, wenn die Playliste Jingles oder Bumpers enthält."
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:56
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:1
@@ -2043,7 +2053,7 @@ msgstr "Zeitpläne erzwingen"
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:21
 msgid "Enter \"AzuraCast\" as the application name. You can leave the URL fields unchanged. For \"Scopes\", only \"write:media\" and \"write:statuses\" are required."
-msgstr ""
+msgstr "Geben Sie \"AzuraCast\" als Anwendungsname ein. Sie können die URL-Felder unverändert lassen. Für „Scopes“ sind nur \"write:media\" und \"write:statuses\" erforderlich."
 
 #: ./vue/components/Account/TwoFactorModal.vue:27
 #: ./vue/components/Account/TwoFactorModal.vue:1
@@ -2058,7 +2068,7 @@ msgstr "Bitte gib die vollsändige URL deines gewünschten Relay Streams ein."
 #: ./vue/components/Admin/Settings/ServicesTab.vue:57
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
 msgid "Enter your e-mail address to receive updates about your certificate."
-msgstr ""
+msgstr "Geben Sie Ihre E-Mail-Adresse ein, um Updates über Ihr Zertifikat zu erhalten."
 
 #: ./vue/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:7
 #: ./vue/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:1
@@ -2108,12 +2118,12 @@ msgstr "Explizit"
 #: ./vue/components/Stations/Playlists.vue:30
 #: ./vue/components/Stations/Playlists.vue:2
 msgid "Export %{format}"
-msgstr "Exportformat"
+msgstr "Export %{format}"
 
 #: ./vue/components/Stations/BulkMedia.vue:6
 #: ./vue/components/Stations/BulkMedia.vue:20
 msgid "Export Media to CSV"
-msgstr ""
+msgstr "Medien in CSV-Datei exportieren"
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:80
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:3
@@ -2149,7 +2159,7 @@ msgstr "Verschobene Dateien:"
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:67
 msgid "Files played immediately:"
-msgstr ""
+msgstr "Diese Dateien werden sofort abgespielt:"
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:70
 msgid "Files queued for playback:"
@@ -2171,14 +2181,18 @@ msgstr "Für lokale Dateisysteme ist dies der Basispfad des Verzeichnisses. Für
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:387
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "For most cases, use the default UTF-8 encoding. The older ISO-8859-1\n"
+msgid ""
+"For most cases, use the default UTF-8 encoding. The older ISO-8859-1\n"
 "                                encoding can be used if accepting connections from Shoutcast 1 DJs or using other legacy\n"
 "                                software."
 msgstr ""
+"In den meisten Fällen sollten Sie die Standardkodierung UTF-8 verwenden. Die ältere ISO-8859-1\n"
+"                                Kodierung kann verwendet werden, wenn Sie Verbindungen von Shoutcast 1 DJs akzeptieren oder andere Legacy (ältere)\n"
+"                                Software verwenden."
 
 #: ./vue/components/Admin/StereoTool.vue:38
 msgid "For most installations, you should choose the \"Command line version 64 bit\". For Raspberry Pi devices, select \"Raspberry Pi 3/4 64 bit command line\"."
-msgstr ""
+msgstr "Für die meisten Installationen sollten Sie die \"Kommandozeilenversion 64 bit\" wählen. Für Raspberry-Pi-Geräte wählen Sie „Kommandozeilenversion Raspberry Pi 3/4 64 bit\"."
 
 #: ./vue/components/Stations/Reports/Listeners.vue:36
 #: ./vue/components/Stations/Reports/Listeners.vue:46
@@ -2233,7 +2247,7 @@ msgstr "Bericht erstellen"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:64
 msgid "Generate/Renew Certificate"
-msgstr ""
+msgstr "Zertifikat generieren / erneuern"
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:18
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:1
@@ -2287,12 +2301,12 @@ msgstr "Hoch"
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:33
 msgid "High I/O Wait can indicate a bottleneck with the server's hard disk, a potentially failing hard disk, or heavy load on the hard disk."
-msgstr ""
+msgstr "Hohe I/O-Wartezeiten können auf einen Engpass bei der Festplatte des Servers hinweisen. Möglicherweise eine defekte Festplatte oder eine zu hohe Belastung der Festplatte."
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:159
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "Higher weight playlists are played more frequently compared to other lower-weight playlists."
-msgstr "Wiedergabelisten mit höherem Gewicht werden im Vergleich zu anderen Playlisten, mit geringerem Gewicht, häufiger abgespielt."
+msgstr "Playlisten mit höherem Gewicht werden im Vergleich zu anderen Playlisten, mit geringerem Gewicht, häufiger abgespielt."
 
 #: ./vue/components/Stations/Profile/EmbedModal.vue:31
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/PublicPages/HistoryAction.php:44
@@ -2301,13 +2315,13 @@ msgstr "Verlauf"
 
 #: ./vue/components/Public/Player.vue:70
 msgid "HLS"
-msgstr ""
+msgstr "HLS"
 
 #: ./vue/components/Stations/HlsStreams.vue:4
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/HlsStreamsAction.php:23
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:212
 msgid "HLS Streams"
-msgstr ""
+msgstr "HLS-Streams"
 
 #: ./vue/components/Stations/Media/Breadcrumb.vue:2
 msgid "Home"
@@ -2331,16 +2345,16 @@ msgstr "HTML"
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:70
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:3
 msgid "HTTP Live Streaming (HLS)"
-msgstr ""
+msgstr "HTTP-Live-Streaming (HLS)"
 
 #: ./vue/components/Stations/HlsStreams.vue:9
 msgid "HTTP Live Streaming (HLS) is a new adaptive-bitrate streaming technology. From this page, you can configure the individual bitrates and formats that are included in the combined HLS stream."
-msgstr ""
+msgstr "HTTP-Live-Streaming (HLS) ist eine neue Streaming-Technologie mit adaptiver Bitrate. Auf dieser Seite können Sie die einzelnen Bitraten und Formate konfigurieren, die in dem kombinierten HLS-Stream enthalten sind."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:72
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "HTTP Live Streaming (HLS) is a new adaptive-bitrate technology supported by some clients. It does not use the standard broadcasting frontends."
-msgstr ""
+msgstr "HTTP-Live-Streaming (HLS) ist eine neue Technologie mit adaptiver Bitrate, die von einigen Clients unterstützt wird. Es verwendet nicht die Standard-Oberfläche für die Übertragung."
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:9
 msgid "Icecast Clients"
@@ -2365,7 +2379,7 @@ msgstr "Wenn ein Besucher nicht eingeloggt und die AzuraCast Homepage besucht, k
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:15
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "If disabled, the playlist will not be included in radio playback, but can still be managed."
-msgstr "Wenn deaktiviert, wird die Wiedergabeliste nicht vom AutoDJ abgespielt, kann aber trotzdem verwaltet werden."
+msgstr "Wenn deaktiviert, wird die Playliste nicht vom AutoDJ abgespielt, kann aber trotzdem verwaltet werden."
 
 #: ./vue/components/Admin/Stations/Form/AdminForm.vue:10
 #: ./vue/components/Admin/Stations/Form/AdminForm.vue:1
@@ -2379,9 +2393,12 @@ msgstr "Wenn aktiviert, ist auch ein Download-Button auf der öffentlichen \"On-
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:241
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "If enabled, AzuraCast will automatically record any live\n"
+msgid ""
+"If enabled, AzuraCast will automatically record any live\n"
 "                                        broadcasts made to this station to per-broadcast recordings."
 msgstr ""
+"Wenn diese Option aktiviert ist, nimmt AzuraCast automatisch alle Live\n"
+"                                        Sendungen, die innerhalb dieses Senders gesendet werden, automatisch in Aufnahmen pro Sendung auf."
 
 #: ./vue/components/Stations/Reports/SoundExchange.vue:59
 #: ./vue/components/Stations/Reports/SoundExchange.vue:1
@@ -2391,13 +2408,16 @@ msgstr "Wenn aktiviert, wird sich AzuraCast mit der MusicBrainz Datenbank verbin
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:103
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:1
 msgid "If enabled, music from playlists with on-demand streaming enabled will be available to stream via a specialized public page."
-msgstr "Wenn aktiviert, steht Musik aus Wiedergabelisten mit aktiviertem On-Demand-Streaming zum Streamen über eine eigene öffentliche Seite zur Verfügung."
+msgstr "Wenn aktiviert, steht die Musik aus Playlisten mit aktiviertem On-Demand-Streaming zum Streamen über eine eigene öffentliche Seite zur Verfügung."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:225
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "If enabled, streamers (or DJs) will be able to connect directly\n"
+msgid ""
+"If enabled, streamers (or DJs) will be able to connect directly\n"
 "                                    to your stream and broadcast live music that interrupts the AutoDJ stream."
 msgstr ""
+"Wenn diese Funktion aktiviert ist, können Streamer (oder DJs) eine direkte Verbindung\n"
+"                                    mit Ihrem Sender aufbauen und Live-Musik übertragen, die den AutoDJ-Stream unterbricht."
 
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:9
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:1
@@ -2417,14 +2437,18 @@ msgstr "Wenn aktiviert, kann sich dieser Streamer nur während der geplanten Sen
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:68
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "If requests are enabled for your station, users will be able to request media that is on this playlist."
-msgstr "Wenn Musikwünsche für den Sender aktiviert sind, können sich Zuhörer Songs aus dieser Wiedergabeliste wünschen."
+msgstr "Wenn Musikwünsche für den Sender aktiviert sind, können sich Zuhörer Songs aus dieser Playliste wünschen."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:191
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "If requests are enabled, this specifies the minimum delay (in\n"
+msgid ""
+"If requests are enabled, this specifies the minimum delay (in\n"
 "                                    minutes) between a request being submitted and being played. If set to zero, a minor\n"
 "                                    delay of 15 seconds is applied to prevent request floods."
 msgstr ""
+"Wenn Anfragen aktiviert sind, gibt dies die Mindestverzögerung (in\n"
+"                                    Minuten) zwischen dem Einreichen einer Anfrage und dem Abspielen an. Bei einem Wert von Null wird eine kleine\n"
+"                                    Verzögerung von 15 Sekunden angewendet, um eine Flut von Anfragen zu verhindern."
 
 #: ./vue/components/Admin/Branding/BrandingForm.vue:34
 #: ./vue/components/Admin/Branding/BrandingForm.vue:1
@@ -2451,7 +2475,7 @@ msgstr "Wenn die Endzeit vor der Startzeit ist, wird die Playlist über Nacht sp
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:49
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:1
 msgid "If the mountpoint (i.e. <code>/radio.mp3</code>) or Shoutcast SID (i.e. <code>2</code>) you broadcast to is different from the one listed above, specify the source mount point here."
-msgstr ""
+msgstr "Wenn der Mountpoint (z.B. <code>/radio.mp3</code>) oder die Shoutcast SID (z.B. <code>2</code>), an den/die Sie senden, nicht mit dem oben aufgeführten übereinstimmt, geben Sie hier den Quell-Mountpoint an."
 
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:40
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:1
@@ -2477,7 +2501,7 @@ msgstr "Wenn diese Einstellung auf \"Ja\" gesetzt ist, wird die Browser-URL anst
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:62
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "If this station has on-demand streaming and downloading enabled, only songs that are in playlists with this setting enabled will be visible."
-msgstr "Wenn dieser Sender On-Demand-Streaming und Download aktiviert hat, werden nur Lieder angezeigt, die sich in Wiedergabelisten befinden bei denen diese Einstellung aktiviert ist."
+msgstr "Wenn diese Station „On-Demand-Streaming“ und Download aktiviert hat, werden nur Lieder angezeigt, die sich in Playlisten befinden bei denen diese Einstellung aktiviert ist."
 
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:67
 #: ./vue/components/Stations/Remotes/Form/AutoDj.vue:1
@@ -2495,20 +2519,26 @@ msgstr "Wenn du auf einen Fehler stößt, kannst du uns auf unserem GitHub Repos
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:403
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "If your installation is constrained by CPU or memory, you can change\n"
+msgid ""
+"If your installation is constrained by CPU or memory, you can change\n"
 "                                this setting to tune the resources used by Liquidsoap."
 msgstr ""
+"Wenn Ihre Installation durch CPU oder Speicher eingeschränkt ist, können Sie\n"
+"                                diese Einstellung ändern, um die von Liquidsoap verwendeten Ressourcen zu optimieren."
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:36
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:1
 msgid "If your Mastodon username is \"@test@example.com\", enter \"example.com\"."
-msgstr ""
+msgstr "Wenn Ihr Mastodon-Benutzername \"@test@example.com\" lautet, geben Sie \"example.com\" ein."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:321
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "If your streaming software requires a specific mount point\n"
+msgid ""
+"If your streaming software requires a specific mount point\n"
 "                                        path, specify it here. Otherwise, use the default."
 msgstr ""
+"Wenn Ihre Streaming-Software einen bestimmten Mountpoint-Pfad\n"
+"                                        erfordert, geben Sie diesen Pfad hier an. Andernfalls verwenden Sie die Standardeinstellung."
 
 #: ./vue/components/Stations/Webhooks/Form/Generic.vue:50
 #: ./vue/components/Stations/Webhooks/Form/Generic.vue:1
@@ -2523,7 +2553,7 @@ msgstr "Wenn dein Web Hook eine HTTP basic authentication erfordert, gib hier de
 #: ./vue/components/Stations/BulkMedia.vue:30
 #: ./vue/components/Stations/BulkMedia.vue:48
 msgid "Import Changes from CSV"
-msgstr ""
+msgstr "Änderungen aus CSV-Datei importieren"
 
 #: ./vue/components/Stations/Playlists.vue:57
 #: ./vue/components/Stations/Playlists/ImportModal.vue:46
@@ -2535,7 +2565,7 @@ msgstr "Import von PLS/M3U"
 #: ./vue/components/Stations/BulkMedia.vue:67
 #: ./vue/components/Stations/BulkMedia.vue:17
 msgid "Import Results"
-msgstr ""
+msgstr "Importiere Ergebnisse"
 
 #: ./vue/components/Account/ApiKeyNewKey.vue:8
 msgid "Important: copy the key below before continuing!"
@@ -2543,11 +2573,11 @@ msgstr "Wichtig: Kopiere den untenstehenden Schlüssel, bevor du weiter machst!"
 
 #: ./vue/components/Admin/Shoutcast.vue:22
 msgid "In order to install Shoutcast:"
-msgstr ""
+msgstr "Um Shoutcast zu installieren:"
 
 #: ./vue/components/Admin/StereoTool.vue:26
 msgid "In order to install Stereo Tool:"
-msgstr ""
+msgstr "Um Stereo Tool zu installieren:"
 
 #: ./vue/components/Stations/Webhooks/Form/Generic.vue:21
 msgid "In order to process quickly, web hooks have a short timeout, so the responding service should be optimized to handle the request in under 2 seconds."
@@ -2584,19 +2614,22 @@ msgstr "GeoLite IP-Datenbank installieren"
 #: ./vue/components/Admin/Shoutcast.vue:4
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/ShoutcastAction.php:28
 msgid "Install Shoutcast 2 DNAS"
-msgstr ""
+msgstr "Shoutcast 2 DNAS installieren"
 
 #: ./vue/components/Admin/StereoTool.vue:4
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/StereoToolAction.php:23
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:102
 msgid "Install Stereo Tool"
-msgstr ""
+msgstr "Stereo Tool installieren"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:354
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "Instruct Liquidsoap to use any replaygain metadata associated with a\n"
+msgid ""
+"Instruct Liquidsoap to use any replaygain metadata associated with a\n"
 "                                song to control its volume level. This may increase CPU consumption."
 msgstr ""
+"Weisen Sie Liquidsoap an, alle mit einem Song verbundenen Replaygain-Metadaten zu verwenden\n"
+"                                die dem Song zugeordnet sind, um dessen Lautstärke zu steuern. Dies kann den CPU-Verbrauch erhöhen."
 
 #: ./vue/components/Admin/GeoLite.vue:18
 #: ./vue/components/Admin/Shoutcast.vue:14
@@ -2749,12 +2782,12 @@ msgstr "Lass uns mit dem erstellen deines Super Administrator Accounts anfangen.
 #: ./vue/components/Admin/Settings/ServicesTab.vue:36
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
 msgid "LetsEncrypt"
-msgstr ""
+msgstr "LetsEncrypt"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:39
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
 msgid "LetsEncrypt provides simple, free SSL certificates allowing you to secure traffic through your control panel and radio streams."
-msgstr ""
+msgstr "LetsEncrypt bietet einfache, kostenlose SSL-Zertifikate, mit denen Sie den Datenverkehr über Ihr Control Panel und Ihre Radiostreams sichern können."
 
 #: ./vue/components/Account/EditForm.vue:28
 #: ./vue/components/Admin/Branding/BrandingForm.vue:34
@@ -2769,7 +2802,7 @@ msgstr "Begrenzt:"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:66
 msgid "Liquidsoap"
-msgstr ""
+msgstr "Liquidsoap"
 
 #: ./vue/components/Stations/Profile/BackendPanel.vue:35
 msgid "LiquidSoap is currently shuffling from %{songs} and %{playlists}."
@@ -2789,7 +2822,7 @@ msgstr "Eine IP-Adresse oder Gruppe (im CIDR-Format) pro Zeile auflisten."
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:102
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:1
 msgid "List one user agent per line. Wildcards (*) are allowed."
-msgstr ""
+msgstr "Geben Sie einen Benutzeragenten pro Zeile an. Wildcards (*) sind erlaubt."
 
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:10
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:1
@@ -2798,15 +2831,15 @@ msgstr "Zuhörer Statistiken sammeln"
 
 #: ./vue/components/Stations/Webhooks.vue:30
 msgid "Listener Gained"
-msgstr ""
+msgstr "Gewonnene Zuhörer"
 
 #: ./vue/components/Stations/Reports/Listeners.vue:41
 msgid "Listener History"
-msgstr ""
+msgstr "Zuhörer History"
 
 #: ./vue/components/Stations/Webhooks.vue:31
 msgid "Listener Lost"
-msgstr ""
+msgstr "Verlorene Zuhörer"
 
 #: ./vue/components/Stations/Queue.vue:41
 #: ./vue/components/Stations/Queue.vue:2
@@ -2858,12 +2891,12 @@ msgstr "Zuhörer nach Stunde"
 
 #: ./vue/components/Stations/Reports/Overview/ListeningTimeTab.vue:9
 msgid "Listeners by Listening Time"
-msgstr ""
+msgstr "Zuhörer nach Hördauer"
 
 #: ./vue/components/Stations/Reports/Overview.vue:25
 #: ./vue/components/Stations/Reports/Overview.vue:1
 msgid "Listeners By Time Period"
-msgstr ""
+msgstr "Zuhörer nach Zeitabschnitt"
 
 #: ./vue/components/Dashboard.vue:48
 msgid "Listeners Per Station"
@@ -2873,7 +2906,7 @@ msgstr "Zuhörer pro Sender"
 #: ./vue/components/Stations/Reports/Overview.vue:1
 #: ./vue/components/Stations/Reports/Overview/ListeningTimeTab.vue:24
 msgid "Listening Time"
-msgstr ""
+msgstr "Hördauer"
 
 #: ./vue/components/Public/Player.vue:13
 #: ./vue/components/Stations/Profile/NowPlayingPanel.vue:91
@@ -2916,11 +2949,11 @@ msgstr "Live-Streamer:"
 
 #: ./vue/components/Stations/Webhooks.vue:32
 msgid "Live Streamer/DJ Connected"
-msgstr ""
+msgstr "Live Streamer / DJ Verbunden"
 
 #: ./vue/components/Stations/Webhooks.vue:33
 msgid "Live Streamer/DJ Disconnected"
-msgstr ""
+msgstr "Live-Streamer / DJ unterbrochen"
 
 #: ./vue/components/Admin/Index.vue:182
 msgid "Load Average"
@@ -2992,11 +3025,11 @@ msgstr "Inhalt der Nachricht"
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:95
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "Make HLS Stream Default in Public Player"
-msgstr ""
+msgstr "HLS-Stream zum Standard im öffentlichen Player machen"
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:50
 msgid "Make the selected media play immediately, interrupting existing media"
-msgstr ""
+msgstr "Den gewählten Song sofort abspielen lassen, wobei der aktuelle Song unterbrochen wird"
 
 #: ./vue/components/Admin/Stations.vue:28
 #: ./vue/components/Admin/Stations.vue:3
@@ -3031,16 +3064,16 @@ msgstr "Markdown"
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:4
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:1
 msgid "Mastodon Account Details"
-msgstr ""
+msgstr "Mastodon Accountdetails"
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:33
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:1
 msgid "Mastodon Instance URL"
-msgstr ""
+msgstr "Mastodon Instanz-URL"
 
 #: ./vue/components/Stations/Playlists/ImportModal.vue:11
 msgid "Matched"
-msgstr ""
+msgstr "Treffer"
 
 #: ./vue/components/Stations/Webhooks/Form/MatomoAnalytics.vue:23
 #: ./vue/components/Stations/Webhooks/Form/MatomoAnalytics.vue:1
@@ -3088,7 +3121,7 @@ msgstr "Medien"
 
 #: ./vue/components/Stations/BulkMedia.vue:64
 msgid "Media File"
-msgstr ""
+msgstr "Mediendatei"
 
 #: ./vue/components/Admin/Stations/Form/AdminForm.vue:30
 #: ./vue/components/Admin/Stations/Form/AdminForm.vue:1
@@ -3106,7 +3139,7 @@ msgstr "Speicher Statistik Hilfe"
 #: ./vue/components/Stations/Playlists/Form/Advanced.vue:20
 #: ./vue/components/Stations/Playlists/Form/Advanced.vue:9
 msgid "Merge playlist to play as a single track."
-msgstr "Wiedergabeliste zusammenführen, um sie wie ein einzelnes Lied abzuspielen."
+msgstr "Playliste zusammenführen, um sie wie ein einzelnes Lied abzuspielen."
 
 #: ./vue/components/Stations/Webhooks/Form/Email.vue:27
 #: ./vue/components/Stations/Webhooks/Form/Email.vue:1
@@ -3117,37 +3150,37 @@ msgstr "Nachrichtentext"
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:3
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:1
 msgid "Message Body on Song Change"
-msgstr ""
+msgstr "Nachrichtentext beim Songwechsel"
 
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:16
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:3
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:1
 msgid "Message Body on Song Change with Stramer/DJ Connected"
-msgstr ""
+msgstr "Nachrichtentext beim Songwechsel mit Streamer / DJ verbunden"
 
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:37
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:3
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:1
 msgid "Message Body on Station Offline"
-msgstr ""
+msgstr "Nachrichtentext wenn der Sender Offline geht"
 
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:44
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:3
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:1
 msgid "Message Body on Station Online"
-msgstr ""
+msgstr "Nachrichtentext wenn der Sender Online geht"
 
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:23
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:3
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:1
 msgid "Message Body on Streamer/DJ Connect"
-msgstr ""
+msgstr "Nachrichtentext wenn Streamer / DJ verbunden"
 
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:30
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:3
 #: ./vue/components/Stations/Webhooks/Form/Common/SocialPostFields.vue:1
 msgid "Message Body on Streamer/DJ Disconnect"
-msgstr ""
+msgstr "Nachrichtentext wenn Streamer / DJ getrennt"
 
 #: ./vue/components/Stations/Webhooks/Form/Common/FormattingInfo.vue:3
 #: ./vue/components/Stations/Webhooks/Form/Common/FormattingInfo.vue:1
@@ -3172,7 +3205,7 @@ msgstr "Betreff"
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:54
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:1
 msgid "Message Visibility"
-msgstr ""
+msgstr "Nachrichten-Sichtbarkeit"
 
 #: ./vue/components/Public/WebDJ/SettingsPanel.vue:20
 msgid "Metadata"
@@ -3187,9 +3220,11 @@ msgid "Microphone"
 msgstr "Mikrofon"
 
 #: ./vue/components/Public/WebDJ/MicrophonePanel.vue:31
-msgid "Microphone\n"
+msgid ""
+"Microphone\n"
 "                            Source"
-msgstr "Mikrofon\n"
+msgstr ""
+"Mikrofon\n"
 "                            Quelle"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:218
@@ -3224,7 +3259,7 @@ msgstr "Mehr"
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:11
 msgid "Most hosting providers will put more Virtual Machines (VPSes) on a server than the hardware can handle when each VM is running at full CPU load. This is called over-provisioning, which can lead to other VMs on the server \"stealing\" CPU time from your VM and vice-versa."
-msgstr ""
+msgstr "Die meisten Hosting-Anbieter stellen mehr virtuelle Maschinen (VPS) auf einem Server bereit, als die Hardware bewältigen kann. Wenn jede VM mit voller CPU-Last läuft, wird dies als Überprovisionierung bezeichnet, was dazu führen kann, dass andere VMs auf dem Server Ihre CPU-Zeit \"stehlen\" und umgekehrt."
 
 #: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:85
 msgid "Most Played Songs"
@@ -3277,7 +3312,7 @@ msgstr "MP3"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/FilesAction.php:49
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:71
 msgid "Music Files"
-msgstr "Musik Dateien"
+msgstr "Musikdateien"
 
 #: ./vue/components/Common/Waveform.vue:28
 #: ./vue/components/InlinePlayer.vue:25
@@ -3296,7 +3331,7 @@ msgstr "Mein Account"
 #: ./vue/components/Admin/AuditLog.vue:6
 #: ./vue/components/Admin/AuditLog.vue:1
 msgid "N/A"
-msgstr "-"
+msgstr ""
 
 #: ./vue/components/Account/EditForm.vue:6
 #: ./vue/components/Account/EditForm.vue:1
@@ -3357,12 +3392,12 @@ msgstr "Neues Passwort"
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:44
 msgid "New Playlist"
-msgstr "Neue Wiedergabeliste"
+msgstr "Neue Playliste"
 
 #: ./vue/components/Stations/Playlists/CloneModal.vue:6
 #: ./vue/components/Stations/Playlists/CloneModal.vue:1
 msgid "New Playlist Name"
-msgstr "Neuer Wiedergabelisten-Name"
+msgstr "Neuer Playlistenname"
 
 #: ./vue/components/Admin/Stations/CloneModalForm.vue:10
 #: ./vue/components/Admin/Stations/CloneModalForm.vue:1
@@ -3384,13 +3419,16 @@ msgstr "Keine Begrenzung"
 
 #: ./vue/components/Stations/Playlists/ImportModal.vue:21
 msgid "No Match"
-msgstr ""
+msgstr "Keine Übereinstimmung"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:294
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "No other program can be using this port. Leave blank to\n"
+msgid ""
+"No other program can be using this port. Leave blank to\n"
 "                                        automatically assign a port."
 msgstr ""
+"Kein anderes Programm darf diesen Port verwenden. Leer lassen, um\n"
+"                                        automatisch einen Port zuzuweisen."
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:61
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:1
@@ -3432,22 +3470,25 @@ msgstr "Nicht geplant"
 
 #: ./vue/components/Admin/Backups.vue:60
 msgid "Note that restoring a backup will clear your existing database. Never restore backup files from untrusted users."
-msgstr "Beachten Sie, dass die Wiederherstellung eines Backups Ihre bestehende Datenbank löschen wird. Backups von nicht vertrauenswürdigen Personen niemals einspielen!"
+msgstr "Beachten Sie, dass beim Wiederherstellen eines Backups Ihre bestehende Datenbank gelöscht wird. Stellen Sie niemals Sicherungsdateien von nicht vertrauenswürdigen Benutzern wieder her."
 
 #: ./vue/components/Admin/StorageLocations/Form.vue:109
 #: ./vue/components/Admin/StorageLocations/Form.vue:1
 msgid "Note: Dropbox now only issues short-lived tokens that will not work for this purpose. If your token begins with \"sl\", it is short-lived and will not work correctly."
-msgstr ""
+msgstr "Hinweis: Dropbox gibt nur noch kurzlebige Token aus, die für diesen Zweck nicht geeignet sind. Wenn Ihr Token mit \"sl\" beginnt, ist er kurzlebig und wird nicht korrekt funktionieren."
 
 #: ./vue/components/Stations/BulkMedia.vue:15
 msgid "Note: If your media metadata has UTF-8 characters, you should use a spreadsheet editor that supports UTF-8 encoding, like OpenOffice."
-msgstr ""
+msgstr "Hinweis: Wenn Ihre Medien-Metadaten UTF-8-Zeichen enthalten, sollten Sie einen Tabellenkalkulationseditor verwenden, der die UTF-8-Kodierung unterstützt. z.B. OpenOffice."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:298
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:5
-msgid "Note: the port after this one will automatically be used\n"
+msgid ""
+"Note: the port after this one will automatically be used\n"
 "                                        for legacy connections."
 msgstr ""
+"Hinweis: Der nachfolgende Port wird automatisch für\n"
+"                                        für Legacy-Verbindungen verwendet."
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:27
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:1
@@ -3474,7 +3515,7 @@ msgstr "Jetzt läuft auf %{ station }:"
 
 #: ./vue/components/Stations/Webhooks/EditModal.vue:266
 msgid "Now playing on %{ station }: %{ title } by %{ artist } with your host, %{ dj }! Tune in now: %{ url }"
-msgstr ""
+msgstr "Jetzt zuhören auf %{ station }: %{ title } von %{ artist } mit Ihrem Gastgeber, %{ dj }! Schalten Sie jetzt ein: %{ url }"
 
 #: ./vue/components/Stations/Webhooks/EditModal.vue:257
 msgid "Now playing on %{ station }: %{ title } by %{ artist }! Tune in now: %{ url }"
@@ -3573,7 +3614,7 @@ msgstr "Einmal alle x Lieder"
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:25
 msgid "Once these steps are completed, enter the \"Access Token\" from the application's page into the field below."
-msgstr ""
+msgstr "Sobald diese Schritte abgeschlossen sind, geben Sie das \"Access Token\" von der Seite der Anwendung in das unten stehende Feld ein."
 
 #: ./vue/components/Stations/Webhooks/Form/Twitter.vue:26
 msgid "Once these steps are completed, enter the information from the \"Keys and Access Tokens\" page into the fields below."
@@ -3581,7 +3622,7 @@ msgstr "Sobald diese Schritte abgeschlossen sind, geben Sie die Informationen vo
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:36
 msgid "One important note on I/O Wait is that it can indicate a bottleneck or problem but also may be completely meaningless, depending on the workload and general available resources. A constantly high I/O Wait should prompt further investigation with more sophisticated tools."
-msgstr ""
+msgstr "Ein wichtiger Hinweis zu I/O-Wartezeit ist, dass er auf einen Engpass oder ein Problem hinweisen kann, aber auch völlig bedeutungslos sein kann. Abhängig von der Arbeitslast und den allgemein verfügbaren Ressourcen. Eine konstant hohe I/O-Wartezeit sollte Anlass für weitere Untersuchungen mit anspruchsvolleren Tools sein."
 
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:27
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:12
@@ -3595,7 +3636,7 @@ msgstr "Nur mit einem entfernten Server verbinden."
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:87
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:1
 msgid "Only loop through playlist once."
-msgstr "Wiedergabeliste nur einmal abspielen."
+msgstr "Playliste nur einmal abspielen."
 
 #: ./vue/components/Stations/Playlists/Form/Advanced.vue:17
 #: ./vue/components/Stations/Playlists/Form/Advanced.vue:6
@@ -3605,7 +3646,7 @@ msgstr "Nur einen Track zur geplanten Zeit spielen."
 #: ./vue/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:3
 #: ./vue/components/Stations/Webhooks/Form/Common/RateLimitFields.vue:1
 msgid "Only Post Once Every..."
-msgstr ""
+msgstr "Nur einmal posten pro..."
 
 #: ./vue/components/Admin/AuditLog.vue:21
 msgid "Operation"
@@ -3624,7 +3665,7 @@ msgstr "Optional: HTTP Basic Authentication Benutzername"
 #: ./vue/components/Stations/Webhooks/Form/Generic.vue:56
 #: ./vue/components/Stations/Webhooks/Form/Generic.vue:1
 msgid "Optional: Request Timeout (Seconds)"
-msgstr ""
+msgstr "Optional: Zeitüberschreitung der Anfrage (Sekunden)"
 
 #: ./vue/components/Admin/CustomFields/Form.vue:26
 #: ./vue/components/Admin/CustomFields/Form.vue:1
@@ -3657,7 +3698,7 @@ msgstr "oder"
 
 #: ./vue/components/Stations/Playlists/ImportModal.vue:9
 msgid "Original Path"
-msgstr ""
+msgstr "Originalpfad"
 
 #: ./vue/components/Admin/ApiKeys.vue:20
 msgid "Owner"
@@ -3721,7 +3762,7 @@ msgstr "Genau einmal alle $x Lieder spielen."
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:50
 msgid "Play Now"
-msgstr ""
+msgstr "Jetzt spielen"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:108
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:16
@@ -3750,22 +3791,22 @@ msgstr "Als Nächstes"
 #: ./vue/components/Stations/Profile/SchedulePanel.vue:14
 #: ./vue/components/Stations/Profile/SchedulePanel.vue:1
 msgid "Playlist"
-msgstr "Wiedergabeliste"
+msgstr "Playliste"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:255
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:6
 msgid "Playlist (M3U/PLS) URL"
-msgstr "Wiedergabelisten (M3U/PLS) URL"
+msgstr "Playliste (M3U / PLS)-URL"
 
 #: ./vue/components/Public/WebDJ/MixerPanel.vue:12
 #: ./vue/components/Public/WebDJ/PlaylistPanel.vue:27
 msgid "Playlist 1"
-msgstr "Wiedergabeliste 1"
+msgstr "Playliste 1"
 
 #: ./vue/components/Public/WebDJ/MixerPanel.vue:18
 #: ./vue/components/Public/WebDJ/PlaylistPanel.vue:28
 msgid "Playlist 2"
-msgstr "Wiedergabeliste 2"
+msgstr "Playliste 2"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:6
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
@@ -3797,7 +3838,7 @@ msgstr "Playlist Priorität"
 #: ./vue/components/Stations/Reports/Timeline.vue:5
 #: ./vue/components/Stations/Reports/Timeline.vue:1
 msgid "Playlist:"
-msgstr "Wiedergabeliste:"
+msgstr "Playliste:"
 
 #: ./vue/components/Admin/Stations/CloneModalForm.vue:25
 #: ./vue/components/Stations/Media.vue:127
@@ -3812,7 +3853,7 @@ msgstr "Wiedergabeliste:"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/PlaylistsAction.php:33
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:119
 msgid "Playlists"
-msgstr "Wiedergabelisten"
+msgstr "Playlisten"
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:150
 msgid "Playlists cleared for selected files:"
@@ -3890,7 +3931,7 @@ msgstr "Datenschutz"
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:30
 msgid "Private"
-msgstr ""
+msgstr "Privat"
 
 #: ./vue/components/Account.vue:11
 #: ./vue/components/Admin/Stations/StationForm.vue:8
@@ -3910,11 +3951,11 @@ msgstr "Name für das System"
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:142
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "Provide a valid license key from Thimeo. Functionality is limited without a license key."
-msgstr ""
+msgstr "Legen Sie einen gültigen Lizenzschlüssel von Thimeo vor. Ohne Lizenzschlüssel ist der Funktionsumfang eingeschränkt."
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:22
 msgid "Public"
-msgstr ""
+msgstr "Öffentlich"
 
 #: ./vue/components/Dashboard.vue:138
 #: ./vue/components/Dashboard.vue:2
@@ -4093,7 +4134,7 @@ msgstr "Remote-URL"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:233
 msgid "Remote URL Playlist"
-msgstr "Remote URL Wiedergabeliste"
+msgstr "Entfernte-URL Playliste"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:247
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
@@ -4119,7 +4160,7 @@ msgstr "Remote: S3 kompatibel"
 #: ./vue/components/Admin/StorageLocations/Form.vue:120
 #: ./vue/components/Admin/StorageLocations/Form.vue:12
 msgid "Remote: SFTP"
-msgstr ""
+msgstr "Remote: SFTP"
 
 #: ./vue/components/Admin/Permissions/Form/StationForm.vue:12
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:21
@@ -4147,7 +4188,7 @@ msgstr "Neu anordnen"
 
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:23
 msgid "Reorder Playlist"
-msgstr "Wiedergabeliste neu ordnen"
+msgstr "Playliste neu ordnen"
 
 #: ./vue/components/Public/WebDJ/PlaylistPanel.vue:74
 msgid "Repeat"
@@ -4191,7 +4232,7 @@ msgstr "Lied wünschen"
 
 #: ./vue/components/Stations/Reports/Requests.vue:37
 msgid "Requester IP"
-msgstr "Zuhörer-IP"
+msgstr "Zuhörer-IP-Adresse"
 
 #: ./vue/components/Stations/Profile/EmbedModal.vue:42
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/PublicPages/RequestsAction.php:40
@@ -4303,7 +4344,7 @@ msgstr "Änderungen speichern"
 #: ./vue/components/Admin/Settings/ServicesTab.vue:66
 #: ./vue/components/Admin/Settings/ServicesTab.vue:140
 msgid "Save Changes first"
-msgstr ""
+msgstr "Änderungen zuerst speichern"
 
 #: ./vue/components/Public/Schedule.vue:12
 #: ./vue/components/Public/Schedule.vue:1
@@ -4340,7 +4381,7 @@ msgstr "Geplante Wiedergabetage der Woche"
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:36
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:1
 msgid "Scheduled playlists and other timed items will be controlled by this time zone."
-msgstr "Geplante Wiedergabelisten und andere zeitgesteuerte Elemente werden von dieser Zeitzone kontrolliert."
+msgstr "Geplante Playlisten und andere zeitgesteuerte Elemente werden von dieser Zeitzone kontrolliert."
 
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:15
 #: ./vue/components/Stations/Streamers/Form/Schedule.vue:15
@@ -4398,12 +4439,12 @@ msgstr "Suche"
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:105
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "Segment Length (Seconds)"
-msgstr ""
+msgstr "Segmentlänge (Sekunden)"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:111
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "Segments in Playlist"
-msgstr ""
+msgstr "Segmente in der Playliste"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:117
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
@@ -4426,17 +4467,17 @@ msgstr "Wählen Sie alle sichtbaren Zeilen aus"
 #: ./vue/components/Stations/StereoToolConfig.vue:22
 #: ./vue/components/Stations/StereoToolConfig.vue:1
 msgid "Select Configuration File"
-msgstr ""
+msgstr "Konfigurationsdatei auswählen"
 
 #: ./vue/components/Stations/BulkMedia.vue:42
 #: ./vue/components/Stations/BulkMedia.vue:1
 msgid "Select CSV File"
-msgstr ""
+msgstr "CSV-Datei auswählen"
 
 #: ./vue/components/Stations/Fallback.vue:19
 #: ./vue/components/Stations/Fallback.vue:1
 msgid "Select Custom Fallback File"
-msgstr ""
+msgstr "Wählen Sie eine Benutzerdefinierte Fallback-Datei"
 
 #: ./vue/components/Common/DataTable.vue:94
 msgid "Select displayed fields"
@@ -4488,7 +4529,7 @@ msgstr "WebHook Typ auswählen"
 #: ./vue/components/Admin/Settings/TestMessageModal.vue:5
 #: ./vue/components/Admin/Settings/TestMessageModal.vue:22
 msgid "Send Test Message"
-msgstr ""
+msgstr "Testnachricht senden"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:98
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
@@ -4519,11 +4560,11 @@ msgstr "Server:"
 
 #: ./vue/components/Admin/Index.vue:65
 msgid "Service Running"
-msgstr ""
+msgstr "Dienst läuft"
 
 #: ./vue/components/Admin/Index.vue:68
 msgid "Service Stopped"
-msgstr ""
+msgstr "Dienst gestoppt"
 
 #: ./vue/components/Admin/Index.vue:207
 #: ./vue/components/Admin/Settings.vue:37
@@ -4564,7 +4605,7 @@ msgstr "Ausblendungspunkt setzen"
 #: ./vue/components/Admin/Settings/GeneralTab.vue:45
 #: ./vue/components/Admin/Settings/GeneralTab.vue:1
 msgid "Set longer to preserve more playback history and listener metadata for stations. Set shorter to save disk space."
-msgstr "Stelle den Wert länger ein, um mehr Song Verlauf und Hörer-Metadaten für Sender zu speichern. Stelle den Wert kürzer ein, um Speicherplatz zu sparen."
+msgstr "Stelle den Wert länger ein, um mehr Songverlauf und Hörer-Metadaten für Ihren Sender zu speichern. Stelle den Wert kürzer ein, um Speicherplatz zu sparen."
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:41
 msgid "Set or clear playlists from the selected media"
@@ -4602,12 +4643,12 @@ msgstr "Anleitungen für die Einrichtung der Broadcasting-Software sind im Azura
 #: ./vue/components/Admin/StorageLocations/Form.vue:128
 #: ./vue/components/Admin/StorageLocations/Form.vue:1
 msgid "SFTP Host"
-msgstr ""
+msgstr "SFTP: Host"
 
 #: ./vue/components/Admin/StorageLocations/Form.vue:146
 #: ./vue/components/Admin/StorageLocations/Form.vue:1
 msgid "SFTP Password"
-msgstr ""
+msgstr "SFTP: Passwort"
 
 #: ./vue/components/Admin/StorageLocations/Form.vue:134
 #: ./vue/components/Admin/StorageLocations/Form.vue:1
@@ -4618,17 +4659,17 @@ msgstr "SFTP Port"
 #: ./vue/components/Admin/StorageLocations/Form.vue:158
 #: ./vue/components/Admin/StorageLocations/Form.vue:1
 msgid "SFTP Private Key"
-msgstr ""
+msgstr "SFTP: Privater Schlüssel"
 
 #: ./vue/components/Admin/StorageLocations/Form.vue:152
 #: ./vue/components/Admin/StorageLocations/Form.vue:1
 msgid "SFTP Private Key Pass Phrase"
-msgstr ""
+msgstr "SFTP: Passwort für den Privaten Schlüssel"
 
 #: ./vue/components/Admin/StorageLocations/Form.vue:140
 #: ./vue/components/Admin/StorageLocations/Form.vue:1
 msgid "SFTP Username"
-msgstr ""
+msgstr "SFTP: Benutzername"
 
 #: ./vue/components/Stations/SftpUsers.vue:5
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/SftpUsersAction.php:38
@@ -4650,33 +4691,33 @@ msgstr "Aufzeichnungs-Speicherort teilen"
 
 #: ./vue/components/Admin/Shoutcast.vue:54
 msgid "Shoutcast 2 DNAS is not currently installed on this installation."
-msgstr ""
+msgstr "Shoutcast 2 DNAS ist derzeit nicht auf dieser Installation installiert."
 
 #: ./vue/components/Admin/Shoutcast.vue:18
 msgid "Shoutcast 2 DNAS is not free software, and its restrictive license does not allow AzuraCast to distribute the Shoutcast binary."
-msgstr ""
+msgstr "Shoutcast 2 DNAS ist keine freie Software, und die restriktive Lizenz erlaubt es AzuraCast nicht, die Shoutcast-Binärdatei zu vertreiben."
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:36
 msgid "Shoutcast Clients"
-msgstr ""
+msgstr "Shoutcast Nutzer"
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:24
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:1
 msgid "Shoutcast License ID"
-msgstr ""
+msgstr "Shoutcast Lizenz-ID"
 
 #: ./vue/components/Admin/Shoutcast.vue:30
 msgid "Shoutcast Radio Manager"
-msgstr ""
+msgstr "Shoutcast Radio Manager"
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:30
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:1
 msgid "Shoutcast User ID"
-msgstr ""
+msgstr "Shoutcast Benutzer-ID"
 
 #: ./vue/components/Admin/Shoutcast.vue:17
 msgid "Shoutcast version \"%{ version }\" is currently installed."
-msgstr ""
+msgstr "Die Shoutcast-Version \"%{ version }\" ist derzeit installiert."
 
 #: ./vue/components/Dashboard.vue:58
 msgid "Show Charts"
@@ -4685,7 +4726,7 @@ msgstr "Diagramme anzeigen"
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:89
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "Show HLS Stream on Public Player"
-msgstr ""
+msgstr "HLS-Stream in öffentlichem Player anzeigen"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:28
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
@@ -4760,9 +4801,12 @@ msgstr "SMTP-Benutzername"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:164
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "Some stream licensing providers may have specific rules\n"
+msgid ""
+"Some stream licensing providers may have specific rules\n"
 "                        regarding song requests. Check your local regulations for more information."
 msgstr ""
+"Einige Anbieter von Streaming-Lizenzen haben möglicherweise besondere Regeln\n"
+"                        für Songanfragen. Prüfen Sie Ihre lokalen Bestimmungen für weitere Informationen."
 
 #: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:24
 #: ./vue/components/Stations/Reports/Overview/BestAndWorstTab.vue:61
@@ -4782,11 +4826,11 @@ msgstr "Interpret"
 
 #: ./vue/components/Stations/Webhooks.vue:28
 msgid "Song Change"
-msgstr ""
+msgstr "Song ändern"
 
 #: ./vue/components/Stations/Webhooks.vue:29
 msgid "Song Change (Live Only)"
-msgstr ""
+msgstr "Song ändern (Nur live)"
 
 #: ./vue/components/Stations/Media/Form/BasicInfo.vue:26
 #: ./vue/components/Stations/Media/Form/BasicInfo.vue:1
@@ -4806,7 +4850,7 @@ msgstr "Songlänge"
 #: ./vue/components/Stations/Media/Form/BasicInfo.vue:38
 #: ./vue/components/Stations/Media/Form/BasicInfo.vue:1
 msgid "Song Lyrics"
-msgstr "Song Text"
+msgstr "Song Lyrics"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:125
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
@@ -4817,7 +4861,7 @@ msgstr "Reihenfolge der Song-Wiedergabe"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/TimelineAction.php:25
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:190
 msgid "Song Playback Timeline"
-msgstr "Song Verlauf"
+msgstr "Songwiedergabe-Zeitleiste"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:161
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
@@ -4836,21 +4880,21 @@ msgstr "Musikwünsche"
 #: ./vue/components/Stations/Reports/Requests.vue:36
 #: ./vue/components/Stations/Reports/Timeline.vue:50
 msgid "Song Title"
-msgstr "Song-Titel"
+msgstr "Songtitel"
 
 #: ./vue/components/Stations/Playlists.vue:65
 #: ./vue/components/Stations/Playlists.vue:4
 msgid "Song-based"
-msgstr "Lieder basiert"
+msgstr "Songbasiert"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:26
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:3
 msgid "Song-Based"
-msgstr "Song-basiert"
+msgstr "Songbasiert"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:42
 msgid "Song-Based Playlist"
-msgstr "Song-basierte Playlist"
+msgstr "Songbasierte Playliste"
 
 #: ./vue/components/Stations/Reports/SoundExchange.vue:4
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/SoundExchangeAction.php:30
@@ -4878,7 +4922,7 @@ msgstr "Gib einen Einhängepunkt (z.B. \"/radio.mp3\") oder eine Shoutcast SID (
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:221
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "Specify the minute of every hour that this playlist should play."
-msgstr "Gib die Minute jeder Stunde an, die diese Wiedergabeliste spielen soll."
+msgstr "Gib die Minute jeder Stunde an, die diese Playliste spielen soll."
 
 #: ./vue/components/Stations/SftpUsers/Form.vue:24
 #: ./vue/components/Stations/SftpUsers/Form.vue:1
@@ -4923,11 +4967,11 @@ msgstr "Startzeit"
 
 #: ./vue/components/Stations/Webhooks.vue:34
 msgid "Station Goes Offline"
-msgstr ""
+msgstr "Der Sender geht offline"
 
 #: ./vue/components/Stations/Webhooks.vue:35
 msgid "Station Goes Online"
-msgstr ""
+msgstr "Der Sender geht online"
 
 #: ./vue/components/Admin/StorageLocations.vue:27
 msgid "Station Media"
@@ -4941,7 +4985,7 @@ msgstr "Sendername"
 #: ./vue/components/Public/Player.vue:19
 #: ./vue/components/Stations/Profile/NowPlayingPanel.vue:32
 msgid "Station Offline"
-msgstr ""
+msgstr "Station Offline"
 
 #: ./vue/components/Dashboard.vue:91
 msgid "Station Overview"
@@ -4965,7 +5009,7 @@ msgstr "Sender Aufzeichnungen"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/OverviewAction.php:39
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:177
 msgid "Station Statistics"
-msgstr ""
+msgstr "Station Statistik"
 
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:54
 #: ./vue/components/Stations/Streamers/Form/Schedule.vue:51
@@ -5001,7 +5045,7 @@ msgstr "Schritt 2: Generierten Code verifizieren"
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:8
 msgid "Steps for configuring a Mastodon application:"
-msgstr ""
+msgstr "Schritte zum Konfigurieren einer Mastodon-Anwendung:"
 
 #: ./vue/components/Stations/Webhooks/Form/Twitter.vue:8
 msgid "Steps for configuring a Twitter application:"
@@ -5011,44 +5055,44 @@ msgstr "Schritte zur Konfiguration einer Twitter-Anwendung:"
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:78
 msgid "Stereo Tool"
-msgstr ""
+msgstr "Stereo Tool"
 
 #: ./vue/components/Admin/StereoTool.vue:18
 msgid "Stereo Tool can be resource-intensive for both CPU and Memory. Please ensure you have sufficient resources before proceeding."
-msgstr ""
+msgstr "Stereo Tool kann sowohl für die CPU als auch für den Arbeitsspeicher Ressourcenintensiv sein. Bitte stellen Sie sicher, dass Sie über ausreichende Ressourcen verfügen, bevor Sie fortfahren."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:131
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:3
 #: ./vue/components/Stations/StereoToolConfig.vue:12
 msgid "Stereo Tool documentation."
-msgstr ""
+msgstr "Stereo Tool Dokumentation."
 
 #: ./vue/components/Admin/StereoTool.vue:34
 msgid "Stereo Tool Downloads"
-msgstr ""
+msgstr "Stereo Tool Downloads"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:129
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 #: ./vue/components/Stations/StereoToolConfig.vue:10
 msgid "Stereo Tool is an industry standard for software audio processing. For more information on how to configure it, please refer to the"
-msgstr ""
+msgstr "Stereo Tool ist ein Industriestandard für die Software-Audioverarbeitung. Weitere Informationen zur Konfiguration finden Sie in der"
 
 #: ./vue/components/Admin/StereoTool.vue:56
 msgid "Stereo Tool is not currently installed on this installation."
-msgstr ""
+msgstr "Stereo Tool ist derzeit nicht auf dieser Installation installiert."
 
 #: ./vue/components/Admin/StereoTool.vue:22
 msgid "Stereo Tool is not free software, and its restrictive license does not allow AzuraCast to distribute the Stereo Tool binary."
-msgstr ""
+msgstr "Stereo Tool ist keine freie Software und die restriktive Lizenz erlaubt es AzuraCast nicht, das Stereo Tool Binary zu vertreiben."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:139
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
 msgid "Stereo Tool License Key"
-msgstr ""
+msgstr "Stereo Tool Lizenzschlüssel"
 
 #: ./vue/components/Admin/StereoTool.vue:17
 msgid "Stereo Tool version %{ version } is currently installed."
-msgstr ""
+msgstr "Stereo Tool Version %{ Version } ist derzeit installiert."
 
 #: ./vue/components/Common/PlayButton.vue:40
 #: ./vue/components/InlinePlayer.vue:19
@@ -5104,12 +5148,12 @@ msgstr "Name des Streamers"
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:16
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:1
 msgid "Streamer password"
-msgstr "Streamer Passwort"
+msgstr "Streamer: Passwort"
 
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:7
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:1
 msgid "Streamer Username"
-msgstr "Streamer nutzername"
+msgstr "Streamer: Benutzername"
 
 #: ./vue/components/Stations/Profile/SchedulePanel.vue:17
 #: ./vue/components/Stations/Profile/SchedulePanel.vue:1
@@ -5150,7 +5194,7 @@ msgstr "Sonntag"
 
 #: ./vue/components/Stations/Help.vue:28
 msgid "Support Documents"
-msgstr ""
+msgstr "Support Dokumente"
 
 #: ./vue/components/Admin/Backups/RunBackupModal.vue:25
 #: ./vue/components/Admin/Backups/RunBackupModal.vue:23
@@ -5184,19 +5228,19 @@ msgstr "Test"
 
 #: ./vue/components/Admin/Settings/TestMessageModal.vue:42
 msgid "Test message sent."
-msgstr ""
+msgstr "Testnachricht gesendet."
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:20
 msgid "text"
-msgstr ""
+msgstr "text"
 
 #: ./vue/components/Stations/Webhooks/EditModal.vue:284
 msgid "Thanks for listening to %{ station }!"
-msgstr ""
+msgstr "Vielen Dank fürs Zuhören bei %{ station }!"
 
 #: ./vue/components/Admin/Index/MemoryStatsHelpModal.vue:7
 msgid "The amount of memory Linux is using for disk caching."
-msgstr ""
+msgstr "Die Menge an Speicher, die Linux für das Festplatten-Caching verwendet."
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:9
 #: ./vue/components/Admin/Settings/GeneralTab.vue:1
@@ -5214,11 +5258,11 @@ msgstr "Die Kontaktperson des Podcasts. Kann benötigt werden, um den Podcast be
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:45
 msgid "The current CPU usage including I/O Wait and Steal."
-msgstr ""
+msgstr "Die aktuelle CPU-Auslastung einschließlich I/O-Wait und I/O-Steal."
 
 #: ./vue/components/Admin/Index/MemoryStatsHelpModal.vue:24
 msgid "The current Memory usage excluding cached memory."
-msgstr ""
+msgstr "Die aktuelle Speichernutzung ohne Cache-Speicher."
 
 #: ./vue/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:34
 #: ./vue/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:1
@@ -5260,7 +5304,7 @@ msgstr "Der Dateiname sollte wie folgt aussehen:"
 
 #: ./vue/components/Stations/BulkMedia.vue:36
 msgid "The format and headers of this CSV should match the format generated by the export function on this page."
-msgstr ""
+msgstr "Das Format und die Kopfzeilen dieser CSV-Datei sollten dem Format entsprechen, dass von der Exportfunktion auf dieser Seite erzeugt wird."
 
 #: ./vue/components/Stations/Webhooks/Form/MatomoAnalytics.vue:8
 #: ./vue/components/Stations/Webhooks/Form/MatomoAnalytics.vue:1
@@ -5270,11 +5314,11 @@ msgstr "Die komplette System-URL Ihrer Matomo-Installation."
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:131
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:4
 msgid "The full playlist is shuffled and then played through in the shuffled order."
-msgstr "Die vollständige Wiedergabeliste wird gemischt und dann in der gemischten Reihenfolge durchgespielt."
+msgstr "Die vollständige Playliste wird gemischt und dann in der gemischten Reihenfolge abgespielt."
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:30
 msgid "The I/O Wait is the percentage of time that the CPU is waiting for disk access before it can continue the work that depends on the result of this."
-msgstr ""
+msgstr "Der I/O-Wait ist der Prozentsatz der Zeit, die die CPU auf einen Festplattenzugriff wartet, bevor sie die Arbeit fortsetzen kann, die vom Ergebnis dieses Zugriffs abhängt."
 
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:34
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:1
@@ -5284,19 +5328,22 @@ msgstr "Die im Podcast gesprochene Sprache."
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:266
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "The length of playback time that Liquidsoap should buffer when playing this remote playlist. Shorter times may lead to intermittent playback on unstable connections."
-msgstr "Die Länge der Wiedergabezeit, die Liquidsoap beim Abspielen dieser Wiedergabeliste puffern soll. Kurze Zeiten können zu Unterbrechungen bei der Wiedergabe bei instabilen Verbindungen führen."
+msgstr "Die Länge der Wiedergabezeit, die Liquidsoap beim Abspielen dieser Playliste „Puffern“ soll. Kurze Zeiten können zu Unterbrechungen bei der Wiedergabe von instabilen Verbindungen führen."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:309
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "The number of seconds of signal to store in case of\n"
+msgid ""
+"The number of seconds of signal to store in case of\n"
 "                                        interruption. Set to the lowest value that your DJs can use without stream\n"
 "                                        interruptions."
 msgstr ""
+"Die Anzahl der Sekunden des Signals, die im Falle einer Unterbrechung gespeichert werden sollen.\n"
+"                                        Stellen Sie den niedrigsten Wert ein, den Ihre DJs ohne Streamunterbrechung nutzen können."
 
 #: ./vue/components/Stations/Webhooks/Form/Generic.vue:59
 #: ./vue/components/Stations/Webhooks/Form/Generic.vue:1
 msgid "The number of seconds to wait for a response from the remote server before cancelling the request."
-msgstr ""
+msgstr "Die Anzahl der Sekunden, die auf eine Antwort des entfernten Servers gewartet wird, bevor die Anfrage abgebrochen wird."
 
 #: ./vue/components/Stations/Webhooks/Form/MatomoAnalytics.vue:17
 #: ./vue/components/Stations/Webhooks/Form/MatomoAnalytics.vue:1
@@ -5306,12 +5353,12 @@ msgstr "Die numerische Site-ID für diese Website."
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:139
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:12
 msgid "The order of the playlist is manually specified and followed by the AutoDJ."
-msgstr "Die Reihenfolge der Wiedergabeliste wird manuell festgelegt und vom AutoDJ befolgt."
+msgstr "Die Reihenfolge der Playliste wird manuell festgelegt und vom AutoDJ befolgt."
 
 #: ./vue/components/Admin/Stations/Form/AdminForm.vue:19
 #: ./vue/components/Admin/Stations/Form/AdminForm.vue:1
 msgid "The parent directory where station playlist and configuration files are stored. Leave blank to use default directory."
-msgstr "Das übergeordnete Verzeichnis, in dem die Wiedergabelisten und Konfigurationsdateien gespeichert werden. Leer lassen, um das Standardverzeichnis zu verwenden."
+msgstr "Das übergeordnete Verzeichnis, in dem die Playlisten und Konfigurationsdateien gespeichert werden. Leer lassen, um das Standardverzeichnis zu verwenden."
 
 #: ./vue/components/Stations/Webhooks/Form/GoogleAnalytics.vue:8
 #: ./vue/components/Stations/Webhooks/Form/GoogleAnalytics.vue:1
@@ -5378,7 +5425,7 @@ msgstr "Theme"
 
 #: ./vue/components/Stations/Fallback.vue:41
 msgid "There is no existing custom fallback file associated with this station."
-msgstr ""
+msgstr "Es gibt keine benutzerdefinierte Fallback-Datei, die mit dieser Station verknüpft ist."
 
 #: ./vue/components/Stations/Mounts/Form/Intro.vue:31
 msgid "There is no existing intro file associated with this mount point."
@@ -5390,7 +5437,7 @@ msgstr "Für diese Episode sind keine Medien vorhanden."
 
 #: ./vue/components/Stations/StereoToolConfig.vue:46
 msgid "There is no Stereo Tool configuration file present."
-msgstr ""
+msgstr "Es ist keine Stereo Tool Konfigurationsdatei vorhanden."
 
 #: ./vue/components/Setup/Register.vue:23
 msgid "This account will have full access to the system, and you'll automatically be logged in to it for the rest of setup."
@@ -5398,7 +5445,7 @@ msgstr "Dieser Account hat vollen Zugriff auf das System und du wirst automatisc
 
 #: ./vue/components/Admin/Index/MemoryStatsHelpModal.vue:11
 msgid "This can make it look like your memory is low while it actually is not. Some monitoring solutions/panels include cached memory in their used memory statistics without indicating this."
-msgstr ""
+msgstr "Dies kann den Anschein erwecken, dass Ihr Arbeitsspeicher knapp ist, obwohl dies in Wirklichkeit nicht der Fall ist. Einige Überwachungslösungen / Panels beziehen den zwischengespeicherten Speicher in ihre Statistiken über den verwendeten Speicher ein, ohne dies anzuzeigen."
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:130
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:1
@@ -5408,7 +5455,7 @@ msgstr "Dieser Code wird in die Frontend-Konfiguration aufgenommen. Erlaubte For
 #: ./vue/components/Stations/StereoToolConfig.vue:25
 #: ./vue/components/Stations/StereoToolConfig.vue:1
 msgid "This configuration file should be a valid .sts file exported from Stereo Tool."
-msgstr ""
+msgstr "Diese Konfigurationsdatei sollte eine gültige .sts-Datei sein, die von Stereo Tool exportiert wurde."
 
 #: ./vue/components/Admin/Branding/BrandingForm.vue:95
 #: ./vue/components/Admin/Branding/BrandingForm.vue:1
@@ -5422,9 +5469,12 @@ msgstr "Dieses CSS wird auf den öffentlichen Seiten Bahnhof und Login-Seite ang
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:376
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "This determines how many songs in advance the AutoDJ will\n"
+msgid ""
+"This determines how many songs in advance the AutoDJ will\n"
 "                                automatically fill the queue."
 msgstr ""
+"Damit legen Sie fest, mit wie vielen Titeln im voraus der AutoDJ\n"
+"                                automatisch die Warteschlange füllt."
 
 #: ./vue/components/Form/VuelidateError.vue:12
 msgid "This field is required."
@@ -5476,12 +5526,12 @@ msgstr "Dieses Feld darf nur numerische Zeichen enthalten."
 
 #: ./vue/components/Stations/Fallback.vue:10
 msgid "This file will be played on your radio station any time no media is scheduled to play or a critical error occurs that interrupts regular broadcasting."
-msgstr ""
+msgstr "Diese Datei wird auf Ihrem Radiosender immer dann abgespielt, wenn keine Medien geplant sind oder ein kritischer Fehler auftritt, der den regulären Sendebetrieb unterbricht."
 
 #: ./vue/components/Stations/Streamers/Form/Artwork.vue:10
 #: ./vue/components/Stations/Streamers/Form/Artwork.vue:1
 msgid "This image will be used as the default album art when this streamer is live."
-msgstr ""
+msgstr "Dieses Bild wird als Standard-Albumbild verwendet, wenn dieser Streamer live ist."
 
 #: ./vue/components/Stations/Mounts/Form/Intro.vue:9
 #: ./vue/components/Stations/Mounts/Form/Intro.vue:1
@@ -5499,10 +5549,14 @@ msgstr "Dies ist der informelle Anzeigename, der in den API-Antworten angezeigt 
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:282
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "This is the number of seconds until a streamer who has been\n"
+msgid ""
+"This is the number of seconds until a streamer who has been\n"
 "                                        manually disconnected can reconnect to the stream. Set to 0 to allow the\n"
 "                                        streamer to immediately reconnect."
 msgstr ""
+"Dies ist die Anzahl der Sekunden, bis ein Streamer, dessen Verbindung\n"
+"                                        manuell getrennt wurde, sich wieder mit dem Stream verbinden kann. Setzen Sie den Wert auf 0, damit der\n"
+"                                        streamer sofort wieder eine Verbindung herstellen kann."
 
 #: ./vue/components/Admin/Branding/BrandingForm.vue:83
 #: ./vue/components/Admin/Branding/BrandingForm.vue:1
@@ -5511,10 +5565,14 @@ msgstr "Dieser Javascript-Code wird auf den öffentlichen Seiten und Login-Seite
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:342
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "This mode disables AzuraCast's AutoDJ management, using Liquidsoap\n"
+msgid ""
+"This mode disables AzuraCast's AutoDJ management, using Liquidsoap\n"
 "                                itself to manage song playback. \"Next Song\" and some other features will not be\n"
 "                                available."
 msgstr ""
+"Dieser Modus deaktiviert die AutoDJ-Verwaltung von AzuraCast und verwendet direkt\n"
+"                                Liquidsoap zur Verwaltung / Wiederhabe von Songs. \"Nächster Song\" und einige andere Funktionen sind dann nicht\n"
+"                                verfügbar."
 
 #: ./vue/components/Common/DateRangeDropdown.vue:80
 msgid "This Month"
@@ -5523,7 +5581,7 @@ msgstr "Diesen Monat"
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:11
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:1
 msgid "This name should always begin with a slash (/), and must be a valid URL, such as /autodj.mp3"
-msgstr "Der Name muss mit einem Slash (/) beginnen. Außerdem muss es eine gültige URL - wie z.b. /autodj.mp3 - sein."
+msgstr "Dieser Name sollte immer mit einem Schrägstrich (/) beginnen und muss eine gültige URL sein, z. B. /autodj.mp3"
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:18
 #: ./vue/components/Admin/Settings/GeneralTab.vue:1
@@ -5536,23 +5594,26 @@ msgstr "Dieses Passwort ist zu bekannt oder unsicher."
 
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:7
 msgid "This playlist currently has no scheduled times. It will play at all times. To add a new scheduled time, click the button below."
-msgstr "Diese Wiedergabeliste hat derzeit keine geplanten Wiedergabezeiten. Sie wird jederzeit abgespielt. Um eine neue geplante Zeit hinzuzufügen, klicken Sie auf den Button unten."
+msgstr "Diese Playliste hat derzeit keine geplanten Wiedergabezeiten. Sie wird zu jederzeit abgespielt. Um eine neue geplante Zeit hinzuzufügen, klicken Sie auf den Button unten."
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:201
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "This playlist will play every $x minutes, where $x is specified here."
-msgstr "Diese Wiedergabeliste wird alle $x Minuten abgespielt, wobei $x hier festgelegt wird."
+msgstr "Diese Playliste wird alle $x Minuten abgespielt, wobei $x hier festgelegt wird."
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:181
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "This playlist will play every $x songs, where $x is specified here."
-msgstr "Diese Wiedergabeliste wird alle $x Lieder abspielen, wobei $x hier festgelegt wird."
+msgstr "Diese Playliste wird alle $x Lieder abspielen, wobei $x hier festgelegt wird."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:365
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "This port is not used by any external process. Only modify this port\n"
+msgid ""
+"This port is not used by any external process. Only modify this port\n"
 "                                if the assigned port is in use. Leave blank to automatically assign a port."
 msgstr ""
+"Dieser Port wird von keinem externen Prozess verwendet. Ändern Sie diesen Port nur\n"
+"                                nur, wenn der zugewiesene Port in Gebrauch ist. Lassen Sie ihn leer, um automatisch einen Port zuzuweisen."
 
 #: ./vue/components/Stations/Playlists/QueueModal.vue:3
 msgid "This queue contains the remaining tracks in the order they will be queued by the AzuraCast AutoDJ (if the tracks are eligible to be played)."
@@ -5570,22 +5631,32 @@ msgstr "Diese Software überträgt deine Sendung an die Zuhörer."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:9
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "This software shuffles from playlists of music constantly and plays when\n"
+msgid ""
+"This software shuffles from playlists of music constantly and plays when\n"
 "                            no other radio source is available."
 msgstr ""
+"Diese Software wechselt ständig zwischen Playlisten mit Musik und spielt diese , wenn\n"
+"                            keine andere Radioquelle verfügbar ist."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:203
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "This specifies the minimum time (in minutes) between a song\n"
+msgid ""
+"This specifies the minimum time (in minutes) between a song\n"
 "                                    playing on the radio and being available to request again. Set to 0 for no\n"
 "                                    threshold."
 msgstr ""
+"Hier wird die Mindestzeit (in Minuten) angegeben, die zwischen der Wiedergabe eines Titels\n"
+"                                    der im Radio gespielt wird und der Zeit bis zum erneuten Abruf liegen muss. Setzen Sie auf 0 für keinen\n"
+"                                    schwellenwert."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:418
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
-msgid "This specifies the time range (in minutes) of the song history that\n"
+msgid ""
+"This specifies the time range (in minutes) of the song history that\n"
 "                                the duplicate song prevention algorithm should take into account."
 msgstr ""
+"Dies gibt den Zeitbereich (in Minuten) des Songverlaufs an, den\n"
+"                                der Algorithmus zur Vermeidung von doppelten Songs berücksichtigen soll."
 
 #: ./vue/components/Stations/Playlists.vue:9
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:57
@@ -5596,7 +5667,7 @@ msgstr "Die Zeitzone dieses Senders ist %{tz}."
 
 #: ./vue/components/Stations/Streamers/Form/Schedule.vue:7
 msgid "This streamer is not scheduled to play at any times."
-msgstr "Dieser Streamer ist nicht geplant, zu jeder Zeit zu spielen."
+msgstr "Dieser Streamer unterliegt keiner Planung. Er kann zu jeder Zeit senden."
 
 #: ./vue/components/Stations/Webhooks/Form/Discord.vue:9
 #: ./vue/components/Stations/Webhooks/Form/Discord.vue:1
@@ -5649,15 +5720,15 @@ msgstr "Zeit (Sekunden)"
 #: ./vue/components/Account/EditForm.vue:48
 #: ./vue/components/Account/EditForm.vue:1
 msgid "Time Display"
-msgstr ""
+msgstr "Uhrzeit Anzeige"
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:26
 msgid "Time spent waiting for disk I/O to be completed."
-msgstr ""
+msgstr "Zeit, die für das Warten auf die Fertigstellung der Festplatten-I/O aufgewendet wird."
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:7
 msgid "Time stolen by other virtual machines on the same physical server."
-msgstr ""
+msgstr "Zeit, die von anderen virtuellen Maschinen auf demselben physischen Server gestohlen wurde."
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:33
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:1
@@ -5678,7 +5749,7 @@ msgstr "Titel"
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:14
 msgid "To alleviate this potential problem with shared CPU resources, hosts assign \"credits\" to a VPS which are used up according to an algorithm based on the CPU load as well as the time over which the CPU load is generated. If your VM's assigned credit is used up, they will take CPU time from your VM and assign it to other VMs on the machine. This is seen as the \"Steal\" or \"St\" value."
-msgstr ""
+msgstr "Um dieses potenzielle Problem mit gemeinsam genutzten CPU-Ressourcen zu entschärfen, weisen Hosts einem VPS \"Guthaben\" zu, die nach einem Algorithmus verbraucht werden, der auf der CPU-Last sowie der Zeit, über die die CPU-Last erzeugt wird, basiert. Wenn das Ihrer VM zugewiesene Guthaben aufgebraucht ist, wird die CPU-Zeit von Ihrer VM genommen und anderen VMs auf dem Rechner zugewiesen. Dies wird als der Wert \"Steal\" oder \"St\" bezeichnet."
 
 #: ./vue/components/Admin/GeoLite.vue:25
 msgid "To download the GeoLite database:"
@@ -5716,36 +5787,36 @@ msgstr "Heute"
 #: ./vue/components/Stations/Reports/Overview/BrowsersTab.vue:6
 #: ./vue/components/Stations/Reports/Overview/BrowsersTab.vue:1
 msgid "Top Browsers by Connected Time"
-msgstr ""
+msgstr "Top Browser nach verbundener Zeit"
 
 #: ./vue/components/Stations/Reports/Overview/BrowsersTab.vue:3
 #: ./vue/components/Stations/Reports/Overview/BrowsersTab.vue:1
 msgid "Top Browsers by Listeners"
-msgstr ""
+msgstr "Top Browser nach Zuhörer"
 
 #: ./vue/components/Stations/Reports/Overview/CountriesTab.vue:6
 #: ./vue/components/Stations/Reports/Overview/CountriesTab.vue:1
 msgid "Top Countries by Connected Time"
-msgstr ""
+msgstr "Top Länder nach verbundener Zeit"
 
 #: ./vue/components/Stations/Reports/Overview/CountriesTab.vue:3
 #: ./vue/components/Stations/Reports/Overview/CountriesTab.vue:1
 msgid "Top Countries by Listeners"
-msgstr ""
+msgstr "Top Länder nach Zuhörer"
 
 #: ./vue/components/Stations/Reports/Overview/StreamsTab.vue:6
 #: ./vue/components/Stations/Reports/Overview/StreamsTab.vue:1
 msgid "Top Streams by Connected Time"
-msgstr ""
+msgstr "Top Streams nach verbundener Zeit"
 
 #: ./vue/components/Stations/Reports/Overview/StreamsTab.vue:3
 #: ./vue/components/Stations/Reports/Overview/StreamsTab.vue:1
 msgid "Top Streams by Listeners"
-msgstr ""
+msgstr "Top Streams nach Zuhörer"
 
 #: ./vue/components/Admin/Index.vue:87
 msgid "Total Disk Space"
-msgstr ""
+msgstr "Gesamter Festplattenspeicher"
 
 #: ./vue/components/Stations/Reports/Listeners.vue:43
 msgid "Total Listener Hours"
@@ -5753,11 +5824,11 @@ msgstr "Gesamte Zuhörstunden"
 
 #: ./vue/components/Admin/Index.vue:51
 msgid "Total RAM"
-msgstr ""
+msgstr "Gesamter Ramspeicher"
 
 #: ./vue/components/Admin/Index.vue:275
 msgid "Transmitted"
-msgstr ""
+msgstr "Übertragen"
 
 #: ./vue/components/Stations/Webhooks.vue:20
 msgid "Triggers"
@@ -5814,7 +5885,7 @@ msgstr "Üblicherweise die Website eines Podcasts."
 #: ./vue/components/Stations/BulkMedia.vue:85
 #: ./vue/components/Stations/BulkMedia.vue:2
 msgid "Unable to update."
-msgstr ""
+msgstr "Die Aktualisierung ist nicht möglich."
 
 #: ./vue/components/Stations/Profile/NowPlayingPanel.vue:11
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:32
@@ -5851,7 +5922,7 @@ msgstr "Unbekannter Titel"
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:26
 msgid "Unlisted"
-msgstr ""
+msgstr "Nicht gelistet"
 
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:29
 msgid "Up"
@@ -5879,11 +5950,11 @@ msgstr "Geändert"
 #: ./vue/components/Stations/BulkMedia.vue:80
 #: ./vue/components/Stations/BulkMedia.vue:2
 msgid "Updated successfully."
-msgstr ""
+msgstr "Erfolgreich aktualisiert."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:152
 msgid "Upload a Stereo Tool configuration file from the \"Broadcasting\" submenu in the station profile."
-msgstr ""
+msgstr "Laden Sie eine Stereo Tool Konfigurationsdatei aus dem Untermenü \"Broadcasting\" im Senderprofil hoch."
 
 #: ./vue/components/Admin/Branding.vue:9
 msgid "Upload Custom Assets"
@@ -5895,7 +5966,7 @@ msgstr "Eigene Assets hochladen"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/UploadStereoToolConfigAction.php:25
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:239
 msgid "Upload Stereo Tool Configuration"
-msgstr ""
+msgstr "Stereo Tool Konfiguration hochladen"
 
 #: ./vue/components/Admin/Shoutcast.vue:39
 #: ./vue/components/Admin/StereoTool.vue:41
@@ -5935,7 +6006,7 @@ msgstr "Nutze Browser Standard"
 #: ./vue/components/Admin/Settings/GeneralTab.vue:54
 #: ./vue/components/Admin/Settings/GeneralTab.vue:1
 msgid "Use High-Performance Now Playing Updates"
-msgstr ""
+msgstr "Verwenden Sie leistungsstarke Now-Playing-Updates"
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:25
 msgid "Use Icecast 2.4 on this server."
@@ -5943,11 +6014,11 @@ msgstr "Verwende Icecast 2.4 auf diesem Server."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:135
 msgid "Use Less CPU (Uses More Memory)"
-msgstr ""
+msgstr "Weniger CPU verwenden (mehr Speicher)"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:127
 msgid "Use Less Memory (Uses More CPU)"
-msgstr ""
+msgstr "Weniger Speicher verwenden (mehr CPU-Belastung)"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:32
 msgid "Use Liquidsoap on this server."
@@ -5965,7 +6036,7 @@ msgstr "Sichere (TLS) SMTP Verbindung verwenden"
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:32
 msgid "Use Shoutcast DNAS 2 on this server."
-msgstr ""
+msgstr "Verwenden Sie Shoutcast DNAS 2 auf diesem Server."
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:33
 #: ./vue/components/Admin/Settings/GeneralTab.vue:1
@@ -5976,7 +6047,7 @@ msgstr "Nutze Webproxy für das Radio"
 #: ./vue/components/Admin/Index.vue:99
 #: ./vue/components/Admin/Index/MemoryStatsHelpModal.vue:22
 msgid "Used"
-msgstr ""
+msgstr "Verwendet"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:78
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
@@ -6014,7 +6085,7 @@ msgstr "Benutzername"
 #: ./vue/components/Stations/Profile/FrontendPanel.vue:29
 #: ./vue/components/Stations/Profile/FrontendPanel.vue:47
 msgid "Username:"
-msgstr ""
+msgstr "Benutzername:"
 
 #: ./vue/components/Admin/Users.vue:4
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/UsersAction.php:29
@@ -6035,7 +6106,7 @@ msgstr "Benutzer mit dieser Rolle werden diese Berechtigungen für diese einzeln
 #: ./vue/components/Admin/Settings/GeneralTab.vue:57
 #: ./vue/components/Admin/Settings/GeneralTab.vue:1
 msgid "Uses either Websockets, Server-Sent Events (SSE) or static JSON files to serve Now Playing data on public pages. This improves performance, especially with large listener volume. Disable this if you are encountering problems with the service or use multiple URLs to serve your public pages."
-msgstr ""
+msgstr "Verwendet entweder Websockets, Server-Sent Events (SSE) oder statische JSON-Dateien, um Now Playing-Daten auf öffentlichen Seiten bereitzustellen. Dies verbessert die Leistung, insbesondere bei einer großen Anzahl von Zuhörern. Deaktivieren Sie dies, wenn Sie Probleme mit dem Dienst haben oder mehrere URLs für die Bereitstellung Ihrer öffentlichen Seiten verwenden."
 
 #: ./vue/components/Stations/LiquidsoapConfig.vue:11
 msgid "Using this page, you can customize several sections of the Liquidsoap configuration. This allows you to add advanced functionality to your station's AutoDJ."
@@ -6065,7 +6136,7 @@ msgstr "Besuche die Seite \"My License Key\" unter \"Services\"."
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:12
 msgid "Visit your Mastodon instance."
-msgstr ""
+msgstr "Besuchen Sie Ihre Mastodon-Instanz."
 
 #: ./vue/components/Stations/Media/EditModal.vue:36
 #: ./vue/components/Stations/Media/EditModal.vue:1
@@ -6168,20 +6239,20 @@ msgstr "Bei API-Aufrufen kann dieser Wert im \"X-API-Key\" Header übergeben wer
 
 #: ./vue/components/Stations/Webhooks.vue:41
 msgid "When the song changes and a live streamer/DJ is connected"
-msgstr ""
+msgstr "Wenn der Song wechselt und ein Live-Streamer / DJ verbunden ist"
 
 #: ./vue/components/Stations/Webhooks.vue:47
 msgid "When the station broadcast comes online"
-msgstr ""
+msgstr "Wenn der Sender Online geht"
 
 #: ./vue/components/Stations/Webhooks.vue:46
 msgid "When the station broadcast goes offline"
-msgstr ""
+msgstr "Wenn der Sender Offline geht"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:53
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "Whether the AutoDJ should attempt to avoid duplicate artists and track titles when playing media from this playlist."
-msgstr "Ob der AutoDJ bei der Wiedergabe von Medien aus dieser Wiedergabeliste versuchen soll, Wiederholungen von Interpreten und Titeln zu vermeiden."
+msgstr "Der AutoDJ soll bei der Wiedergabe von Medien aus dieser Playliste versuchen, Wiederholungen von Interpreten und Titeln zu vermeiden."
 
 #: ./vue/components/Stations/Profile/EmbedModal.vue:74
 msgid "Widget Type"
@@ -6206,12 +6277,12 @@ msgstr "Du kannst Dateien auch per Massen-Upload über SFTP hochladen."
 
 #: ./vue/components/Stations/Help.vue:24
 msgid "You can find answers for many common questions in our support documents."
-msgstr ""
+msgstr "In unseren Support Dokumenten finden Sie Antworten auf viele häufig gestellten Fragen."
 
 #: ./vue/components/Stations/Mounts/Form/Advanced.vue:22
 #: ./vue/components/Stations/Mounts/Form/Advanced.vue:1
 msgid "You can include any special mount point settings here, in either JSON { key: 'value' } format or XML &lt;key&gt;value&lt;/key&gt;"
-msgstr ""
+msgstr "Sie können hier alle speziellen Einstellungen für den Mountpoint angeben, entweder im Format JSON { key: ‚value‘ } oder XML &lt;key&gt;value&lt;/key&gt;"
 
 #: ./vue/components/Account/ApiKeyNewKey.vue:28
 msgid "You can only perform the actions your user account is allowed to perform."
@@ -6372,11 +6443,11 @@ msgstr "Maximaler Port für Sender Port-Zuweisung"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:81
 msgid "Show Detailed Slim Application Errors"
-msgstr ""
+msgstr "Detaillierte Slim-Anwendungsfehler anzeigen"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:82
 msgid "This allows you to debug Slim Application Errors you may encounter. Please report any Slim Application Error logs to the development team on GitHub."
-msgstr ""
+msgstr "So können Sie eventuell auftretende Slim-Anwendungsfehler debuggen. Bitte melden Sie alle Slim-Anwendungsfehlerprotokolle an das Entwicklerteam auf GitHub."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:89
 msgid "MariaDB Host"
@@ -6579,7 +6650,7 @@ msgstr "Das läuft nicht."
 #: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:63
 #, php-format
 msgid "%s encountered an error: %s"
-msgstr ""
+msgstr "%s ist auf einen Fehler gestoßen: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:67
 msgid "Check the log for details."
@@ -6668,12 +6739,12 @@ msgstr "Eintrag gelöscht."
 #: /home/runner/work/AzuraCast/AzuraCast/src/Entity/ApiGenerator/ScheduleApiGenerator.php:56
 #, php-format
 msgid "Playlist: %s"
-msgstr ""
+msgstr "Playliste: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Entity/ApiGenerator/ScheduleApiGenerator.php:61
 #, php-format
 msgid "Streamer: %s"
-msgstr ""
+msgstr "Streamer: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Middleware/Module/StationFiles.php:20
 msgid "This feature is not currently supported on this station."
@@ -6902,59 +6973,59 @@ msgstr "AzuraCast ist nun initialisiert."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:25
 msgid "Database Migrations"
-msgstr ""
+msgstr "Datenbank-Migrationen"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:33
 msgid "Database is already up to date!"
-msgstr ""
+msgstr "Die Datenbank ist bereits auf dem neuesten Stand!"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:38
 msgid "Backing up initial database state..."
-msgstr ""
+msgstr "Sichern des ursprünglichen Datenbankstatuses…"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:47
 msgid "We detected a database restore file from a previous (possibly failed) migration."
-msgstr ""
+msgstr "Wir haben eine Datenbank-Wiederherstellungsdatei von einer früheren (möglicherweise fehlgeschlagenen) Migration entdeckt."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:48
 msgid "Attempting to restore that now..."
-msgstr ""
+msgstr "Wir versuchen jetzt, diese wiederherzustellen..."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:56
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:109
 #, php-format
 msgid "Restore failed: %s"
-msgstr ""
+msgstr "Wiederherstellung fehlgeschlagen: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:68
 #, php-format
 msgid "Initial backup failed: %s"
-msgstr ""
+msgstr "Erstes Backup fehlgeschlagen: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:77
 msgid "Running database migrations..."
-msgstr ""
+msgstr "Datenbank-Migrationen durchführen..."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:91
 #, php-format
 msgid "Database migration failed: %s"
-msgstr ""
+msgstr "Datenbankmigration fehlgeschlagen: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:96
 msgid "Attempting to roll back to previous database state..."
-msgstr ""
+msgstr "Wir versuchen, den vorherigen Zustand der Datenbank wiederherzustellen..."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:102
 msgid "Your database was restored due to a failed migration."
-msgstr ""
+msgstr "Ihre Datenbank wurde aufgrund einer fehlgeschlagenen Migration wiederhergestellt."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:103
 msgid "Please report this bug to our developers."
-msgstr ""
+msgstr "Bitte melden Sie diesen Fehler an unsere Entwickler."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:121
 msgid "Database migration completed!"
-msgstr ""
+msgstr "Migration der Datenbank abgeschlossen!"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Users/SetAdministratorCommand.php:58
 #, php-format
@@ -6967,23 +7038,23 @@ msgstr "Konto nicht gefunden."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:78
 msgid "Message queue delivery service"
-msgstr ""
+msgstr "Zustelldienst für Nachrichtenwarteschlangen"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:79
 msgid "Runs routine synchronized tasks"
-msgstr ""
+msgstr "Führt synchronisierte Routineaufgaben aus"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:80
 msgid "Database"
-msgstr ""
+msgstr "Datenbank"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:81
 msgid "Web server"
-msgstr ""
+msgstr "Webserver"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:82
 msgid "PHP FastCGI Process Manager"
-msgstr ""
+msgstr "PHP FastCGI Prozess-Manager"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:83
 msgid "Now Playing manager service"
@@ -6991,15 +7062,15 @@ msgstr ""
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:84
 msgid "PHP queue processing worker"
-msgstr ""
+msgstr "PHP-Warteschlangenverarbeiter"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:85
 msgid "SFTP service"
-msgstr ""
+msgstr "SFTP-Dienst"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:86
 msgid "Live Now Playing updates"
-msgstr ""
+msgstr "Live „Jetzt läuft“ Updates"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Service/IpGeolocator/GeoLite.php:30
 #, php-format
@@ -7058,11 +7129,11 @@ msgstr "Die \"System-URL\" Einstellung (%s) stimmt nicht mit der URL überein, d
 #: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ServiceCheck.php:34
 #, php-format
 msgid "Service Not Running: %s"
-msgstr ""
+msgstr "Dienst läuft nicht: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ServiceCheck.php:35
 msgid "One of the essential services on this installation is not currently running. Visit the system administration and check the system logs to find the cause of this issue."
-msgstr ""
+msgstr "Einer der wesentlichen Dienste auf dieser Installation läuft derzeit nicht. Besuchen Sie die Systemverwaltung und überprüfen Sie die Systemprotokolle, um die Ursache für dieses Problem zu finden."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/SyncTaskCheck.php:38
 msgid "Synchronization Disabled"
@@ -7148,7 +7219,7 @@ msgstr "AzuraCast-Anwendungsprotokoll"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/LogsAction.php:83
 #, php-format
 msgid "Service Log: %s (%s)"
-msgstr ""
+msgstr "Dienstprotokoll: %s (%s)"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/LogsAction.php:98
 msgid "Nginx Access Log"
@@ -7172,19 +7243,19 @@ msgstr "Backup nicht gefunden."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/SendTestMessageAction.php:47
 msgid "Test Message"
-msgstr ""
+msgstr "Test Nachricht"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/SendTestMessageAction.php:50
 msgid "This is a test message from AzuraCast. If you are receiving this message, it means your e-mail settings are configured correctly."
-msgstr ""
+msgstr "Dies ist eine Testnachricht von AzuraCast. Wenn Sie diese Nachricht erhalten, bedeutet dies, dass Ihre E-Mail-Einstellungen korrekt konfiguriert sind."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/SendTestMessageAction.php:64
 msgid "Test message sent successfully."
-msgstr ""
+msgstr "Testnachricht erfolgreich gesendet."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/StereoTool/PostAction.php:37
 msgid "Invalid binary uploaded."
-msgstr ""
+msgstr "Ungültige Binärdatei hochgeladen."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/UsersController.php:213
 msgid "You cannot modify yourself."
@@ -7204,7 +7275,7 @@ msgstr "Podcast nicht gefunden!"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:83
 msgid "Station Nginx Configuration"
-msgstr ""
+msgstr "Station Nginx-Konfiguration"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:90
 msgid "Liquidsoap Log"
@@ -7228,67 +7299,67 @@ msgstr "Icecast-Konfiguration"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:122
 msgid "Shoutcast Log"
-msgstr ""
+msgstr "Shoutcast Protokoll"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:127
 msgid "Shoutcast Configuration"
-msgstr ""
+msgstr "Shoutcast Konfiguration"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:61
 msgid "Bot/Crawler"
-msgstr ""
+msgstr "Bot / Crawler"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:63
 msgid "Desktop Browser"
-msgstr ""
+msgstr "Desktopbrowser"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:64
 msgid "Non-Browser"
-msgstr ""
+msgstr "Kein-Browser"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:82
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByStream.php:101
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:62
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:75
 msgid "Connected Seconds"
-msgstr ""
+msgstr "Verbundene Sekunden"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:47
 msgid "Less than Thirty Seconds"
-msgstr ""
+msgstr "Weniger als dreißig Sekunden"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:48
 msgid "Thirty Seconds to One Minute"
-msgstr ""
+msgstr "Dreißig Sekunden bis eine Minute"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:49
 msgid "One Minute to Five Minutes"
-msgstr ""
+msgstr "Eine Minute bis fünf Minuten"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:50
 msgid "Five Minutes to Ten Minutes"
-msgstr ""
+msgstr "Fünf Minuten bis zehn Minuten"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:51
 msgid "Ten Minutes to Thirty Minutes"
-msgstr ""
+msgstr "Zehn Minuten bis dreißig Minuten"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:52
 msgid "Thirty Minutes to One Hour"
-msgstr ""
+msgstr "Dreißig Minuten bis eine Stunde"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:53
 msgid "One Hour to Two Hours"
-msgstr ""
+msgstr "Eine Stunde bis zwei Stunden"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:54
 msgid "More than Two Hours"
-msgstr ""
+msgstr "Mehr als zwei Stunden"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/BulkMedia/UploadAction.php:162
 #, php-format
 msgid "%d files processed."
-msgstr ""
+msgstr "%d verarbeitete Dateien."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/FilesController.php:195
 msgid "This station is out of available storage space."
@@ -7313,7 +7384,7 @@ msgstr "Playlist deaktiviert."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/ReshuffleAction.php:35
 msgid "Playlist reshuffled."
-msgstr "Wiedergabeliste neu gemischt."
+msgstr "Playliste wurde neu gemischt."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/ImportAction.php:196
 #, php-format
@@ -7327,7 +7398,7 @@ msgstr "Diese Station unterstützt kein On-Demand-Streaming."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:165
 msgid "Station reloaded."
-msgstr ""
+msgstr "Station wurde neu geladen."
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:197
 msgid "Station restarted."
@@ -7384,7 +7455,7 @@ msgstr "Datei nicht verarbeitet: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/ListAction.php:316
 msgid "Cover Art"
-msgstr ""
+msgstr "Cover-Bild"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/ListAction.php:318
 msgid "File Processing"
@@ -7414,7 +7485,7 @@ msgstr "Hilfe"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/BulkMediaAction.php:24
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:110
 msgid "Bulk Media Import/Export"
-msgstr ""
+msgstr "Massenimport / Export von Medien"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/SetupController.php:111
 msgid "Set Up AzuraCast"
@@ -7583,7 +7654,7 @@ msgstr ""
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/webhooks.php:70
 msgid "Automatically publish to a Mastodon instance."
-msgstr ""
+msgstr "Automatisch in einer Mastodon-Instanz veröffentlichen."
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/webhooks.php:75
 msgid "Google Analytics Integration"
@@ -7607,7 +7678,7 @@ msgstr "Übertragung neu starten? Dadurch werden alle aktuellen Zuhörer getrenn
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:21
 msgid "Reload broadcasting? Current listeners will not be disconnected."
-msgstr ""
+msgstr "Broadcasting neu laden? Die Verbindung zu den aktuellen Zuhörern wird nicht unterbrochen."
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:33
 msgid "Start Station"
@@ -7619,7 +7690,7 @@ msgstr "Bereit zum Starten der Übertragung? Dann klick hier, um deinen Sender z
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:43
 msgid "Reload to Apply Changes"
-msgstr ""
+msgstr "Neu laden, um Änderungen zu übernehmen"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:44
 msgid "Click to restart your station and apply configuration changes."
@@ -7635,11 +7706,11 @@ msgstr "Unverarbeitbare Dateien"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:89
 msgid "Unassigned Files"
-msgstr ""
+msgstr "Nicht zugewiesene Dateien"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:135
 msgid "Live Streaming"
-msgstr ""
+msgstr "Live Streaming"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:172
 msgid "Reports"
@@ -7651,11 +7722,11 @@ msgstr "SoundExchange Lizenzgebühren"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:255
 msgid "Reload Configuration"
-msgstr ""
+msgstr "Konfiguration neu laden"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:263
 msgid "Restart Broadcasting"
-msgstr "Streaming neustart"
+msgstr "Streamserver Neustarten"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:16
 msgid "System Maintenance"
@@ -7673,7 +7744,7 @@ msgstr "Verbundene AzuraRelays"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:97
 msgid "Install Shoutcast"
-msgstr ""
+msgstr "Shoutcast installieren"
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episodes.phtml:75
 #: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episodes.phtml:109
@@ -7797,7 +7868,7 @@ msgstr "Sender Übertragung deaktiviert"
 #: /home/runner/work/AzuraCast/AzuraCast/templates/stations/profile_disabled.phtml:15
 #, php-format
 msgid "Your station is currently not enabled for broadcasting. You can still manage media, playlists, and other station settings. To re-enable broadcasting, <a href=\"%s\">edit your station profile</a>."
-msgstr "Dein Sender ist zur Zeit nicht für Übertragungen aktiviert. Du kannst immer noch Musik Dateien, Wiedergabelisten und andere Sendereinstellungen verwalten. Um die Übertragung wieder zu aktivieren, <a href=\"%s\">bearbeite dein Sender Profil</a>."
+msgstr "Dein Sender ist zur Zeit nicht für Übertragungen aktiviert. Du kannst immer noch Musikdateien, Playlisten und andere Sendereinstellungen verwalten. Um die Übertragung wieder zu aktivieren, <a href=\"%s\">bearbeite dein Senderprofil</a>."
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:60
 msgid "Skip to main content"
@@ -7829,11 +7900,11 @@ msgstr "Logout"
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:202
 msgid "Like our software?"
-msgstr ""
+msgstr "Gefällt Ihnen unsere Software?"
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:202
 msgid "Donate to support AzuraCast!"
-msgstr ""
+msgstr "Spenden Sie, um AzuraCast zu unterstützen!"
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/partials/bodyjs.phtml:39
 msgid "Are you sure?"
@@ -7922,7 +7993,7 @@ msgstr "Nächsten Song abrufen"
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:188
 msgid "Get Now Playing"
-msgstr "\"Jetzt läuft\"-Daten holen"
+msgstr "\"Jetzt läuft\" Daten abholen"
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:202
 msgid "Send Liquidsoap Telnet Command"

@@ -23,7 +23,7 @@
 
                                 <h2 v-if="user.name" class="card-title">{{ user.name }}</h2>
                                 <h2 v-else class="card-title">
-                                    <translate key="lang_no_username">AzuraCast User</translate>
+                                    <translate key="lang_no_username">User</translate>
                                 </h2>
                                 <h3 class="card-subtitle">{{ user.email }}</h3>
 

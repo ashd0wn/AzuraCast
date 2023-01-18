@@ -882,7 +882,7 @@ msgstr "Datei entfernen"
 
 #: ./vue/components/Stations/Reports/Requests.vue:13
 msgid "Clear Pending Requests"
-msgstr "Ausstehende Wünsche löschen"
+msgstr "Ausstehende Musikwünsche löschen"
 
 #: ./vue/components/Stations/Playlists/QueueModal.vue:26
 #: ./vue/components/Stations/Playlists/QueueModal.vue:5
@@ -1740,7 +1740,7 @@ msgstr "E-Mail"
 #: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:46
 #: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:50
 msgid "E-mail Address"
-msgstr "E-Mail Adresse"
+msgstr "E-Mail-Adresse"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:54
 #: ./vue/components/Admin/Settings/ServicesTab.vue:1
@@ -4214,7 +4214,7 @@ msgstr "Lied wünschen"
 
 #: ./vue/components/Stations/Reports/Requests.vue:22
 msgid "Request History"
-msgstr "Musikwunschverlauf"
+msgstr "Musikwunsch Historie"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:200
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
@@ -4855,13 +4855,13 @@ msgstr "Song Lyrics"
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:125
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:1
 msgid "Song Playback Order"
-msgstr "Reihenfolge der Song-Wiedergabe"
+msgstr "Reihenfolge der Songwiedergabe"
 
 #: ./vue/components/Stations/Reports/Timeline.vue:5
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/TimelineAction.php:25
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:190
 msgid "Song Playback Timeline"
-msgstr "Songwiedergabe-Zeitleiste"
+msgstr "Song Historie"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:161
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
@@ -5173,7 +5173,7 @@ msgstr "Live-Streamer/DJ Accounts"
 #: ./vue/components/Stations/Profile/StreamersPanel.vue:23
 #: ./vue/components/Stations/Profile/StreamersPanel.vue:3
 msgid "Streamers/DJs"
-msgstr "Live-Streamer/DJs"
+msgstr "Live-Streamer / DJs"
 
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:3
 #: ./vue/components/Stations/Reports/Overview.vue:43

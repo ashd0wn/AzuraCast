@@ -79,16 +79,16 @@ return static function (App\Event\BuildStationMenu $e) {
                         'url' => $router->fromHere('stations:files:index') . '#special:duplicates',
                         'permission' => StationPermissions::Media,
                     ],
-                    'reports_unprocessable' => [
-                        'label' => __('Unprocessable Files'),
-                        'class' => 'text-muted',
-                        'url' => $router->fromHere('stations:files:index') . '#special:unprocessable',
-                        'permission' => StationPermissions::Media,
-                    ],
                     'reports_unassigned' => [
                         'label' => __('Unassigned Files'),
                         'class' => 'text-muted',
                         'url' => $router->fromHere('stations:files:index') . '#special:unassigned',
+                        'permission' => StationPermissions::Media,
+                    ],
+                    'reports_unprocessable' => [
+                        'label' => __('Unprocessable Files'),
+                        'class' => 'text-muted',
+                        'url' => $router->fromHere('stations:files:index') . '#special:unprocessable',
                         'permission' => StationPermissions::Media,
                     ],
                     'ondemand' => [

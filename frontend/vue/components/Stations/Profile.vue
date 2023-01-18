@@ -3,31 +3,34 @@
         <profile-header v-bind="$props" :np="np"></profile-header>
 
         <div class="row" id="profile">
-            <div class="col-lg-7">
-                <profile-now-playing :np="np" v-bind="$props"></profile-now-playing>
+            <div class="col-lg-12 row">
+                <div class="col-lg-7">
+                    <profile-now-playing :np="np" v-bind="$props"></profile-now-playing>
 
-                <profile-schedule :station-time-zone="stationTimeZone" :schedule-items="np.schedule"></profile-schedule>
+                    <!--<profile-streams :np="np" v-bind="$props"></profile-streams>
 
-                <profile-streams :np="np" v-bind="$props"></profile-streams>
+                    <profile-public-pages v-bind="$props"></profile-public-pages>-->
+                </div>
 
-                <profile-public-pages v-bind="$props"></profile-public-pages>
+                <div class="col-lg-5">
+                    <profile-requests v-if="stationSupportsRequests" v-bind="$props"></profile-requests>
+
+                    <profile-streamers v-if="stationSupportsStreamers" v-bind="$props"></profile-streamers>
+
+                    <!--<template v-if="hasActiveFrontend">
+                        <profile-frontend :np="np" v-bind="$props"></profile-frontend>
+                    </template>
+
+                    <template v-if="hasActiveBackend">
+                        <profile-backend :np="np" v-bind="$props"></profile-backend>
+                    </template>
+                    <template v-else>
+                        <profile-backend-none></profile-backend-none>
+                    </template>-->
+                </div>
             </div>
-
-            <div class="col-lg-5">
-                <profile-requests v-if="stationSupportsRequests" v-bind="$props"></profile-requests>
-
-                <profile-streamers v-if="stationSupportsStreamers" v-bind="$props"></profile-streamers>
-
-                <template v-if="hasActiveFrontend">
-                    <profile-frontend :np="np" v-bind="$props"></profile-frontend>
-                </template>
-
-                <template v-if="hasActiveBackend">
-                    <profile-backend :np="np" v-bind="$props"></profile-backend>
-                </template>
-                <template v-else>
-                    <profile-backend-none></profile-backend-none>
-                </template>
+            <div class="col-lg-12">
+                <profile-schedule :station-time-zone="stationTimeZone" :schedule-items="np.schedule"></profile-schedule>
             </div>
         </div>
     </div>
@@ -35,17 +38,17 @@
 
 <script>
 import ProfileStreams from './Profile/StreamsPanel';
-import ProfileHeader, {profileHeaderProps} from './Profile/HeaderPanel';
-import ProfileNowPlaying, {profileNowPlayingProps} from './Profile/NowPlayingPanel';
+import ProfileHeader, { profileHeaderProps } from './Profile/HeaderPanel';
+import ProfileNowPlaying, { profileNowPlayingProps } from './Profile/NowPlayingPanel';
 import ProfileSchedule from './Profile/SchedulePanel';
-import ProfileRequests, {profileRequestsProps} from './Profile/RequestsPanel';
-import ProfileStreamers, {profileStreamersProps} from './Profile/StreamersPanel';
-import ProfilePublicPages, {profilePublicProps} from './Profile/PublicPagesPanel';
-import ProfileFrontend, {profileFrontendProps} from './Profile/FrontendPanel';
+import ProfileRequests, { profileRequestsProps } from './Profile/RequestsPanel';
+import ProfileStreamers, { profileStreamersProps } from './Profile/StreamersPanel';
+import ProfilePublicPages, { profilePublicProps } from './Profile/PublicPagesPanel';
+import ProfileFrontend, { profileFrontendProps } from './Profile/FrontendPanel';
 import ProfileBackendNone from './Profile/BackendNonePanel';
-import ProfileBackend, {profileBackendProps} from './Profile/BackendPanel';
-import {profileEmbedModalProps} from './Profile/EmbedModal';
-import {BACKEND_NONE, FRONTEND_REMOTE} from '~/components/Entity/RadioAdapters.js';
+import ProfileBackend, { profileBackendProps } from './Profile/BackendPanel';
+import { profileEmbedModalProps } from './Profile/EmbedModal';
+import { BACKEND_NONE, FRONTEND_REMOTE } from '~/components/Entity/RadioAdapters.js';
 import NowPlaying from '~/components/Entity/NowPlaying';
 
 export default {

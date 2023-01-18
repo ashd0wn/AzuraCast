@@ -65,8 +65,7 @@ return static function (RouteCollectorProxy $app) {
             $group->get('/podcasts', Controller\Stations\PodcastsAction::class)
                 ->setName('stations:podcasts:index')
                 ->add(new Middleware\StationSupportsFeature(StationFeatures::Podcasts))
-                ->add(new Middleware\Permissions(StationPermissions::Podcasts, true))
-                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
+                ->add(new Middleware\Permissions(StationPermissions::Podcasts, true));
 
             $group->get('/mounts', Controller\Stations\MountsAction::class)
                 ->setName('stations:mounts:index')
@@ -75,8 +74,7 @@ return static function (RouteCollectorProxy $app) {
                 ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
 
             $group->get('/profile', Controller\Stations\ProfileController::class)
-                ->setName('stations:profile:index')
-                ->add(new Middleware\Permissions(StationPermissions::spShowIt, true));
+                ->setName('stations:profile:index');
 
             $group->get(
                 '/profile/toggle/{feature}/{csrf}',

@@ -3,21 +3,22 @@
         <profile-header v-bind="$props" :np="np"></profile-header>
 
         <div class="row" id="profile">
-            <div class="col-lg-12 row">
-                <div class="col-lg-7">
-                    <profile-now-playing :np="np" v-bind="$props"></profile-now-playing>
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <profile-now-playing :np="np" v-bind="$props"></profile-now-playing>
 
-                    <!--<profile-streams :np="np" v-bind="$props"></profile-streams>
+                        <!--<profile-streams :np="np" v-bind="$props"></profile-streams>
 
                     <profile-public-pages v-bind="$props"></profile-public-pages>-->
-                </div>
+                    </div>
 
-                <div class="col-lg-5">
-                    <profile-requests v-if="stationSupportsRequests" v-bind="$props"></profile-requests>
+                    <div class="col-lg-5">
+                        <profile-requests v-if="stationSupportsRequests" v-bind="$props"></profile-requests>
 
-                    <profile-streamers v-if="stationSupportsStreamers" v-bind="$props"></profile-streamers>
+                        <profile-streamers v-if="stationSupportsStreamers" v-bind="$props"></profile-streamers>
 
-                    <!--<template v-if="hasActiveFrontend">
+                        <!--<template v-if="hasActiveFrontend">
                         <profile-frontend :np="np" v-bind="$props"></profile-frontend>
                     </template>
 
@@ -27,10 +28,11 @@
                     <template v-else>
                         <profile-backend-none></profile-backend-none>
                     </template>-->
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-12">
-                <profile-schedule :station-time-zone="stationTimeZone" :schedule-items="np.schedule"></profile-schedule>
+                <div class="col-lg-12">
+                    <profile-schedule :station-time-zone="stationTimeZone" :schedule-items="np.schedule"></profile-schedule>
+                </div>
             </div>
         </div>
     </div>

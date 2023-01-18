@@ -30,8 +30,8 @@
                     </template>-->
                     </div>
                 </div>
-                <div class="col-lg-12">
-                    <div class="row">
+                <div class="row">
+                    <div class="col-lg-12">
                         <profile-schedule :station-time-zone="stationTimeZone" :schedule-items="np.schedule"></profile-schedule>
                     </div>
                 </div>

@@ -54,7 +54,6 @@ return static function (App\Event\BuildStationMenu $e) {
                 'label' => __('Profile'),
                 'icon' => 'image',
                 'url' => $router->fromHere('stations:profile:index'),
-                'permission' => StationPermissions::spShowIt,
             ],
             /*'public' => [
                 'label' => __('Public Page'),
@@ -131,7 +130,6 @@ return static function (App\Event\BuildStationMenu $e) {
                 'url' => $router->fromHere('stations:podcasts:index'),
                 'visible' => StationFeatures::Podcasts->supportedForStation($station),
                 'permission' => StationPermissions::Podcasts,
-                'permission' => StationPermissions::spShowIt,
             ],
 
             /*'live_streaming' => [

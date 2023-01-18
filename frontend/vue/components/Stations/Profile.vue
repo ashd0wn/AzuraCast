@@ -31,7 +31,9 @@
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <profile-schedule :station-time-zone="stationTimeZone" :schedule-items="np.schedule"></profile-schedule>
+                    <div class="row">
+                        <profile-schedule :station-time-zone="stationTimeZone" :schedule-items="np.schedule"></profile-schedule>
+                    </div>
                 </div>
             </div>
         </div>

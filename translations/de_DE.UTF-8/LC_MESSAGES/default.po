@@ -3117,7 +3117,7 @@ msgstr "MaxMind Lizenzschlüssel"
 #: ./vue/components/Stations/Podcasts/EpisodeForm/Media.vue:26
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:66
 msgid "Media"
-msgstr "Medien"
+msgstr "Medienbibliothek"
 
 #: ./vue/components/Stations/BulkMedia.vue:64
 msgid "Media File"
@@ -7702,7 +7702,7 @@ msgstr "Doppelte Songs"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:83
 msgid "Unprocessable Files"
-msgstr "Unverarbeitbare Dateien"
+msgstr "Ungültige Dateien"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:89
 msgid "Unassigned Files"

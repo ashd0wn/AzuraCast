@@ -92,6 +92,10 @@ export default {
         historyKeepDaysOptions() {
             return [
                 {
+                    value: 1,
+                    text: this.$gettext('Last 24 Hours')
+                },
+                {
                     value: 14,
                     text: this.$gettext('Last 14 Days')
                 },

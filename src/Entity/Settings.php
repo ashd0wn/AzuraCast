@@ -151,7 +151,7 @@ class Settings implements Stringable
     #[
         OA\Property(description: "Days of Playback History to Keep"),
         ORM\Column(type: 'smallint'),
-        Assert\Choice([0, 14, 30, 60, 365, 730]),
+        Assert\Choice([0, 1, 14, 30, 60, 365, 730]),
         Groups(self::GROUP_GENERAL)
     ]
     protected int $history_keep_days = Entity\SongHistory::DEFAULT_DAYS_TO_KEEP;

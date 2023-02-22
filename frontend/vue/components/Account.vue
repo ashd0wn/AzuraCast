@@ -43,7 +43,7 @@
                     </div>
                 </section>
 
-                <section class="card" role="region">
+                <!--<section class="card" role="region">
                     <b-card-header header-bg-variant="primary-dark">
                         <h2 class="card-title">
                             <translate key="lang_hdr_security">Security</translate>
@@ -83,7 +83,7 @@
                             <translate key="lang_btn_enable_two_factor">Enable Two-Factor</translate>
                         </b-button>
                     </div>
-                </section>
+                </section>-->
             </b-col>
             <!--<b-col sm="12" md="6" lg="7">
                 <b-card no-body>

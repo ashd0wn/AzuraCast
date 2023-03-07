@@ -106,7 +106,7 @@
                 <div class="card-body py-3" v-if="stationsLoading">
                     &nbsp;
                 </div>
-                <table class="table table-striped table-responsive mb-0" id="station_dashboard" v-else>
+                <table class="table table-striped mb-0" id="station_dashboard" v-else>
                     <colgroup>
                         <col width="5%">
                         <col width="30%">

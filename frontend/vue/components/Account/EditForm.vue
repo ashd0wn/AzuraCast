@@ -7,13 +7,6 @@
                         <translate :key="lang">Name</translate>
                     </template>
                 </b-wrapped-form-group>
-
-                <b-wrapped-form-group class="col-md-6" id="form_email" :field="form.email">
-                    <template #label="{lang}">
-                        <translate :key="lang">E-mail Address</translate>
-                    </template>
-                    <b-form-input v-bind:value="form.email" v-bind:readonly="true"></b-form-input>
-                </b-wrapped-form-group>
             </b-form-row>
         </b-form-fieldset>
 

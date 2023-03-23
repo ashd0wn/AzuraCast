@@ -2,13 +2,13 @@
     <div>
         <b-form-fieldset>
             <b-form-row>
-                <!--<b-wrapped-form-group class="col-md-12" id="edit_form_name" :field="form.name">
+                <b-wrapped-form-group class="col-md-12" id="edit_form_name" :field="form.name">
                     <template #label="{lang}">
                         <translate :key="lang">Name</translate>
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group class="col-md-12" id="edit_form_description" :field="form.description"
+                <!--<b-wrapped-form-group class="col-md-12" id="edit_form_description" :field="form.description"
                                       input-type="textarea">
                     <template #label="{lang}">
                         <translate :key="lang">Description</translate>

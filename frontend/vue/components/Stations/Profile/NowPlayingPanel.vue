@@ -3,7 +3,7 @@
         <div class="card-header bg-primary-dark">
             <div class="d-flex align-items-center">
                 <h3 class="flex-shrink card-title my-0" key="lang_profile_nowplaying_onair" v-translate>On the Air</h3>
-                <h6 class="card-subtitle text-right flex-fill my-0" style="line-height: 1;">
+                <!--<h6 class="card-subtitle text-right flex-fill my-0" style="line-height: 1;">
                     <icon class="sm align-middle" icon="headset"></icon>
                     {{ langListeners }}
                     <br>
@@ -11,7 +11,7 @@
                         <span>{{ np.listeners.unique }}</span>
                         <translate key="lang_profile_nowplaying_unique">Unique</translate>
                     </small>
-                </h6>
+                </h6>-->
             </div>
         </div>
         <b-overlay variant="card" :show="np.loading">

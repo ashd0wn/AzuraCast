@@ -44,7 +44,7 @@
             </template>
         </section>
 
-        <section class="card mb-4" role="region" v-if="showCharts">
+        <!--<section class="card mb-4" role="region" v-if="showCharts">
             <div class="card-header bg-primary-dark d-flex align-items-center">
                 <div class="flex-fill">
                     <h3 class="card-title">
@@ -85,7 +85,7 @@
                     </b-tabs>
                 </b-overlay>
             </b-collapse>
-        </section>
+        </section>-->
 
         <section class="card" role="region">
             <div class="card-header bg-primary-dark d-flex flex-wrap align-items-center">

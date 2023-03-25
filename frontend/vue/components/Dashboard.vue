@@ -120,9 +120,9 @@
                         <th class="pl-2">
                             <translate key="lang_col_station_name">Station Name</translate>
                         </th>
-                        <!--<th class="text-center">
-                            <translate key="lang_col_listeners">Listeners</translate>
-                        </th>-->
+                        <th class="text-center">
+                            <!--<translate key="lang_col_listeners">Listeners</translate>-->
+                        </th>
                         <th>
                             <translate key="lang_col_now_playing">Now Playing</translate>
                         </th>
@@ -143,8 +143,8 @@
                                 </a>
                             </template>
                         </td>
-                        <!--<td class="text-center">
-                            <icon class="sm align-middle" icon="headset"></icon>
+                        <td class="text-center">
+                            <!--<icon class="sm align-middle" icon="headset"></icon>
                             <template v-if="item.links.listeners">
                                 <a :href="item.links.listeners">
                                     {{ item.listeners.total }}
@@ -152,8 +152,8 @@
                             </template>
                             <template v-else>
                                 {{ item.listeners.total }}
-                            </template>
-                        </td>-->
+                            </template>-->
+                        </td>
                         <td>
                             <div class="d-flex align-items-center">
                                 <album-art v-if="showAlbumArt" :src="item.now_playing.song.art"

@@ -44,7 +44,7 @@
             </template>
         </section>
 
-        <!--<section class="card mb-4" role="region" v-if="showCharts">
+        <section class="card mb-4" role="region" v-if="showCharts">
             <div class="card-header bg-primary-dark d-flex align-items-center">
                 <div class="flex-fill">
                     <h3 class="card-title">
@@ -85,7 +85,7 @@
                     </b-tabs>
                 </b-overlay>
             </b-collapse>
-        </section>-->
+        </section>
 
         <section class="card" role="region">
             <div class="card-header bg-primary-dark d-flex flex-wrap align-items-center">
@@ -120,9 +120,9 @@
                         <th class="pl-2">
                             <translate key="lang_col_station_name">Station Name</translate>
                         </th>
-                        <th class="text-center">
+                        <!--<th class="text-center">
                             <translate key="lang_col_listeners">Listeners</translate>
-                        </th>
+                        </th>-->
                         <th>
                             <translate key="lang_col_now_playing">Now Playing</translate>
                         </th>
@@ -143,7 +143,7 @@
                                 </a>
                             </template>
                         </td>
-                        <td class="text-center">
+                        <!--<td class="text-center">
                             <icon class="sm align-middle" icon="headset"></icon>
                             <template v-if="item.links.listeners">
                                 <a :href="item.links.listeners">
@@ -153,7 +153,7 @@
                             <template v-else>
                                 {{ item.listeners.total }}
                             </template>
-                        </td>
+                        </td>-->
                         <td>
                             <div class="d-flex align-items-center">
                                 <album-art v-if="showAlbumArt" :src="item.now_playing.song.art"

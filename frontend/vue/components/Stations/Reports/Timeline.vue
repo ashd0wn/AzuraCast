@@ -24,9 +24,9 @@
             <template #cell(datetime_station)="row">
                 {{ formatTimestampStation(row.item.played_at) }}
             </template>
-            <template #cell(listeners_start)="row">
+            <!--<template #cell(listeners_start)="row">
                 {{ row.item.listeners_start }}
-            </template>
+            </template>-->
             <template #cell(delta)="row">
                 <template v-if="row.item.delta_total > 0">
                     <big><span class="text-success">
@@ -110,7 +110,7 @@ export default {
                     selectable: true,
                     visible: false
                 },
-                {
+                /*{
                     key: 'listeners_start',
                     label: this.$gettext('Listeners'),
                     selectable: true,
@@ -121,7 +121,7 @@ export default {
                     label: this.$gettext('Change'),
                     selectable: true,
                     sortable: false
-                },
+                },*/
                 {
                     key: 'song',
                     isRowHeader: true,

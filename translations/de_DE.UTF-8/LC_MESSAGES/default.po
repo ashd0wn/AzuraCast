@@ -6295,12 +6295,12 @@ msgstr "Sie können eine benutzerdefinierte URL für den Stream festlegen, die v
 
 #: ./vue/components/Stations/SftpUsers.vue:44
 msgid "You may need to connect directly to your IP address:"
-msgstr "Möglicherweise musst du dich direkt mit der IP-Adresse verbinden:"
+msgstr "Möglicherweise müssen Sie sich direkt mit dieser IP-Adresse verbinden:"
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:19
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:46
 msgid "You may need to connect directly via your IP address:"
-msgstr "Möglicherweise musst du dich direkt mit der IP-Adresse verbinden:"
+msgstr "Möglicherweise müssen Sie sich direkt mit dieser IP-Adresse verbinden:"
 
 #: ./vue/components/Account/ApiKeyNewKey.vue:10
 msgid "You will not be able to retrieve it again."

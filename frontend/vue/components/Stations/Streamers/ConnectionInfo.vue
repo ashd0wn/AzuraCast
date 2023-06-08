@@ -14,13 +14,12 @@
                     <translate key="lang_connection_info_server">Server:</translate>
                 </dt>
                 <dd>
-                    <code>{{ connectionInfo.serverUrl }}</code>
+                    <code>{{ connectionInfo.serverUrlHostname }}</code>
                 </dd>
-                <dd v-if="connectionInfo.ip">
-                    <translate
-                        key="lang_connection_ip">You may need to connect directly via your IP address:</translate>
+                <!--<dd v-if="connectionInfo.ip">
+                    <translate key="lang_connection_ip">You may need to connect directly via your IP address:</translate>
                     <code>{{ connectionInfo.ip }}</code>
-                </dd>
+                </dd>-->
 
                 <dt class="mb-1">
                     <translate key="lang_connection_info_port">Port:</translate>
@@ -42,22 +41,21 @@
                     <translate key="lang_connection_info_server">Server:</translate>
                 </dt>
                 <dd>
-                    <code>{{ connectionInfo.serverUrl }}</code>
+                    <code>{{ connectionInfo.serverUrlHostname }}</code>
                 </dd>
-                <dd v-if="connectionInfo.ip">
-                    <translate
-                        key="lang_connection_ip">You may need to connect directly via your IP address:</translate>
+                <!--<dd v-if="connectionInfo.ip">
+                    <translate key="lang_connection_ip">You may need to connect directly via your IP address:</translate>
                     <code>{{ connectionInfo.ip }}</code>
-                </dd>
+                </dd>-->
 
                 <dt class="mb-1">
                     <translate key="lang_connection_info_port">Port:</translate>
                 </dt>
                 <dd><code>{{ connectionInfo.streamPort }}</code></dd>
-                <dd>
+                <!--<dd>
                     <translate key="lang_connection_info_legacy">For some clients, use port:</translate>
                     <code>{{ connectionInfo.streamPort + 1 }}</code>
-                </dd>
+                </dd>-->
 
                 <dt class="mb-1">
                     <translate key="lang_connection_info_password">Password:</translate>

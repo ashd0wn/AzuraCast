@@ -25,6 +25,12 @@ final class StreamersAction
     ): ResponseInterface {
         $station = $request->getStation();
 
+        $baseUrl = $request->getRouter()->getBaseUrl()
+            ->withScheme('sftp')
+            ->withPort(null);
+
+        $baseUrlReplaced = str_replace('sftp://', '', (string) $baseUrl);
+
         $settings = $this->settingsRepo->readSettings();
         $backendConfig = $station->getBackendConfig();
 
@@ -45,6 +51,7 @@ final class StreamersAction
                     'streamPort' => $backendConfig->getDjPort(),
                     'ip' => $this->acCentral->getIp(),
                     'djMountPoint' => $backendConfig->getDjMountPoint(),
+                    'serverUrlHostname' => (string) $baseUrlReplaced,
                 ],
             ]
         );

@@ -6022,7 +6022,7 @@ msgstr "Weniger Speicher verwenden (mehr CPU-Belastung)"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:32
 msgid "Use Liquidsoap on this server."
-msgstr "Verwenden Liquidsoap auf diesem Server."
+msgstr "Verwenden Sie Liquidsoap auf diesem Server."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:351
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1

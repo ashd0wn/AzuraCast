@@ -6,10 +6,10 @@
                     <translate key="lang_title">Song Playback Timeline</translate>
                 </h2>
                 <div class="flex-shrink">
-                    <a class="btn btn-bg" id="btn-export" :href="exportUrl" target="_blank">
+                    <!--<a class="btn btn-bg" id="btn-export" :href="exportUrl" target="_blank">
                         <icon icon="file_download"></icon>
                         <translate key="lang_download_csv_button">Download CSV</translate>
-                    </a>
+                    </a>-->
 
                     <date-range-dropdown time-picker v-model="dateRange" :tz="stationTimeZone"
                                          @update="relist"></date-range-dropdown>

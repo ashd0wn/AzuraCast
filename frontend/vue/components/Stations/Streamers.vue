@@ -40,10 +40,10 @@
                                     <b-button size="sm" variant="primary" @click.prevent="doEdit(row.item.links.self)">
                                         <translate key="lang_btn_edit">Edit</translate>
                                     </b-button>
-                                    <b-button size="sm" variant="default"
+                                    <!--<b-button size="sm" variant="default"
                                               @click.prevent="doShowBroadcasts(row.item.links.broadcasts)">
                                         <translate key="lang_btn_broadcasts">Broadcasts</translate>
-                                    </b-button>
+                                    </b-button>-->
                                     <b-button size="sm" variant="danger" @click.prevent="doDelete(row.item.links.self)">
                                         <translate key="lang_btn_delete">Delete</translate>
                                     </b-button>

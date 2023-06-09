@@ -2358,7 +2358,7 @@ msgstr "HTTP-Live-Streaming (HLS) ist eine neue Technologie mit adaptiver Bitrat
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:9
 msgid "Icecast Clients"
-msgstr "Icecast Clients"
+msgstr "Icecast Nutzer"
 
 #: ./vue/components/Admin/AuditLog.vue:22
 msgid "Identifier"
@@ -3271,7 +3271,7 @@ msgstr "Letztes Backup-Log"
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:29
 msgid "Mount Name:"
-msgstr "Mount-Name:"
+msgstr "Mountpoint:"
 
 #: ./vue/components/Stations/Mounts/Form/Advanced.vue:7
 #: ./vue/components/Stations/Mounts/Form/Advanced.vue:1

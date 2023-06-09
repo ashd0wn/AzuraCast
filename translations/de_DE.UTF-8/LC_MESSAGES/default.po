@@ -251,7 +251,7 @@ msgstr "Füge Speicherort hinzu"
 #: ./vue/components/Stations/Streamers.vue:20
 #: ./vue/components/Stations/Streamers/EditModal.vue:56
 msgid "Add Streamer"
-msgstr "Streamer hinzufügen"
+msgstr "DJ-Account hinzufügen"
 
 #: ./vue/components/Admin/Users.vue:10
 #: ./vue/components/Admin/Users/EditModal.vue:19
@@ -1616,7 +1616,7 @@ msgstr "Deaktiviert"
 
 #: ./vue/components/Stations/Profile/NowPlayingPanel.vue:110
 msgid "Disconnect Streamer"
-msgstr "Live-Streamer trennen"
+msgstr "DJ-Account trennen"
 
 #: ./vue/components/Stations/Webhooks/Form/Discord.vue:6
 #: ./vue/components/Stations/Webhooks/Form/Discord.vue:1
@@ -1861,7 +1861,7 @@ msgstr "Speicherort bearbeiten"
 
 #: ./vue/components/Stations/Streamers/EditModal.vue:55
 msgid "Edit Streamer"
-msgstr "Streamer bearbeiten"
+msgstr "DJ-Account bearbeiten"
 
 #: ./vue/components/Admin/Users/EditModal.vue:18
 msgid "Edit User"
@@ -4861,7 +4861,7 @@ msgstr "Reihenfolge der Songwiedergabe"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/TimelineAction.php:25
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:190
 msgid "Song Playback Timeline"
-msgstr "Song Historie"
+msgstr "Songhistorie"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:161
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:1
@@ -5148,12 +5148,12 @@ msgstr "Name des Streamers"
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:16
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:1
 msgid "Streamer password"
-msgstr "Streamer: Passwort"
+msgstr "Passwort"
 
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:7
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:1
 msgid "Streamer Username"
-msgstr "Streamer: Benutzername"
+msgstr "Benutzername"
 
 #: ./vue/components/Stations/Profile/SchedulePanel.vue:17
 #: ./vue/components/Stations/Profile/SchedulePanel.vue:1
@@ -5164,7 +5164,7 @@ msgstr "Live-Streamer/DJ"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/StreamersAction.php:37
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:140
 msgid "Streamer/DJ Accounts"
-msgstr "Live-Streamer/DJ Accounts"
+msgstr "DJ Accounts"
 
 #: ./vue/components/Admin/Stations/CloneModalForm.vue:37
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:215
@@ -7722,11 +7722,11 @@ msgstr "SoundExchange Lizenzgebühren"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:255
 msgid "Reload Configuration"
-msgstr "Konfiguration neu laden"
+msgstr "Konfiguration neuladen"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:263
 msgid "Restart Broadcasting"
-msgstr "Streamserver Neustarten"
+msgstr "Streamserver neustarten"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:16
 msgid "System Maintenance"

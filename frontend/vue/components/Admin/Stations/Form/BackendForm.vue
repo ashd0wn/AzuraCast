@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-form-fieldset>
+        <!--<b-form-fieldset>
             <b-form-row>
                 <b-wrapped-form-group class="col-md-12" id="edit_form_backend_type"
                                       :field="form.backend_type">
@@ -19,7 +19,7 @@
                     </template>
                 </b-wrapped-form-group>
             </b-form-row>
-        </b-form-fieldset>
+        </b-form-fieldset>-->
 
         <b-form-fieldset v-if="isBackendEnabled">
             <b-form-fieldset>
@@ -53,7 +53,7 @@
                         </template>
                     </b-wrapped-form-group>
                 </b-form-row>
-                <b-form-row>
+                <!--<b-form-row>
                     <b-wrapped-form-group class="col-md-12" id="edit_form_backend_config_audio_processing_method"
                                           :field="form.backend_config.audio_processing_method">
                         <template #label="{lang}">
@@ -70,7 +70,7 @@
                             </b-form-radio-group>
                         </template>
                     </b-wrapped-form-group>
-                </b-form-row>
+                </b-form-row>-->
             </b-form-fieldset>
 
             <!--<b-form-fieldset>
@@ -341,7 +341,7 @@
 
                             <b-wrapped-form-group class="col-md-6" id="edit_form_backend_dj_buffer"
                                                   :field="form.backend_config.dj_buffer" input-type="number"
-                                                  :input-attrs="{ min: '0', max: '60' }">
+                                                  :input-attrs="{ min: '0', max: '30' }">
                                 <template #label="{lang}">
                                     <translate :key="lang">DJ/Streamer Buffer Time (Seconds)</translate>
                                 </template>
@@ -414,11 +414,11 @@
                                 if the assigned port is in use. Leave blank to automatically assign a port.
                             </translate>
                         </template>
-                    </b-wrapped-form-group>
+                    </b-wrapped-form-group>-->
 
                     <b-wrapped-form-group class="col-md-6" id="edit_form_backend_autodj_queue_length"
                                           :field="form.backend_config.autodj_queue_length" input-type="number"
-                                          :input-attrs="{ min: '2', max: '25' }" advanced>
+                                          :input-attrs="{ min: '3', max: '20' }" advanced>
                         <template #label="{lang}">
                             <translate :key="lang">AutoDJ Queue Length</translate>
                         </template>
@@ -427,7 +427,7 @@
                                 automatically fill the queue.
                             </translate>
                         </template>
-                    </b-wrapped-form-group>-->
+                    </b-wrapped-form-group>
 
                     <b-wrapped-form-group class="col-md-6" id="edit_form_backend_charset"
                                           :field="form.backend_config.charset" advanced>

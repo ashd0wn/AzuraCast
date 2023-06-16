@@ -18,10 +18,10 @@
                                 <translate
                                     key="lang_backend_option_single_track">Only play one track at scheduled time.</translate>
                             </b-form-checkbox>
-                            <!--<b-form-checkbox value="merge">
+                            <b-form-checkbox value="merge">
                                 <translate
                                     key="lang_backend_option_merge">Merge playlist to play as a single track.</translate>
-                            </b-form-checkbox>-->
+                            </b-form-checkbox>
                         </b-form-checkbox-group>
                     </template>
                 </b-wrapped-form-group>

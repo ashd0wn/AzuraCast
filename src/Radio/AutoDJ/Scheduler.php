@@ -54,7 +54,9 @@ final class Scheduler
 
         switch ($playlist->getTypeEnum()) {
             case Entity\Enums\PlaylistTypes::OncePerHour:
-                $shouldPlay = $this->shouldPlaylistPlayNowPerHour($playlist, $now);
+                $playPerSongs = $playlist->getPlayPerSongs();
+                #$shouldPlay = $this->shouldPlaylistPlayNowPerHour($playlist, $now);
+                $shouldPlay = !$this->wasPlaylistPlayedRecentlyPerHour($playlist, $recentPlaylistHistory, $playPerSongs);
 
                 $this->logger->debug(
                     sprintf(
@@ -154,6 +156,44 @@ final class Scheduler
         return ($playedAt > $threshold);
     }
 
+    // Actually i cant update to latest stable until ill fixed any dependencies on my side.
+    // This will fix the jingle output which is simple not working when an jingle is used multiple times inside the same hour.
+    // Azura always says "HAS" been played. Makes no sense on jingle part.
+    // Lets check this later on newer version. For now and this version it will working.
+    private function wasPlaylistPlayedRecentlyPerHour(
+        Entity\StationPlaylist $playlist,
+        array $recentPlaylistHistory = [],
+        int $length = 5
+    ): bool {
+        if (empty($recentPlaylistHistory)) {
+            return false;
+        }
+
+        $playlistId = $playlist->getIdRequired();
+
+        // Only consider playlists that are this playlist or are non-jingles.
+        $relevantSongHistory = array_slice(
+            array_filter(
+                $recentPlaylistHistory,
+                static function ($row) use ($playlistId) {
+                    return $playlistId === $row['playlist_id']
+                        ? true
+                        : $row['is_visible'];
+                }
+            ),
+            0,
+            $length
+        );
+
+        foreach ($relevantSongHistory as $sh_row) {
+            if ($playlistId === (int) $sh_row['playlist_id']) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
     private function wasPlaylistPlayedRecently(
         Entity\StationPlaylist $playlist,
         array $recentPlaylistHistory = [],
@@ -180,7 +220,7 @@ final class Scheduler
         );
 
         foreach ($relevantSongHistory as $sh_row) {
-            if ($playlistId === (int)$sh_row['playlist_id']) {
+            if ($playlistId === (int) $sh_row['playlist_id']) {
                 return true;
             }
         }
@@ -238,7 +278,7 @@ final class Scheduler
     ): ?Entity\StationSchedule {
         if ($scheduleItems->count() > 0) {
             foreach ($scheduleItems as $scheduleItem) {
-                $scheduleName = (string)$scheduleItem;
+                $scheduleName = (string) $scheduleItem;
 
                 if ($this->shouldSchedulePlayNow($scheduleItem, $now)) {
                     $this->logger->debug(

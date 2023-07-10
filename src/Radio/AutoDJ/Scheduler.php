@@ -163,7 +163,7 @@ final class Scheduler
     private function wasPlaylistPlayedRecentlyPerHour(
         Entity\StationPlaylist $playlist,
         array $recentPlaylistHistory = [],
-        int $length = 5
+        int $length = 3
     ): bool {
         if (empty($recentPlaylistHistory)) {
             return false;

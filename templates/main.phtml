@@ -72,7 +72,7 @@ endif; ?>">
     endif; ?>
 
     <a class="navbar-brand ml-0 mr-auto" href="<?= $router->named('dashboard') ?>">
-        azura<strong>cast</strong> <?php
+        <?php
         if (!empty($customization->getInstanceName())): ?>
             <small><?= $this->e($customization->getInstanceName()) ?></small><?php
         endif; ?>
@@ -120,13 +120,13 @@ endif; ?>">
                     <?= __('Switch Theme') ?>
                 </a>
             </li>
-            <li>
+            <!--<li>
                 <a class="dropdown-item" href="https://docs.azuracast.com/en/user-guide/troubleshooting"
                    target="_blank">
                     <i class="material-icons" aria-hidden="true">help</i>
                     <?= __('Help') ?>
                 </a>
-            </li>
+            </li>-->
             <li class="dropdown-divider">&nbsp;</li>
             <?php
             if ($auth->isMasqueraded()): ?>

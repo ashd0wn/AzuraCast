@@ -76,6 +76,7 @@ return static function (App\Event\BuildStationMenu $e) {
                 'url' => $router->named('public:index', ['station_id' => $station->getShortName()]),
                 'external' => true,
                 'visible' => $station->getEnablePublicPage(),
+                'permission' => StationPermissions::spShowIt,
             ],
             'media' => [
                 'label' => __('Media'),
@@ -120,6 +121,7 @@ return static function (App\Event\BuildStationMenu $e) {
                         'label' => __('Bulk Media Import/Export'),
                         'url' => $router->fromHere('stations:bulk-media'),
                         'permission' => StationPermissions::Media,
+                        'permission' => StationPermissions::spShowIt,
                     ],
                 ],
             ],
@@ -164,6 +166,7 @@ return static function (App\Event\BuildStationMenu $e) {
                         )->withScheme('https')
                         ),
                         'visible' => $station->getEnablePublicPage(),
+                        'permission' => StationPermissions::spShowIt,
                         'external' => true,
                     ],
                 ],
@@ -175,6 +178,7 @@ return static function (App\Event\BuildStationMenu $e) {
                 'url' => $router->fromHere('stations:webhooks:index'),
                 'visible' => StationFeatures::Webhooks->supportedForStation($station),
                 'permission' => StationPermissions::WebHooks,
+                'permission' => StationPermissions::spShowIt,
             ],
 
             'reports' => [
@@ -185,10 +189,12 @@ return static function (App\Event\BuildStationMenu $e) {
                     'reports_overview' => [
                         'label' => __('Station Statistics'),
                         'url' => $router->fromHere('stations:reports:overview'),
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'reports_listeners' => [
                         'label' => __('Listeners'),
                         'url' => $router->fromHere('stations:reports:listeners'),
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'reports_requests' => [
                         'label' => __('Song Requests'),
@@ -202,6 +208,7 @@ return static function (App\Event\BuildStationMenu $e) {
                     'reports_soundexchange' => [
                         'label' => __('SoundExchange Royalties'),
                         'url' => $router->fromHere('stations:reports:soundexchange'),
+                        'permission' => StationPermissions::spShowIt,
                     ],
                 ],
             ],
@@ -216,12 +223,14 @@ return static function (App\Event\BuildStationMenu $e) {
                         'url' => $router->fromHere('stations:mounts:index'),
                         'visible' => StationFeatures::MountPoints->supportedForStation($station),
                         'permission' => StationPermissions::MountPoints,
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'hls_streams' => [
                         'label' => __('HLS Streams'),
                         'url' => $router->fromHere('stations:hls_streams:index'),
                         'visible' => StationFeatures::HlsStreams->supportedForStation($station),
                         'permission' => StationPermissions::MountPoints,
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'remotes' => [
                         'label' => __('Remote Relays'),
@@ -229,18 +238,21 @@ return static function (App\Event\BuildStationMenu $e) {
                         'url' => $router->fromHere('stations:remotes:index'),
                         'visible' => StationFeatures::RemoteRelays->supportedForStation($station),
                         'permission' => StationPermissions::RemoteRelays,
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'fallback' => [
                         'label' => __('Custom Fallback File'),
                         'url' => $router->fromHere('stations:fallback'),
                         'visible' => StationFeatures::Media->supportedForStation($station),
                         'permission' => StationPermissions::Broadcasting,
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'ls_config' => [
                         'label' => __('Edit Liquidsoap Configuration'),
                         'url' => $router->fromHere('stations:util:ls_config'),
                         'visible' => StationFeatures::CustomLiquidsoapConfig->supportedForStation($station),
                         'permission' => StationPermissions::Broadcasting,
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'stations:stereo_tool_config' => [
                         'label' => __('Upload Stereo Tool Configuration'),
@@ -249,6 +261,7 @@ return static function (App\Event\BuildStationMenu $e) {
                             && StationFeatures::Media->supportedForStation($station)
                             && AudioProcessingMethods::StereoTool === $backendConfig->getAudioProcessingMethodEnum(),
                         'permission' => StationPermissions::Broadcasting,
+                        'permission' => StationPermissions::spShowIt,
                     ],
                     'queue' => [
                         'label' => __('Upcoming Song Queue'),
@@ -280,6 +293,7 @@ return static function (App\Event\BuildStationMenu $e) {
                 'icon' => 'web_stories',
                 'url' => $router->fromHere('stations:logs'),
                 'permission' => StationPermissions::Logs,
+                'permission' => StationPermissions::spShowIt,
             ],
         ]
     );

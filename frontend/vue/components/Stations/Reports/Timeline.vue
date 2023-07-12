@@ -6,7 +6,7 @@
                     {{ $gettext('Song Playback Timeline') }}
                 </h2>
                 <div class="flex-shrink buttons">
-                    <a
+                    <!--<a
                         id="btn-export"
                         class="btn btn-bg"
                         :href="exportUrl"
@@ -14,7 +14,7 @@
                     >
                         <icon icon="file_download" />
                         {{ $gettext('Download CSV') }}
-                    </a>
+                    </a>-->
 
                     <date-range-dropdown
                         v-model="dateRange"
@@ -145,7 +145,7 @@ const fields = [
             );
         }
     },
-    {
+    /*{
         key: 'listeners_start',
         label: $gettext('Listeners'),
         selectable: true,
@@ -156,7 +156,7 @@ const fields = [
         label: $gettext('Change'),
         selectable: true,
         sortable: false
-    },
+    },*/
     {
         key: 'song',
         isRowHeader: true,

@@ -21,12 +21,12 @@
                     {{ $gettext('Server:') }}
                 </dt>
                 <dd>
-                    <code>{{ connectionInfo.serverUrl }}</code>
+                    <code>{{ connectionInfo.serverUrlHostname }}</code>
                 </dd>
-                <dd v-if="connectionInfo.ip">
+                <!--<dd v-if="connectionInfo.ip">
                     {{ $gettext('You may need to connect directly via your IP address:') }}
                     <code>{{ connectionInfo.ip }}</code>
-                </dd>
+                </dd>-->
 
                 <dt class="mb-1">
                     {{ $gettext('Port:') }}
@@ -48,21 +48,21 @@
                     {{ $gettext('Server:') }}
                 </dt>
                 <dd>
-                    <code>{{ connectionInfo.serverUrl }}</code>
+                    <code>{{ connectionInfo.serverUrlHostname }}</code>
                 </dd>
-                <dd v-if="connectionInfo.ip">
+                <!--<dd v-if="connectionInfo.ip">
                     {{ $gettext('You may need to connect directly via your IP address:') }}
                     <code>{{ connectionInfo.ip }}</code>
-                </dd>
+                </dd>-->
 
                 <dt class="mb-1">
                     {{ $gettext('Port:') }}
                 </dt>
                 <dd><code>{{ connectionInfo.streamPort }}</code></dd>
-                <dd>
+                <!--<dd>
                     {{ $gettext('For some clients, use port:') }}
                     <code>{{ connectionInfo.streamPort + 1 }}</code>
-                </dd>
+                </dd>-->
 
                 <dt class="mb-1">
                     {{ $gettext('Password:') }}
@@ -74,7 +74,7 @@
                 </dd>
             </dl>
         </div>
-        <div class="card-body">
+        <!--<div class="card-body">
             <p class="card-text">
                 {{ $gettext('Setup instructions for broadcasting software are available on the AzuraCast wiki.') }}
                 <br>
@@ -85,7 +85,7 @@
                     {{ $gettext('AzuraCast Wiki') }}
                 </a>
             </p>
-        </div>
+        </div>-->
     </section>
 </template>
 

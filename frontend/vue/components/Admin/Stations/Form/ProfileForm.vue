@@ -11,7 +11,7 @@
                 </template>
             </b-wrapped-form-group>
 
-            <b-wrapped-form-group
+            <!--<b-wrapped-form-group
                 id="edit_form_description"
                 class="col-md-12"
                 :field="form.description"
@@ -46,7 +46,7 @@
                         $gettext('Note: This should be the public-facing homepage of the radio station, not the AzuraCast URL. It will be included in broadcast details.')
                     }}
                 </template>
-            </b-wrapped-form-group>
+            </b-wrapped-form-group>-->
 
             <b-wrapped-form-group
                 id="edit_form_timezone"
@@ -70,7 +70,7 @@
                 </template>
             </b-wrapped-form-group>
 
-            <b-wrapped-form-group
+            <!--<b-wrapped-form-group
                 v-if="showAdvanced"
                 id="edit_form_short_name"
                 class="col-md-6"
@@ -109,11 +109,11 @@
                         :options="historyItemsOptions"
                     />
                 </template>
-            </b-wrapped-form-group>
+            </b-wrapped-form-group>-->
         </div>
     </b-form-fieldset>
 
-    <b-form-fieldset>
+    <!--<b-form-fieldset>
         <template #label>
             {{ $gettext('Public Pages') }}
         </template>
@@ -171,7 +171,7 @@
                 </template>
             </b-wrapped-form-checkbox>
         </div>
-    </b-form-fieldset>
+    </b-form-fieldset>-->
 </template>
 
 <script setup>

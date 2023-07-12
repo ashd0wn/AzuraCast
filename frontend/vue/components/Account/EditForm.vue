@@ -11,7 +11,7 @@
                 </template>
             </b-wrapped-form-group>
 
-            <b-wrapped-form-group
+            <!--<b-wrapped-form-group
                 id="form_email"
                 class="col-md-6"
                 :field="form.email"
@@ -19,7 +19,7 @@
                 <template #label>
                     {{ $gettext('E-mail Address') }}
                 </template>
-            </b-wrapped-form-group>
+            </b-wrapped-form-group>-->
         </div>
     </b-form-fieldset>
 

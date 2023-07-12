@@ -27,8 +27,8 @@ class Station_MediaCest extends CestAbstract
 
         $I->seeResponseContainsJson(
             [
-                'title' => 'AzuraCast is Live!',
-                'artist' => 'AzuraCast.com',
+                'title' => 'AutoDJ is Live!',
+                'artist' => '-',
             ]
         );
 
@@ -36,7 +36,7 @@ class Station_MediaCest extends CestAbstract
 
         $I->seeResponseContainsJson(
             [
-                'text' => 'AzuraCast.com - AzuraCast is Live!',
+                'text' => 'AutoDJ is Live!',
             ]
         );
 

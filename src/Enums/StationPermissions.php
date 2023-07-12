@@ -19,6 +19,7 @@ enum StationPermissions: string implements PermissionInterface
     case Automation = 'manage station automation';
     case WebHooks = 'manage station web hooks';
     case Podcasts = 'manage station podcasts';
+    case spShowIt = 'show not needed items';
 
     public function getName(): string
     {
@@ -36,6 +37,7 @@ enum StationPermissions: string implements PermissionInterface
             self::Automation => __('Manage Station Automation'),
             self::WebHooks => __('Manage Station Web Hooks'),
             self::Podcasts => __('Manage Station Podcasts'),
+            self::spShowIt => __('Show not needed Items'),
         };
     }
 

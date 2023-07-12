@@ -50,12 +50,12 @@
                                     {{ $gettext('A playlist containing media files hosted on this server.') }}
                                 </span>
                             </b-form-radio>
-                            <b-form-radio value="remote_url">
+                            <!--<b-form-radio value="remote_url">
                                 {{ $gettext('Remote URL') }}
                                 <span class="form-text mt-0">
                                     {{ $gettext('A playlist that instructs the station to play from a remote URL.') }}
                                 </span>
-                            </b-form-radio>
+                            </b-form-radio>-->
                         </b-form-radio-group>
                     </template>
                 </b-wrapped-form-group>
@@ -90,7 +90,7 @@
                             </template>
                         </b-wrapped-form-checkbox>
 
-                        <b-wrapped-form-checkbox
+                        <!--<b-wrapped-form-checkbox
                             id="form_edit_include_in_on_demand"
                             class="col-md-6"
                             :field="form.include_in_on_demand"
@@ -103,7 +103,7 @@
                                     $gettext('If this station has on-demand streaming and downloading enabled, only songs that are in playlists with this setting enabled will be visible.')
                                 }}
                             </template>
-                        </b-wrapped-form-checkbox>
+                        </b-wrapped-form-checkbox>-->
 
                         <b-wrapped-form-group
                             id="form_edit_include_in_requests"
@@ -183,7 +183,7 @@
                                             {{ $gettext('Play once per hour at the specified minute.') }}
                                         </span>
                                     </b-form-radio>
-                                    <b-form-radio value="custom">
+                                    <!--<b-form-radio value="custom">
                                         {{ $gettext('Advanced') }}
                                         <span class="form-text mt-0">
                                             {{ $gettext('Manually define how this playlist is used in Liquidsoap configuration.') }}
@@ -194,7 +194,7 @@
                                                 {{ $gettext('Learn about Advanced Playlists') }}
                                             </a>
                                         </span>
-                                    </b-form-radio>
+                                    </b-form-radio>-->
                                 </b-form-radio-group>
                             </template>
                         </b-wrapped-form-group>

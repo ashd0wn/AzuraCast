@@ -137,6 +137,10 @@ const {$gettext} = useTranslate();
 const historyKeepDaysOptions = computed(() => {
     return [
         {
+            value: 1,
+            text: $gettext('Last 24 Hours')
+        },
+        {
             value: 14,
             text: $gettext('Last 14 Days')
         },

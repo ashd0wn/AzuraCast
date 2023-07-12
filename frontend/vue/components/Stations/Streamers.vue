@@ -78,13 +78,13 @@
                                     >
                                         {{ $gettext('Edit') }}
                                     </b-button>
-                                    <b-button
+                                    <!--<b-button
                                         size="sm"
                                         variant="default"
                                         @click.prevent="doShowBroadcasts(row.item.links.broadcasts)"
                                     >
                                         {{ $gettext('Broadcasts') }}
-                                    </b-button>
+                                    </b-button>-->
                                     <b-button
                                         size="sm"
                                         variant="danger"
@@ -165,7 +165,7 @@ const props = defineProps({
 const {$gettext} = useTranslate();
 
 const fields = [
-    {key: 'art', label: $gettext('Art'), sortable: false, class: 'shrink pr-0'},
+    //{key: 'art', label: $gettext('Art'), sortable: false, class: 'shrink pr-0'},
     {key: 'display_name', label: $gettext('Display Name'), sortable: true},
     {key: 'streamer_username', isRowHeader: true, label: $gettext('Username'), sortable: true},
     {key: 'comments', label: $gettext('Notes'), sortable: false},

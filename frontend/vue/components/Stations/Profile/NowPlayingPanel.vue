@@ -13,7 +13,7 @@
                 >
                     {{ $gettext('On the Air') }}
                 </h3>
-                <h6
+                <!--<h6
                     class="card-subtitle text-right flex-fill my-0"
                     style="line-height: 1;"
                 >
@@ -38,7 +38,7 @@
                     :title="$gettext('Listener Report')"
                 >
                     <icon icon="assignment" />
-                </a>
+                </a>-->
             </div>
         </div>
         <b-overlay

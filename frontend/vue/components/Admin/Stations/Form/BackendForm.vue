@@ -1,5 +1,5 @@
 <template>
-    <b-form-fieldset>
+    <!--<b-form-fieldset>
         <div class="form-row">
             <b-wrapped-form-group
                 id="edit_form_backend_type"
@@ -24,7 +24,7 @@
                 </template>
             </b-wrapped-form-group>
         </div>
-    </b-form-fieldset>
+    </b-form-fieldset>-->
 
     <b-form-fieldset v-if="isBackendEnabled">
         <b-form-fieldset>
@@ -80,7 +80,7 @@
                     }}
                 </template>
 
-                <b-form-fieldset>
+                <!--<b-form-fieldset>
                     <div class="form-row">
                         <b-wrapped-form-group
                             id="edit_form_backend_config_audio_processing_method"
@@ -122,7 +122,7 @@
                             </b-wrapped-form-checkbox>
                         </template>
                     </div>
-                </b-form-fieldset>
+                </b-form-fieldset>-->
 
                 <b-form-fieldset v-if="isMasterMeEnabled">
                     <b-form-markup id="master_me_info">
@@ -248,7 +248,7 @@
             </template>
 
             <div class="form-row">
-                <b-wrapped-form-checkbox
+                <!--<b-wrapped-form-checkbox
                     id="edit_form_backend_use_manual_autodj"
                     class="col-md-6"
                     :field="form.backend_config.use_manual_autodj"
@@ -262,7 +262,7 @@
                             $gettext('This mode disables AzuraCast\'s AutoDJ management, using Liquidsoap itself to manage song playback. "Next Song" and some other features will not be available.')
                         }}
                     </template>
-                </b-wrapped-form-checkbox>
+                </b-wrapped-form-checkbox>-->
 
                 <b-wrapped-form-checkbox
                     id="edit_form_backend_enable_replaygain_metadata"
@@ -280,7 +280,7 @@
                     </template>
                 </b-wrapped-form-checkbox>
 
-                <b-wrapped-form-group
+                <!--<b-wrapped-form-group
                     id="edit_form_backend_telnet_port"
                     class="col-md-6"
                     :field="form.backend_config.telnet_port"
@@ -296,7 +296,7 @@
                             $gettext('This port is not used by any external process. Only modify this port if the assigned port is in use. Leave blank to automatically assign a port.')
                         }}
                     </template>
-                </b-wrapped-form-group>
+                </b-wrapped-form-group>-->
 
                 <b-wrapped-form-group
                     id="edit_form_backend_autodj_queue_length"
@@ -340,7 +340,7 @@
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group
+                <!--<b-wrapped-form-group
                     id="edit_form_backend_performance_mode"
                     class="col-md-6"
                     :field="form.backend_config.performance_mode"
@@ -362,7 +362,7 @@
                             :options="performanceModeOptions"
                         />
                     </template>
-                </b-wrapped-form-group>
+                </b-wrapped-form-group>-->
 
                 <b-wrapped-form-group
                     id="edit_form_backend_duplicate_prevention_time_range"

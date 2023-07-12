@@ -4,11 +4,11 @@
             <label>
                 {{ $gettext('Not Scheduled') }}
             </label>
-            <p>
+            <!--<p>
                 {{
                     $gettext('This playlist currently has no scheduled times. It will play at all times. To add a new scheduled time, click the button below.')
                 }}
-            </p>
+            </p>-->
         </b-form-group>
 
         <playlists-form-schedule-row

@@ -19,17 +19,17 @@
                     :schedule-items="profileInfo.schedule"
                 />
 
-                <profile-streams
+                <!--<profile-streams
                     :station="profileInfo.station"
-                />
+                />-->
             </template>
             <template v-else>
                 <now-playing-not-started-panel />
             </template>
 
-            <profile-public-pages
+            <!--<profile-public-pages
                 v-bind="pickProps(props, {...publicPagesPanelProps,...embedModalProps})"
-            />
+            />-->
         </div>
 
         <div class="col-lg-5">
@@ -43,7 +43,7 @@
                 v-bind="pickProps(props, streamersPanelProps)"
             />
 
-            <template v-if="hasActiveFrontend">
+            <!--<template v-if="hasActiveFrontend">
                 <profile-frontend
                     v-bind="pickProps(props, frontendPanelProps)"
                     :frontend-running="profileInfo.services.frontend_running"
@@ -58,7 +58,7 @@
             </template>
             <template v-else>
                 <profile-backend-none />
-            </template>
+            </template>-->
         </div>
     </div>
 </template>

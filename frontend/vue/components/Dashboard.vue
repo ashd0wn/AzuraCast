@@ -179,7 +179,7 @@
                 <table
                     v-else
                     id="station_dashboard"
-                    class="table table-striped table-responsive mb-0"
+                    class="table table-striped mb-0"
                 >
                     <colgroup>
                         <col width="5%">
@@ -197,7 +197,7 @@
                                 {{ $gettext('Station Name') }}
                             </th>
                             <th class="text-center">
-                                {{ $gettext('Listeners') }}
+                                <!--{{ $gettext('Listeners') }}-->
                             </th>
                             <th>{{ $gettext('Now Playing') }}</th>
                             <th class="text-right" />
@@ -231,7 +231,7 @@
                                 </div>
                             </td>
                             <td class="text-center">
-                                <span class="pr-1">
+                                <!--<span class="pr-1">
                                     <icon
                                         class="sm align-middle"
                                         icon="headset"
@@ -247,7 +247,7 @@
                                 </template>
                                 <template v-else>
                                     {{ item.listeners.total }}
-                                </template>
+                                </template>-->
                             </td>
                             <td>
                                 <div class="d-flex align-items-center">

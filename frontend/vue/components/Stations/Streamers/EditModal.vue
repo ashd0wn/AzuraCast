@@ -18,12 +18,12 @@
                 :form="v$"
                 :station-time-zone="stationTimeZone"
             />
-            <form-artwork
+            <!--<form-artwork
                 v-model="v$.artwork_file.$model"
                 :artwork-src="record.links.art"
                 :new-art-url="newArtUrl"
                 :edit-art-url="record.links.art"
-            />
+            />-->
         </b-tabs>
     </modal-form>
 </template>

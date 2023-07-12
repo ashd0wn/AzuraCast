@@ -81,7 +81,7 @@
                     </div>
                 </section>
 
-                <section
+                <!--<section
                     class="card"
                     role="region"
                     aria-labelledby="hdr_security"
@@ -138,9 +138,9 @@
                             {{ $gettext('Enable Two-Factor') }}
                         </b-button>
                     </div>
-                </section>
+                </section>-->
             </div>
-            <div class="col-sm-12 col-md-6 col-lg-7">
+            <!--<div class="col-sm-12 col-md-6 col-lg-7">
                 <section
                     class="card"
                     role="region"
@@ -197,7 +197,7 @@
                         </template>
                     </data-table>
                 </section>
-            </div>
+            </div>-->
         </div>
 
         <account-edit-modal

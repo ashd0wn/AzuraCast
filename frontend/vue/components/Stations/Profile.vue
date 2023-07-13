@@ -64,16 +64,11 @@
 </template>
 
 <script setup>
-import ProfileStreams from './Profile/StreamsPanel';
 import ProfileHeader from './Profile/HeaderPanel';
 import ProfileNowPlaying from './Profile/NowPlayingPanel';
 import ProfileSchedule from './Profile/SchedulePanel';
 import ProfileRequests from './Profile/RequestsPanel';
 import ProfileStreamers from './Profile/StreamersPanel';
-import ProfilePublicPages from './Profile/PublicPagesPanel';
-import ProfileFrontend from './Profile/FrontendPanel';
-import ProfileBackendNone from './Profile/BackendNonePanel';
-import ProfileBackend from './Profile/BackendPanel';
 import NowPlayingNotStartedPanel from "./Profile/NowPlayingNotStartedPanel.vue";
 import {BACKEND_NONE, FRONTEND_REMOTE} from '~/components/Entity/RadioAdapters';
 import NowPlaying from '~/components/Entity/NowPlaying';
@@ -116,14 +111,6 @@ const props = defineProps({
         type: Boolean,
         required: true
     }
-});
-
-const hasActiveFrontend = computed(() => {
-    return props.frontendType !== FRONTEND_REMOTE;
-});
-
-const hasActiveBackend = computed(() => {
-    return props.backendType !== BACKEND_NONE;
 });
 
 const {axios} = useAxios();

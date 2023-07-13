@@ -437,24 +437,7 @@ const isMasterMeEnabled = computed(() => {
     return props.form.backend_config.audio_processing_method.$model === AUDIO_PROCESSING_MASTER_ME;
 });
 
-const isPostProcessingEnabled = computed(() => {
-    return props.form.backend_config.audio_processing_method.$model !== AUDIO_PROCESSING_NONE;
-});
-
 const {$gettext} = useTranslate();
-
-const backendTypeOptions = computed(() => {
-    return [
-        {
-            text: $gettext('Use Liquidsoap on this server.'),
-            value: BACKEND_LIQUIDSOAP
-        },
-        {
-            text: $gettext('Do not use an AutoDJ service.'),
-            value: BACKEND_NONE
-        }
-    ];
-});
 
 const crossfadeOptions = computed(() => {
     return [
@@ -471,34 +454,6 @@ const crossfadeOptions = computed(() => {
             value: 'none',
         }
     ];
-});
-
-const audioProcessingOptions = computed(() => {
-    const audioProcessingOptions = [
-        {
-            text: $gettext('No Post-processing'),
-            value: AUDIO_PROCESSING_NONE,
-        },
-        {
-            text: $gettext('Basic Normalization and Compression'),
-            value: AUDIO_PROCESSING_LIQUIDSOAP,
-        },
-        {
-            text: $gettext('Master_me Post-processing'),
-            value: AUDIO_PROCESSING_MASTER_ME,
-        },
-    ];
-
-    if (props.isStereoToolInstalled) {
-        audioProcessingOptions.push(
-            {
-                text: $gettext('Stereo Tool'),
-                value: AUDIO_PROCESSING_STEREO_TOOL,
-            }
-        )
-    }
-
-    return audioProcessingOptions;
 });
 
 const charsetOptions = computed(() => {
@@ -531,26 +486,5 @@ const masterMePresetOptions = computed(() => {
             value: MASTER_ME_PRESET_YOUTUBE
         }
     ]
-});
-
-const performanceModeOptions = computed(() => {
-    return [
-        {
-            text: $gettext('Use Less Memory (Uses More CPU)'),
-            value: 'less_memory'
-        },
-        {
-            text: $gettext('Balanced'),
-            value: 'balanced'
-        },
-        {
-            text: $gettext('Use Less CPU (Uses More Memory)'),
-            value: 'less_cpu'
-        },
-        {
-            text: $gettext('Disable Optimizations'),
-            value: 'disabled'
-        }
-    ];
 });
 </script>

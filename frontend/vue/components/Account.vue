@@ -229,14 +229,11 @@
 
 <script setup>
 import Icon from "~/components/Common/Icon";
-import DataTable from "~/components/Common/DataTable";
 import AccountChangePasswordModal from "./Account/ChangePasswordModal";
 import AccountApiKeyModal from "./Account/ApiKeyModal";
 import AccountTwoFactorModal from "./Account/TwoFactorModal";
 import AccountEditModal from "./Account/EditModal";
 import Avatar from "~/components/Common/Avatar";
-import InfoCard from "~/components/Common/InfoCard";
-import EnabledBadge from "~/components/Common/Badges/EnabledBadge.vue";
 import {ref} from "vue";
 import {useTranslate} from "~/vendor/gettext";
 import {useAxios} from "~/vendor/axios";
@@ -284,33 +281,7 @@ const {state: user, isLoading: userLoading, execute: reloadUser} = useRefreshabl
     },
 );
 
-const {state: security, isLoading: securityLoading, execute: reloadSecurity} = useRefreshableAsyncState(
-    () => axios.get(props.twoFactorUrl).then((r) => {
-        return {
-            twoFactorEnabled: r.data.two_factor_enabled
-        };
-    }),
-    {
-        twoFactorEnabled: false,
-    },
-);
-
 const {$gettext} = useTranslate();
-
-const apiKeyFields = [
-    {
-        key: 'comment',
-        isRowHeader: true,
-        label: $gettext('API Key Description/Comments'),
-        sortable: false
-    },
-    {
-        key: 'actions',
-        label: $gettext('Actions'),
-        sortable: false,
-        class: 'shrink'
-    }
-];
 
 const $dataTable = ref(); // DataTable
 
@@ -332,30 +303,12 @@ const doEditProfile = () => {
 
 const $changePasswordModal = ref(); // ChangePasswordModal
 
-const doChangePassword = () => {
-    $changePasswordModal.value?.open();
-};
-
 const $twoFactorModal = ref(); // TwoFactorModal
-
-const enableTwoFactor = () => {
-    $twoFactorModal.value?.open();
-};
 
 const {doDelete: doDisableTwoFactor} = useConfirmAndDelete(
     $gettext('Disable two-factor authentication?'),
     relist
 );
-const disableTwoFactor = () => doDisableTwoFactor(props.twoFactorUrl);
 
 const $apiKeyModal = ref(); // ApiKeyModal
-
-const createApiKey = () => {
-    $apiKeyModal.value?.create();
-};
-
-const {doDelete: deleteApiKey} = useConfirmAndDelete(
-    $gettext('Delete API Key?'),
-    relist
-);
 </script>

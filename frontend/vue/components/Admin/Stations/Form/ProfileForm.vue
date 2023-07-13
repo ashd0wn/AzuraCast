@@ -178,7 +178,6 @@
 import BFormFieldset from "~/components/Form/BFormFieldset.vue";
 import BWrappedFormGroup from "~/components/Form/BWrappedFormGroup.vue";
 import objectToFormOptions from "~/functions/objectToFormOptions";
-import BWrappedFormCheckbox from "~/components/Form/BWrappedFormCheckbox.vue";
 import {computed} from "vue";
 import {useTranslate} from "~/vendor/gettext";
 
@@ -202,17 +201,4 @@ const timezoneOptions = computed(() => {
 });
 
 const {$gettext} = useTranslate();
-
-const historyItemsOptions = computed(() => {
-    return [
-        {
-            text: $gettext('Disabled'),
-            value: 0,
-        },
-        {text: '1', value: 1},
-        {text: '5', value: 5},
-        {text: '10', value: 10},
-        {text: '15', value: 15}
-    ];
-});
 </script>

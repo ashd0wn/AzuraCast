@@ -184,10 +184,6 @@ const doCalendarClick = (event) => {
 
 const $broadcastsModal = ref(); // Template Ref
 
-const doShowBroadcasts = (url) => {
-    $broadcastsModal.value.open(url);
-};
-
 const {doDelete} = useConfirmAndDelete(
     $gettext('Delete Streamer?'),
     relist

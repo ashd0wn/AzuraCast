@@ -32,7 +32,6 @@
 import {required} from '@vuelidate/validators';
 import FormBasicInfo from './Form/BasicInfo';
 import FormSchedule from './Form/Schedule';
-import FormArtwork from './Form/Artwork';
 import mergeExisting from "~/functions/mergeExisting";
 import {baseEditModalProps, useBaseEditModal} from "~/functions/useBaseEditModal";
 import {computed, ref} from "vue";

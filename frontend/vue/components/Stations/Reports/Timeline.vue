@@ -182,15 +182,6 @@ const apiUrl = computed(() => {
     return apiUrl.toString();
 });
 
-const exportUrl = computed(() => {
-    let exportUrl = new URL(apiUrl.value, document.location);
-    let exportUrlParams = exportUrl.searchParams;
-
-    exportUrlParams.set('format', 'csv');
-
-    return exportUrl.toString();
-});
-
 const abs = (val) => {
     return Math.abs(val);
 };

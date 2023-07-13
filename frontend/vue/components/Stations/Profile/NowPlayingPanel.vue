@@ -229,15 +229,6 @@ const {
 
 const {$ngettext} = useTranslate();
 
-const langListeners = computed(() => {
-    return $ngettext(
-        '%{listeners} Listener',
-        '%{listeners} Listeners',
-        np.value?.listeners?.total ?? 0,
-        {listeners: np.value?.listeners?.total ?? 0}
-    );
-});
-
 const isLiquidsoap = computed(() => {
     return props.backendType === BACKEND_LIQUIDSOAP;
 });

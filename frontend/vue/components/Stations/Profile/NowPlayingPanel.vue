@@ -213,7 +213,6 @@
 import {BACKEND_LIQUIDSOAP} from '~/components/Entity/RadioAdapters';
 import Icon from '~/components/Common/Icon';
 import {computed} from "vue";
-import {useTranslate} from "~/vendor/gettext";
 import nowPlayingPanelProps from "~/components/Stations/Profile/nowPlayingPanelProps";
 import useNowPlaying from "~/functions/useNowPlaying";
 

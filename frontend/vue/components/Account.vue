@@ -237,7 +237,6 @@ import Avatar from "~/components/Common/Avatar";
 import {ref} from "vue";
 import {useTranslate} from "~/vendor/gettext";
 import {useAxios} from "~/vendor/axios";
-import useConfirmAndDelete from "~/functions/useConfirmAndDelete";
 import useRefreshableAsyncState from "~/functions/useRefreshableAsyncState";
 
 const props = defineProps({

@@ -70,7 +70,6 @@ import ProfileSchedule from './Profile/SchedulePanel';
 import ProfileRequests from './Profile/RequestsPanel';
 import ProfileStreamers from './Profile/StreamersPanel';
 import NowPlayingNotStartedPanel from "./Profile/NowPlayingNotStartedPanel.vue";
-import {BACKEND_NONE, FRONTEND_REMOTE} from '~/components/Entity/RadioAdapters';
 import NowPlaying from '~/components/Entity/NowPlaying';
 import {computed} from "vue";
 import {useAxios} from "~/vendor/axios";

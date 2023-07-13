@@ -227,8 +227,6 @@ const {
     currentTrackElapsedDisplay
 } = useNowPlaying(props);
 
-const {$ngettext} = useTranslate();
-
 const isLiquidsoap = computed(() => {
     return props.backendType === BACKEND_LIQUIDSOAP;
 });

@@ -287,7 +287,6 @@ const $dataTable = ref(); // DataTable
 
 const relist = () => {
     reloadUser();
-    reloadSecurity();
     $dataTable.value?.relist();
 };
 
@@ -304,11 +303,6 @@ const doEditProfile = () => {
 const $changePasswordModal = ref(); // ChangePasswordModal
 
 const $twoFactorModal = ref(); // TwoFactorModal
-
-const {doDelete: doDisableTwoFactor} = useConfirmAndDelete(
-    $gettext('Disable two-factor authentication?'),
-    relist
-);
 
 const $apiKeyModal = ref(); // ApiKeyModal
 </script>

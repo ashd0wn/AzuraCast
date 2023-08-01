@@ -264,7 +264,7 @@
                     </template>
                 </b-wrapped-form-checkbox>-->
 
-                <b-wrapped-form-checkbox
+                <!--<b-wrapped-form-checkbox
                     id="edit_form_backend_enable_replaygain_metadata"
                     class="col-md-6"
                     :field="form.backend_config.enable_replaygain_metadata"
@@ -277,7 +277,7 @@
                         {{
                             $gettext('Instruct Liquidsoap to use any replaygain metadata associated with a song to control its volume level. This may increase CPU consumption.')
                         }}
-                    </template>
+                    </template>-->
                 </b-wrapped-form-checkbox>
 
                 <!--<b-wrapped-form-group

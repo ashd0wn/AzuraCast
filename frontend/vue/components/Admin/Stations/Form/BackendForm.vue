@@ -277,8 +277,8 @@
                         {{
                             $gettext('Instruct Liquidsoap to use any replaygain metadata associated with a song to control its volume level. This may increase CPU consumption.')
                         }}
-                    </template>-->
-                </b-wrapped-form-checkbox>
+                    </template>
+                </b-wrapped-form-checkbox>-->
 
                 <!--<b-wrapped-form-group
                     id="edit_form_backend_telnet_port"

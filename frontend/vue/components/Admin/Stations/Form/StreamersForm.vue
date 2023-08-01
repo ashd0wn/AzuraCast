@@ -196,7 +196,7 @@ const isBackendEnabled = computed(() => {
     return props.form.backend_type.$model !== BACKEND_NONE;
 });
 
-const recordStreamsOptions = computed(() => {
+/*const recordStreamsOptions = computed(() => {
     return [
         {
             text: 'MP3',
@@ -228,5 +228,5 @@ const recordBitrateOptions = computed(() => {
         {text: '256', value: 256},
         {text: '320', value: 320}
     ];
-});
+});*/
 </script>

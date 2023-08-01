@@ -71,7 +71,7 @@
 
         <b-form-fieldset v-if="isBackendEnabled">
             <b-form-fieldset>
-                <template #label>
+                <!--<template #label>
                     {{ $gettext('Audio Post-processing') }}
                 </template>
                 <template #description>
@@ -80,7 +80,7 @@
                     }}
                 </template>
 
-                <!--<b-form-fieldset>
+                <b-form-fieldset>
                     <div class="form-row">
                         <b-wrapped-form-group
                             id="edit_form_backend_config_audio_processing_method"

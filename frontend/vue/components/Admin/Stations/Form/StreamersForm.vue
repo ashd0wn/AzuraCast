@@ -25,7 +25,7 @@
             </b-form-fieldset>
 
             <b-form-fieldset v-if="form.enable_streamers.$model">
-                <b-form-fieldset>
+                <!--<b-form-fieldset>
                     <div class="form-row">
                         <b-wrapped-form-checkbox
                             id="edit_form_backend_record_streams"
@@ -84,7 +84,7 @@
                             </template>
                         </b-wrapped-form-group>
                     </div>
-                </b-form-fieldset>
+                </b-form-fieldset>-->
 
                 <b-form-fieldset>
                     <div class="form-row">
@@ -105,7 +105,7 @@
                             </template>
                         </b-wrapped-form-group>
 
-                        <b-wrapped-form-group
+                        <!--<b-wrapped-form-group
                             v-if="showAdvanced"
                             id="edit_form_backend_dj_port"
                             class="col-md-6"
@@ -126,7 +126,7 @@
                                     $gettext('Note: the port after this one will automatically be used for legacy connections.')
                                 }}
                             </template>
-                        </b-wrapped-form-group>
+                        </b-wrapped-form-group>-->
 
                         <b-wrapped-form-group
                             id="edit_form_backend_dj_buffer"

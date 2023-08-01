@@ -67,6 +67,7 @@ return static function (App\Event\BuildStationMenu $e) {
                         'label' => __('Branding'),
                         'url' => $router->fromhere('stations:branding'),
                         'permission' => StationPermissions::Profile,
+                        'permission' => StationPermissions::spShowIt,
                     ],
                 ],
             ],

@@ -121,7 +121,7 @@ final class Icecast extends AbstractFrontend
             'admin' => 'icemaster@localhost',
             'hostname' => $baseUrl->getHost(),
             'limits' => [
-                'clients' => $frontendConfig->getMaxListeners() ?? 2500,
+                'clients' => '100',
                 'sources' => $station->getMounts()->count(),
                 'queue-size' => 524288,
                 'client-timeout' => 30,
@@ -131,7 +131,7 @@ final class Icecast extends AbstractFrontend
             ],
             'authentication' => [
                 'source-password' => $frontendConfig->getSourcePassword(),
-                'relay-password' => $frontendConfig->getRelayPassword(),
+                'relay-password' => '',
                 'admin-user' => 'admin',
                 'admin-password' => $frontendConfig->getAdminPassword(),
             ],

@@ -221,14 +221,14 @@
                                 <div class="typography-subheading">
                                     {{ item.station.name }}
                                 </div>
-                                <div v-if="item.station.is_public">
+                                <!--<div v-if="item.station.is_public">
                                     <a
                                         :href="item.links.public"
                                         target="_blank"
                                     >
                                         {{ $gettext('Public Page') }}
                                     </a>
-                                </div>
+                                </div>-->
                             </td>
                             <td class="text-center">
                                 <!--<span class="pr-1">

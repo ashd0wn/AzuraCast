@@ -145,7 +145,7 @@
                             </template>
                         </b-wrapped-form-group>
 
-                        <b-wrapped-form-group
+                        <!--<b-wrapped-form-group
                             v-if="showAdvanced"
                             id="edit_form_backend_dj_mount_point"
                             class="col-md-6"
@@ -160,7 +160,7 @@
                                     $gettext('If your streaming software requires a specific mount point path, specify it here. Otherwise, use the default.')
                                 }}
                             </template>
-                        </b-wrapped-form-group>
+                        </b-wrapped-form-group>-->
                     </div>
                 </b-form-fieldset>
             </b-form-fieldset>

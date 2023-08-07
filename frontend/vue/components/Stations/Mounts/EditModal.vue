@@ -135,7 +135,7 @@ const {
         is_public: true,
         enable_autodj: true,
         autodj_format: 'mp3',
-        autodj_bitrate: 128,
+        autodj_bitrate: 320,
         custom_listen_url: null,
         authhash: null,
         fallback_mount: '/error.mp3',

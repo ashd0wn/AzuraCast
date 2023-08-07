@@ -112,7 +112,7 @@ class StationMount implements
         OA\Property(example: 128),
         ORM\Column(type: 'smallint', nullable: true)
     ]
-    protected ?int $autodj_bitrate = 128;
+    protected ?int $autodj_bitrate = 320;
 
     #[
         OA\Property(example: "https://custom-listen-url.example.com/stream.mp3"),

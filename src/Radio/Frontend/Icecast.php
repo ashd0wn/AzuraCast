@@ -183,7 +183,7 @@ final class Icecast extends AbstractFrontend
 
             $mount = [
                 '@type' => 'normal',
-                'mount-name' => $mount_row->getName(),
+                'mount-name' => "/stream",
                 'charset' => 'UTF8',
                 'stream-name' => $station->getName(),
             ];
@@ -200,9 +200,7 @@ final class Icecast extends AbstractFrontend
                 $mount['genre'] = $station->getGenre();
             }
 
-            if (!$mount_row->getIsVisibleOnPublicPages()) {
-                $mount['hidden'] = 1;
-            }
+            $mount['hidden'] = 1;
 
             if (!empty($mount_row->getIntroPath())) {
                 $introPath = $mount_row->getIntroPath();
@@ -213,16 +211,8 @@ final class Icecast extends AbstractFrontend
                 );
             }
 
-            if (!empty($mount_row->getFallbackMount())) {
-                $mount['fallback-mount'] = $mount_row->getFallbackMount();
-                $mount['fallback-override'] = 1;
-            } elseif ($mount_row->getEnableAutodj()) {
-                $autoDjFormat = $mount_row->getAutodjFormat() ?? StreamFormats::default();
-                $autoDjBitrate = $mount_row->getAutodjBitrate();
-
-                $mount['fallback-mount'] = '/fallback-[' . $autoDjBitrate . '].' . $autoDjFormat->getExtension();
-                $mount['fallback-override'] = 1;
-            }
+            $mount['fallback-mount'] = '/fallback.mp3';
+            $mount['fallback-override'] = 1;
 
             if ($mount_row->getMaxListenerDuration()) {
                 $mount['max-listener-duration'] = $mount_row->getMaxListenerDuration();

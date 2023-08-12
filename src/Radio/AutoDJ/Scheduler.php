@@ -57,7 +57,7 @@ final class Scheduler
                 // This way should be the better one. OncePerHour can happens also every 10 Minutes on some Users.
                 // If they use the same Jingle every 10 Minutes in example it will not always be played with the above one.
                 $playPerSongs = $playlist->getPlayPerSongs();
-                $shouldPlay = !$this->queueRepo->isPlaylistRecentlyPlayed($playlist, 3);
+                $shouldPlay = !$this->queueRepo->isPlaylistRecentlyPlayed($playlist, 2);
 
                 $this->logger->debug(
                     sprintf(

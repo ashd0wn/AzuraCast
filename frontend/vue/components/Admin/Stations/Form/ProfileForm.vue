@@ -11,7 +11,7 @@
                 </template>
             </b-wrapped-form-group>
 
-            <!--<b-wrapped-form-group
+            <b-wrapped-form-group
                 id="edit_form_description"
                 class="col-md-12"
                 :field="form.description"
@@ -24,7 +24,7 @@
 
             <b-wrapped-form-group
                 id="edit_form_genre"
-                class="col-md-6"
+                class="col-md-12"
                 :field="form.genre"
             >
                 <template #label>
@@ -32,7 +32,7 @@
                 </template>
             </b-wrapped-form-group>
 
-            <b-wrapped-form-group
+            <!--<b-wrapped-form-group
                 id="edit_form_url"
                 class="col-md-6"
                 :field="form.url"

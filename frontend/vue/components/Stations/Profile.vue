@@ -8,7 +8,7 @@
         id="profile"
         class="row row-of-cards"
     >
-        <div class="col-lg-7">
+        <div class="col-lg-12">
             <template v-if="hasStarted">
                 <profile-now-playing
                     v-bind="pickProps(props, nowPlayingPanelProps)"
@@ -18,47 +18,10 @@
                     :station-time-zone="stationTimeZone"
                     :schedule-items="profileInfo.schedule"
                 />
-
-                <!--<profile-streams
-                    :station="profileInfo.station"
-                />-->
             </template>
             <template v-else>
                 <now-playing-not-started-panel />
             </template>
-
-            <!--<profile-public-pages
-                v-bind="pickProps(props, {...publicPagesPanelProps,...embedModalProps})"
-            />-->
-        </div>
-
-        <div class="col-lg-5">
-            <profile-requests
-                v-if="stationSupportsRequests"
-                v-bind="pickProps(props, requestsPanelProps)"
-            />
-
-            <profile-streamers
-                v-if="stationSupportsStreamers"
-                v-bind="pickProps(props, streamersPanelProps)"
-            />
-
-            <!--<template v-if="hasActiveFrontend">
-                <profile-frontend
-                    v-bind="pickProps(props, frontendPanelProps)"
-                    :frontend-running="profileInfo.services.frontend_running"
-                />
-            </template>
-
-            <template v-if="hasActiveBackend">
-                <profile-backend
-                    v-bind="pickProps(props, backendPanelProps)"
-                    :backend-running="profileInfo.services.backend_running"
-                />
-            </template>
-            <template v-else>
-                <profile-backend-none />
-            </template>-->
         </div>
     </div>
 </template>
@@ -67,8 +30,6 @@
 import ProfileHeader from './Profile/HeaderPanel';
 import ProfileNowPlaying from './Profile/NowPlayingPanel';
 import ProfileSchedule from './Profile/SchedulePanel';
-import ProfileRequests from './Profile/RequestsPanel';
-import ProfileStreamers from './Profile/StreamersPanel';
 import NowPlayingNotStartedPanel from "./Profile/NowPlayingNotStartedPanel.vue";
 import NowPlaying from '~/components/Entity/NowPlaying';
 import {computed} from "vue";

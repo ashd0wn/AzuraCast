@@ -204,7 +204,7 @@ msgstr "Alle aufgeführten Domainnamen sollten auf diese AzuraCast-Installation 
 
 #: ./vue/components/Stations/Playlists.vue:94
 msgid "All Playlists"
-msgstr "Alle Wdg-Listen"
+msgstr "Alle Playlisten"
 
 #: ./vue/components/Stations/Podcasts/EpisodesView.vue:85
 msgid "All Podcasts"
@@ -3515,7 +3515,7 @@ msgstr "Reihenfolge der Songwiedergabe"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/TimelineAction.php:25
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:199
 msgid "Song Playback Timeline"
-msgstr "Songwiedergabe-Zeitleiste"
+msgstr "Songwiedergabe (Zeitleiste)"
 
 #: ./vue/components/Admin/Stations/Form/RequestsForm.vue:17
 #: ./vue/components/Admin/Stations/StationForm.vue:111
@@ -6241,7 +6241,7 @@ msgstr "Branding"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:92
 msgid "Duplicate Songs"
-msgstr "Songs duplizieren"
+msgstr "Doppelt vorhandene Dateien"
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:97
 msgid "Unprocessable Files"

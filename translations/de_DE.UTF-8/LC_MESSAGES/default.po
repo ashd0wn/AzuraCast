@@ -3127,7 +3127,7 @@ msgstr "Zeitplan"
 #: ./vue/components/Stations/Playlists.vue:316
 #: ./vue/components/Stations/Streamers.vue:156
 msgid "Schedule View"
-msgstr "Zeitplan Ansicht"
+msgstr "Planungsansicht"
 
 #: ./vue/components/Stations/Profile/SchedulePanel.vue:25
 msgid "Scheduled"

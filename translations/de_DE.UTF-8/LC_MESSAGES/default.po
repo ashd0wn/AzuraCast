@@ -185,7 +185,7 @@ msgstr "Erweiterte manuelle AutoDJ-Zeitplanungsoptionen"
 
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:34
 msgid "Aggregate listener statistics are used to show station reports across the system. IP-based listener statistics are used to view live listener tracking and may be required for royalty reports."
-msgstr "Aggregierte Hörerstatistiken werden verwendet, um Senderberichte für das gesamte System anzuzeigen. IP-basierte Hörerstatistiken werden verwendet, um Live-Hörerverfolgungen anzuzeigen und können für Honorarberichte erforderlich sein."
+msgstr "Aggregierte Zuhörerstatistiken werden verwendet, um Senderberichte für das gesamte System anzuzeigen. IP-basierte Zuhörerstatistiken werden verwendet, um Live-Zuhörerverfolgungen anzuzeigen und können für Honorarberichte erforderlich sein."
 
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:56
 #: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:78
@@ -406,7 +406,7 @@ msgstr "Avatar-Dienst"
 
 #: ./vue/components/DashboardCharts.vue:30
 msgid "Average Listeners"
-msgstr "Durchschnittliche Hörer"
+msgstr "Durchschnittliche Zuhörer"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:133
 msgid "Avoid Duplicate Artists/Titles"
@@ -739,7 +739,7 @@ msgstr "Code aus der Authenticator App"
 
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:47
 msgid "Collect aggregate listener statistics and IP-based listener statistics"
-msgstr "Sammeln Sie aggregierte Hörerstatistiken und IP-basierte Hörerstatistiken"
+msgstr "Sammeln Sie aggregierte Zuhörerstatistiken und IP-basierte Zuhörerstatistiken"
 
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:70
 msgid "Comments"
@@ -1170,7 +1170,7 @@ msgstr "DJ/Streamer-Pufferzeit (Sekunden)"
 
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:61
 msgid "Do not collect any listener analytics"
-msgstr "Sammeln Sie keine Hörer-Analysen"
+msgstr "Sammeln Sie keine Zuhörer-Analysen"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:93
 msgid "Domain Name(s)"
@@ -1349,7 +1349,7 @@ msgstr "Aktivieren Sie HTTP-Live-Streaming (HLS)"
 
 #: ./vue/components/Admin/Stations/Form/RequestsForm.vue:35
 msgid "Enable listeners to request a song for play on your station. Only songs that are already in your playlists are requestable."
-msgstr "Ermöglichen Sie es Hörern, einen Song für die Wiedergabe in Ihrem Sender anzufordern. Nur Songs, die bereits in Ihren Playlisten enthalten sind, können angefordert werden."
+msgstr "Ermöglichen Sie es Zuhörern, einen Song für die Wiedergabe in Ihrem Sender anzufordern. Nur Songs, die bereits in Ihren Playlisten enthalten sind, können angefordert werden."
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:150
 msgid "Enable Mail Delivery"
@@ -1389,11 +1389,11 @@ msgstr "Ermöglichen Sie es, dieses Relais in den \"Gelben Seiten\" der öffentl
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:59
 msgid "Enable to allow listeners to select this mount point on this station's public pages."
-msgstr "Aktivieren Sie diese Option, damit Hörer diesen Punkt auf den öffentlichen Seiten des Senders auswählen können."
+msgstr "Aktivieren Sie diese Option, damit Zuhörer diesen Punkt auf den öffentlichen Seiten des Senders auswählen können."
 
 #: ./vue/components/Stations/Remotes/Form/BasicInfo.vue:101
 msgid "Enable to allow listeners to select this relay on this station's public pages."
-msgstr "Aktivieren Sie diese Option, damit Hörer dieses Relais auf den öffentlichen Seiten des Senders auswählen können."
+msgstr "Aktivieren Sie diese Option, damit Zuhörer dieses Relais auf den öffentlichen Seiten des Senders auswählen können."
 
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:88
 msgid "Enable to allow this account to log in and stream."
@@ -1540,7 +1540,7 @@ msgstr "für den ausgewählten Zeitraum"
 
 #: ./vue/components/Admin/Updates.vue:143
 msgid "For simple updates where you want to keep your current configuration, you can update directly via your web browser. You will be disconnected from the web interface and listeners will be disconnected from all stations."
-msgstr "Für einfache Aktualisierungen, bei denen Sie Ihre aktuelle Konfiguration beibehalten möchten, können Sie direkt über Ihren Webbrowser aktualisieren. Sie werden von der Weboberfläche getrennt und die Hörer werden von allen Stationen getrennt."
+msgstr "Für einfache Aktualisierungen, bei denen Sie Ihre aktuelle Konfiguration beibehalten möchten, können Sie direkt über Ihren Webbrowser aktualisieren. Sie werden von der Weboberfläche getrennt und die Zuhörer werden von allen Stationen getrennt."
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:81
 msgid "For some clients, use port:"
@@ -1612,7 +1612,7 @@ msgstr "AzuraCast Branding auf öffentlichen Seiten ausblenden"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:190
 msgid "Hide Metadata from Listeners (\"Jingle Mode\")"
-msgstr "Metadaten vor Hörern verbergen (\"Jingle-Modus\")"
+msgstr "Metadaten vor Zuhörern verbergen (\"Jingle-Modus\")"
 
 #: ./vue/components/Admin/Index/CpuStatsHelpModal.vue:70
 msgid "High I/O Wait can indicate a bottleneck with the server's hard disk, a potentially failing hard disk, or heavy load on the hard disk."
@@ -1745,7 +1745,7 @@ msgstr "Wenn diese Fassung die Standardeinstellung ist, wird sie in der Radio-Vo
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:146
 msgid "If this mount point is not playing audio, listeners will automatically be redirected to this mount point. The default is /error.mp3, a repeating error message."
-msgstr "Wenn dieser Einhängepunkt keine Audiodateien abspielt, werden die Hörer automatisch zu diesem Einhängepunkt umgeleitet. Die Vorgabe ist /error.mp3, eine sich wiederholende Fehlermeldung."
+msgstr "Wenn dieser Einhängepunkt keine Audiodateien abspielt, werden die Zuhörer automatisch zu diesem Einhängepunkt umgeleitet. Die Vorgabe ist /error.mp3, eine sich wiederholende Fehlermeldung."
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:50
 msgid "If this setting is set to \"Yes\", the browser URL will be used instead of the base URL when it's available. Set to \"No\" to always use the base URL."
@@ -1992,12 +1992,12 @@ msgstr "Zuhörer History"
 
 #: ./vue/components/Stations/Profile/NowPlayingPanel.vue:115
 msgid "Listener Report"
-msgstr "Hörerbericht"
+msgstr "Zuhörerbericht"
 
 #: ./vue/components/Stations/Queue.vue:106
 #: ./vue/components/Stations/Reports/Timeline.vue:92
 msgid "Listener Request"
-msgstr "Hörer-Anfrage"
+msgstr "Zuhörer-Anfrage"
 
 #: ./vue/components/Dashboard.vue:273
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:66
@@ -2016,22 +2016,22 @@ msgstr "Hörer-Anfrage"
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:178
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:190
 msgid "Listeners"
-msgstr "Hörer"
+msgstr "Zuhörer"
 
 #: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:36
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:50
 msgid "Listeners by Day"
-msgstr "Hörer am Tag"
+msgstr "Zuhörer am Tag"
 
 #: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:52
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:98
 msgid "Listeners by Day of Week"
-msgstr "Hörer nach Wochentag"
+msgstr "Zuhörer nach Wochentag"
 
 #: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:69
 #: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:162
 msgid "Listeners by Hour"
-msgstr "Hörer nach Stunde"
+msgstr "Zuhörer nach Stunde"
 
 #: ./vue/components/Stations/Reports/Overview/ListeningTimeTab.vue:25
 msgid "Listeners by Listening Time"
@@ -2043,7 +2043,7 @@ msgstr "Zuhörer nach Zeitabschnitt"
 
 #: ./vue/components/Dashboard.vue:205
 msgid "Listeners Per Station"
-msgstr "Hörer pro Sender"
+msgstr "Zuhörer pro Sender"
 
 #: ./vue/components/Stations/Reports/Overview.vue:71
 msgid "Listening Time"
@@ -2064,7 +2064,7 @@ msgstr "Live-Übertragung Aufnahmeformat"
 
 #: ./vue/components/Stations/Reports/Listeners.vue:81
 msgid "Live Listeners"
-msgstr "Live-Hörer"
+msgstr "Live-Zuhörer"
 
 #: ./vue/components/Admin/Stations/Form/AdminForm.vue:85
 msgid "Live Recordings Storage Location"
@@ -2208,15 +2208,15 @@ msgstr "Matomo Site ID"
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:110
 msgid "Max Listener Duration"
-msgstr "Maximale Hörerdauer"
+msgstr "Maximale Zuhörerdauer"
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:146
 msgid "Maximum Listeners"
-msgstr "Maximale Hörer"
+msgstr "Maximale Zuhörer"
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:149
 msgid "Maximum number of total listeners across all streams. Leave blank to use the default."
-msgstr "Maximale Anzahl von Hörern für alle Streams. Lassen Sie diese Option leer, um die Standardeinstellung zu verwenden."
+msgstr "Maximale Anzahl von Zuhörern für alle Streams. Lassen Sie diese Option leer, um die Standardeinstellung zu verwenden."
 
 #: ./vue/components/Admin/GeoLite.vue:67
 msgid "MaxMind Developer Site"
@@ -2362,7 +2362,7 @@ msgstr "Punkte montieren"
 
 #: ./vue/components/Stations/Mounts.vue:38
 msgid "Mount points are how listeners connect and listen to your station. Each mount point can be a different audio format or quality. Using mount points, you can set up a high-quality stream for broadband listeners and a mobile stream for phone users."
-msgstr "Über die Einhängepunkte stellen die Hörer eine Verbindung zu Ihrem Sender her und hören ihn. Jeder Einhängepunkt kann ein anderes Audioformat oder eine andere Qualität haben. Mit Hilfe von Einhängepunkten können Sie einen hochwertigen Stream für Breitbandhörer und einen mobilen Stream für Telefonbenutzer einrichten."
+msgstr "Über die Einhängepunkte stellen die Zuhörer eine Verbindung zu Ihrem Sender her und hören ihn. Jeder Einhängepunkt kann ein anderes Audioformat oder eine andere Qualität haben. Mit Hilfe von Einhängepunkten können Sie einen hochwertigen Stream für Breitbandhörer und einen mobilen Stream für Telefonbenutzer einrichten."
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:144
 msgid "Move"
@@ -2591,7 +2591,7 @@ msgstr "Ein wichtiger Hinweis zu I/O-Wartezeit ist, dass er auf einen Engpass od
 
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:54
 msgid "Only collect aggregate listener statistics"
-msgstr "Sammeln Sie nur aggregierte Hörerstatistiken"
+msgstr "Sammeln Sie nur aggregierte Zuhörerstatistiken"
 
 #: ./vue/components/Stations/Playlists/Form/ScheduleRow.vue:149
 msgid "Only loop through playlist once."
@@ -2776,7 +2776,7 @@ msgstr "Port:"
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:114
 msgid "Post-processing allows you to apply audio processors (like compressors, limiters, or equalizers) to your stream to create a more uniform sound or enhance the listening experience. Post-processing requires extra CPU resources, so it may slow down your server."
-msgstr "Bei der Nachbearbeitung können Sie Audioprozessoren (wie Kompressoren, Limiter oder Equalizer) auf Ihren Stream anwenden, um einen einheitlicheren Klang zu erzeugen oder das Hörerlebnis zu verbessern. Für die Nachbearbeitung sind zusätzliche CPU-Ressourcen erforderlich, so dass sie Ihren Server verlangsamen kann."
+msgstr "Bei der Nachbearbeitung können Sie Audioprozessoren (wie Kompressoren, Limiter oder Equalizer) auf Ihren Stream anwenden, um einen einheitlicheren Klang zu erzeugen oder das Zuhörerlebnis zu verbessern. Für die Nachbearbeitung sind zusätzliche CPU-Ressourcen erforderlich, so dass sie Ihren Server verlangsamen kann."
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:47
 msgid "Prefer Browser URL (If Available)"
@@ -3329,7 +3329,7 @@ msgstr "Ausblenden einstellen"
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:76
 msgid "Set longer to preserve more playback history and listener metadata for stations. Set shorter to save disk space."
-msgstr "Stelle den Wert länger ein, um mehr Songverlauf und Hörer-Metadaten für Ihren Sender zu speichern. Stelle den Wert kürzer ein, um Speicherplatz zu sparen."
+msgstr "Stelle den Wert länger ein, um mehr Songverlauf und Zuhörer-Metadaten für Ihren Sender zu speichern. Stelle den Wert kürzer ein, um Speicherplatz zu sparen."
 
 #: ./vue/components/Stations/Media/MediaToolbar.vue:39
 msgid "Set or clear playlists from the selected media"
@@ -3341,7 +3341,7 @@ msgstr "Überlappung einstellen"
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:113
 msgid "Set the length of time (seconds) a listener will stay connected to the stream. If set to 0, listeners can stay connected infinitely."
-msgstr "Legen Sie fest, wie lange (in Sekunden) ein Hörer mit dem Stream verbunden bleiben soll. Bei einem Wert von 0 können die Hörer unendlich lange verbunden bleiben."
+msgstr "Legen Sie fest, wie lange (in Sekunden) ein Zuhörer mit dem Stream verbunden bleiben soll. Bei einem Wert von 0 können die Zuhörer unendlich lange verbunden bleiben."
 
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:90
 msgid "Set to \"Yes\" to always use \"https://\" secure URLs, and to automatically redirect to the secure URL when an insecure URL is visited."
@@ -3889,7 +3889,7 @@ msgstr "Das übergeordnete Verzeichnis, in dem die Playlisten und Konfigurations
 
 #: ./vue/components/Stations/Webhooks/Form/GoogleAnalyticsV3.vue:21
 msgid "The property ID used to track live listeners."
-msgstr "Die ID der Eigenschaft, die zur Verfolgung von Live-Hörern verwendet wird."
+msgstr "Die ID der Eigenschaft, die zur Verfolgung von Live-Zuhörern verwendet wird."
 
 #: ./vue/components/Stations/Media/Form/BasicInfo.vue:21
 msgid "The relative path of the file in the station's media directory."
@@ -4069,7 +4069,7 @@ msgstr "Dieser Dienst kann Albumcover für Songs bereitstellen, für die es kein
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:40
 msgid "This software delivers your broadcast to the listening audience."
-msgstr "Diese Software überträgt Ihre Sendung an die Hörerschaft."
+msgstr "Diese Software überträgt Ihre Sendung an die Zuhörerschaft."
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:42
 msgid "This software shuffles from playlists of music constantly and plays when no other radio source is available."
@@ -4168,7 +4168,7 @@ msgstr "Um ein Backup von Ihrem Host-Computer wiederherzustellen, führen Sie au
 
 #: ./vue/components/Stations/Remotes/Form/BasicInfo.vue:88
 msgid "To retrieve detailed unique listeners and client details, an administrator password is often required."
-msgstr "Zum Abrufen detaillierter, eindeutiger Hörer- und Nutzerdetails ist oft ein Administratorkennwort erforderlich."
+msgstr "Zum Abrufen detaillierter, eindeutiger Zuhörer- und Nutzerdetails ist oft ein Administratorkennwort erforderlich."
 
 #: ./vue/components/Stations/Playlists/Form/ScheduleRow.vue:108
 #: ./vue/components/Stations/Streamers/Form/ScheduleRow.vue:108
@@ -4213,7 +4213,7 @@ msgstr "Gesamter Festplattenspeicher"
 
 #: ./vue/components/Stations/Reports/Listeners.vue:109
 msgid "Total Listener Hours"
-msgstr "Hörerstunden insgesamt"
+msgstr "Zuhörerstunden insgesamt"
 
 #: ./vue/components/Admin/Index.vue:151
 msgid "Total RAM"
@@ -4276,7 +4276,7 @@ msgstr "Eindeutige Kennung für den Ziel-Chat oder den Benutzernamen des Ziel-Ch
 #: ./vue/components/DashboardCharts.vue:43
 #: ./vue/components/Stations/Reports/Listeners.vue:101
 msgid "Unique Listeners"
-msgstr "Einzigartige Hörer"
+msgstr "Einzigartige Zuhörer"
 
 #: ./vue/components/Stations/Reports/Listeners.vue:152
 #: ./vue/components/Stations/Reports/Listeners.vue:164
@@ -4458,7 +4458,7 @@ msgstr "Anzeigen"
 
 #: ./vue/components/Dashboard.vue:314
 msgid "View Listener Report"
-msgstr "Hörerbericht ansehen"
+msgstr "Zuhörerbericht ansehen"
 
 #: ./vue/components/Stations/Media.vue:236
 msgid "View tracks in playlist"
@@ -6209,7 +6209,7 @@ msgstr "Dieser Song oder Künstler wurde zu oft gespielt. Warten Sie eine Weile,
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:20
 msgid "Restart broadcasting? This will disconnect any current listeners."
-msgstr "Übertragung neu starten? Dies trennt die Verbindung aller aktuellen Hörer."
+msgstr "Übertragung neu starten? Dies trennt die Verbindung aller aktuellen Zuhörer."
 
 #: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:21
 msgid "Reload broadcasting? Current listeners will not be disconnected."
@@ -6322,7 +6322,7 @@ msgstr "Bericht nicht verfügbar"
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/stations/reports_restricted.phtml:8
 msgid "This report is not available for this station, because the system administrator has chosen not to collect detailed IP-based listener information."
-msgstr "Dieser Bericht ist für diese Station nicht verfügbar, da der Systemadministrator beschlossen hat, keine detaillierten IP-basierten Hörerinformationen zu sammeln."
+msgstr "Dieser Bericht ist für diese Station nicht verfügbar, da der Systemadministrator beschlossen hat, keine detaillierten IP-basierten Zuhörerinformationen zu sammeln."
 
 #: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:60
 msgid "Skip to main content"

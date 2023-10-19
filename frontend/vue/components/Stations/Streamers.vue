@@ -129,7 +129,7 @@
 import DataTable from '~/components/Common/DataTable';
 import EditModal from './Streamers/EditModal';
 import BroadcastsModal from './Streamers/BroadcastsModal';
-import Schedule from '~/components/Common/ScheduleView';
+//import Schedule from '~/components/Common/ScheduleView';
 import Icon from '~/components/Common/Icon';
 import ConnectionInfo from "./Streamers/ConnectionInfo";
 import AlbumArt from "~/components/Common/AlbumArt";
@@ -178,9 +178,9 @@ const {relist} = useHasDatatable($datatable);
 const $editModal = ref(); // Template Ref
 const {doCreate, doEdit} = useHasEditModal($editModal);
 
-const doCalendarClick = (event) => {
+/*const doCalendarClick = (event) => {
     doEdit(event.extendedProps.edit_url);
-};
+};*/
 
 const $broadcastsModal = ref(); // Template Ref
 

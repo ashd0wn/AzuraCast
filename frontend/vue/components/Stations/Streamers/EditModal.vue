@@ -31,7 +31,7 @@
 <script setup>
 import {required} from '@vuelidate/validators';
 import FormBasicInfo from './Form/BasicInfo';
-import FormSchedule from './Form/Schedule';
+//import FormSchedule from './Form/Schedule';
 import mergeExisting from "~/functions/mergeExisting";
 import {baseEditModalProps, useBaseEditModal} from "~/functions/useBaseEditModal";
 import {computed, ref} from "vue";
@@ -64,7 +64,7 @@ const {
     loading,
     error,
     isEditMode,
-    form,
+    //form,
     v$,
     clearContents,
     create,

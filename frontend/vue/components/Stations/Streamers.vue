@@ -96,7 +96,7 @@
                             </template>
                         </data-table>
                     </b-tab>
-                    <b-tab
+                    <!--<b-tab
                         :title="$gettext('Schedule View')"
                         no-body
                     >
@@ -106,7 +106,7 @@
                             :station-time-zone="stationTimeZone"
                             @click="doCalendarClick"
                         />
-                    </b-tab>
+                    </b-tab>-->
                 </b-tabs>
             </section>
         </div>

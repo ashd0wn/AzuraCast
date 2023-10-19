@@ -13,12 +13,12 @@
             pills
         >
             <form-basic-info :form="v$" />
-            <form-schedule
+            <!--<form-schedule
                 v-model:schedule-items="form.schedule_items"
                 :form="v$"
                 :station-time-zone="stationTimeZone"
             />
-            <!--<form-artwork
+            <form-artwork
                 v-model="v$.artwork_file.$model"
                 :artwork-src="record.links.art"
                 :new-art-url="newArtUrl"

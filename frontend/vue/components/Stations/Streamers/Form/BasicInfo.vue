@@ -76,7 +76,7 @@
                     </template>
                 </b-wrapped-form-checkbox>
 
-                <b-wrapped-form-checkbox
+                <!--<b-wrapped-form-checkbox
                     id="form_edit_enforce_schedule"
                     class="col-md-6"
                     :field="form.enforce_schedule"
@@ -89,7 +89,7 @@
                             $gettext('If enabled, this streamer will only be able to connect during their scheduled broadcast times.')
                         }}
                     </template>
-                </b-wrapped-form-checkbox>
+                </b-wrapped-form-checkbox>-->
             </div>
         </b-form-group>
     </b-tab>

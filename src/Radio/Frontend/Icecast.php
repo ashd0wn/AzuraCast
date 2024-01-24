@@ -211,6 +211,13 @@ final class Icecast extends AbstractFrontend
                 );
             }
 
+            // This will generate alternate Logindetails when Users need to Stop the AutoDJ during Live Broadcast.
+            // So they have another credentials for all team members instead of the not working dj credentials when liquidsoap is stopped.
+            $mount['username'] = "admin";
+
+            $randomBytes = random_bytes(16);
+            $mount['password'] = "sp" . bin2hex($randomBytes);
+
             $mount['fallback-mount'] = '/fallback.mp3';
             $mount['fallback-override'] = 1;
 

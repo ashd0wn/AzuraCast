@@ -183,7 +183,7 @@ final class Icecast extends AbstractFrontend
 
             $mount = [
                 '@type' => 'normal',
-                'mount-name' => "/stream",
+                'mount-name' => $mount_row->getName(),
                 'charset' => 'UTF8',
                 'stream-name' => $station->getName(),
             ];
@@ -211,7 +211,7 @@ final class Icecast extends AbstractFrontend
                 );
             }
 
-            $mount['fallback-mount'] = '/fallback.mp3';
+            $mount['fallback-mount'] = $mount_row->getFallbackMount();
             $mount['fallback-override'] = 1;
 
             if ($mount_row->getMaxListenerDuration()) {

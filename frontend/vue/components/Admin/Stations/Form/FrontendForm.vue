@@ -279,19 +279,19 @@ const frontendTypeOptions = computed(() => {
     return frontendOptions;
 });
 
-const countryOptions = computed(() => {
+/*const countryOptions = computed(() => {
     return objectToFormOptions(props.countries);
-});
+});*/
 
 const isLocalFrontend = computed(() => {
     return props.form.frontend_type.$model !== FRONTEND_REMOTE;
 });
 
-const isShoutcastFrontend = computed(() => {
+/*const isShoutcastFrontend = computed(() => {
     return props.form.frontend_type.$model === FRONTEND_SHOUTCAST;
-});
+});*/
 
-const clearCountries = () => {
+/*const clearCountries = () => {
     props.form.frontend_config.banned_countries.$model = [];
-}
+}*/
 </script>

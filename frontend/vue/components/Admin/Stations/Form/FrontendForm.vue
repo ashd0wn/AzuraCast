@@ -25,7 +25,7 @@
     </b-form-fieldset>
 
     <b-form-fieldset v-if="isLocalFrontend">
-        <b-form-fieldset v-if="isShoutcastFrontend">
+        <!--<b-form-fieldset v-if="isShoutcastFrontend">
             <div class="form-row">
                 <b-wrapped-form-group
                     id="edit_form_frontend_sc_license_id"
@@ -47,7 +47,7 @@
                     </template>
                 </b-wrapped-form-group>
             </div>
-        </b-form-fieldset>
+        </b-form-fieldset>-->
 
         <b-form-fieldset>
             <div class="form-row">
@@ -64,7 +64,7 @@
                     </template>
                 </b-wrapped-form-group>
 
-                <b-wrapped-form-group
+                <!--<b-wrapped-form-group
                     id="edit_form_frontend_admin_pw"
                     class="col-md-6"
                     :field="form.frontend_config.admin_pw"
@@ -111,11 +111,11 @@
                             $gettext('Maximum number of total listeners across all streams. Leave blank to use the default.')
                         }}
                     </template>
-                </b-wrapped-form-group>
+                </b-wrapped-form-group>-->
             </div>
         </b-form-fieldset>
 
-        <b-form-fieldset v-if="showAdvanced">
+        <!--<b-form-fieldset v-if="showAdvanced">
             <div class="form-row">
                 <b-col md="5">
                     <b-wrapped-form-group
@@ -195,9 +195,9 @@
                     </template>
                 </b-wrapped-form-group>
             </div>
-        </b-form-fieldset>
+        </b-form-fieldset>-->
 
-        <b-form-fieldset v-if="showAdvanced">
+        <!--<b-form-fieldset v-if="showAdvanced">
             <template #label>
                 {{ $gettext('Custom Configuration') }}
             </template>
@@ -223,7 +223,7 @@
                     </template>
                 </b-wrapped-form-group>
             </div>
-        </b-form-fieldset>
+        </b-form-fieldset>-->
     </b-form-fieldset>
 </template>
 

@@ -34,7 +34,7 @@
                     />
                 </b-tab>
 
-                <!--<b-tab :title-link-class="getTabClass(v$.$validationGroups.frontendTab)">
+                <b-tab :title-link-class="getTabClass(v$.$validationGroups.frontendTab)">
                     <template #title>
                         {{ $gettext('Broadcasting') }}
                     </template>
@@ -45,7 +45,7 @@
                         :countries="countries"
                         :show-advanced="showAdvanced"
                     />
-                </b-tab>-->
+                </b-tab>
 
                 <b-tab :title-link-class="getTabClass(v$.$validationGroups.backendTab)">
                     <template #title>

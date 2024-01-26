@@ -230,8 +230,8 @@
 <script setup>
 import BFormFieldset from "~/components/Form/BFormFieldset.vue";
 import BWrappedFormGroup from "~/components/Form/BWrappedFormGroup.vue";
-import {FRONTEND_ICECAST, FRONTEND_REMOTE, FRONTEND_SHOUTCAST} from "~/components/Entity/RadioAdapters";
-/*import objectToFormOptions from "~/functions/objectToFormOptions";*/
+/*import {FRONTEND_ICECAST, FRONTEND_REMOTE, FRONTEND_SHOUTCAST} from "~/components/Entity/RadioAdapters";
+import objectToFormOptions from "~/functions/objectToFormOptions";*/
 import {computed} from "vue";
 import {useTranslate} from "~/vendor/gettext";
 

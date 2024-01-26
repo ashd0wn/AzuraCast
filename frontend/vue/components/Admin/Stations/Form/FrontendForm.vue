@@ -1,5 +1,5 @@
 <template>
-    <b-form-fieldset>
+    <!--<b-form-fieldset>
         <div class="form-row">
             <b-wrapped-form-group
                 id="edit_form_frontend_type"
@@ -22,7 +22,7 @@
                 </template>
             </b-wrapped-form-group>
         </div>
-    </b-form-fieldset>
+    </b-form-fieldset>-->
 
     <b-form-fieldset v-if="isLocalFrontend">
         <!--<b-form-fieldset v-if="isShoutcastFrontend">

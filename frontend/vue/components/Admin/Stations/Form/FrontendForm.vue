@@ -256,7 +256,7 @@ const props = defineProps({
 
 const {$gettext} = useTranslate();
 
-const frontendTypeOptions = computed(() => {
+/*const frontendTypeOptions = computed(() => {
     let frontendOptions = [
         {
             text: $gettext('Use Icecast 2.4 on this server.'),
@@ -277,7 +277,7 @@ const frontendTypeOptions = computed(() => {
     });
 
     return frontendOptions;
-});
+});*/
 
 /*const countryOptions = computed(() => {
     return objectToFormOptions(props.countries);

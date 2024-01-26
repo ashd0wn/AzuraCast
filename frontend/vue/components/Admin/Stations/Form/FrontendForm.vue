@@ -283,9 +283,9 @@ const {$gettext} = useTranslate();
     return objectToFormOptions(props.countries);
 });*/
 
-const isLocalFrontend = computed(() => {
+/*const isLocalFrontend = computed(() => {
     return props.form.frontend_type.$model !== FRONTEND_REMOTE;
-});
+});*/
 
 /*const isShoutcastFrontend = computed(() => {
     return props.form.frontend_type.$model === FRONTEND_SHOUTCAST;

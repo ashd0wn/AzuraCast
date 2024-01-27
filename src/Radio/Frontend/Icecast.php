@@ -151,7 +151,7 @@ final class Icecast extends AbstractFrontend
                 'alias' => [
                     [
                         '@source' => '/',
-                        '@dest' => '/status.xsl',
+                        '@dest' => '/stream',
                     ],
                 ],
                 'ssl-private-key' => $certKey,

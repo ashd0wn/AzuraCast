@@ -1,5 +1,5 @@
 <template>
-    <!--<b-form-fieldset>
+    <b-form-fieldset>
         <div class="form-row">
             <b-wrapped-form-group
                 id="edit_form_frontend_type"
@@ -22,10 +22,10 @@
                 </template>
             </b-wrapped-form-group>
         </div>
-    </b-form-fieldset>-->
+    </b-form-fieldset>
 
     <b-form-fieldset v-if="isLocalFrontend">
-        <!--<b-form-fieldset v-if="isShoutcastFrontend">
+        <b-form-fieldset v-if="isShoutcastFrontend">
             <div class="form-row">
                 <b-wrapped-form-group
                     id="edit_form_frontend_sc_license_id"
@@ -47,7 +47,7 @@
                     </template>
                 </b-wrapped-form-group>
             </div>
-        </b-form-fieldset>-->
+        </b-form-fieldset>
 
         <b-form-fieldset>
             <div class="form-row">
@@ -230,9 +230,9 @@
 <script setup>
 import BFormFieldset from "~/components/Form/BFormFieldset.vue";
 import BWrappedFormGroup from "~/components/Form/BWrappedFormGroup.vue";
-/*import {FRONTEND_ICECAST, FRONTEND_REMOTE, FRONTEND_SHOUTCAST} from "~/components/Entity/RadioAdapters";
-import objectToFormOptions from "~/functions/objectToFormOptions";
-import {computed} from "vue";*/
+import {FRONTEND_ICECAST, FRONTEND_REMOTE, FRONTEND_SHOUTCAST} from "~/components/Entity/RadioAdapters";
+/*import objectToFormOptions from "~/functions/objectToFormOptions";*/
+import {computed} from "vue";
 import {useTranslate} from "~/vendor/gettext";
 
 const props = defineProps({
@@ -256,7 +256,7 @@ const props = defineProps({
 
 const {$gettext} = useTranslate();
 
-/*const frontendTypeOptions = computed(() => {
+const frontendTypeOptions = computed(() => {
     let frontendOptions = [
         {
             text: $gettext('Use Icecast 2.4 on this server.'),
@@ -271,25 +271,25 @@ const {$gettext} = useTranslate();
         });
     }
 
-    frontendOptions.push({
+    /*frontendOptions.push({
         text: $gettext('Only connect to a remote server.'),
         value: FRONTEND_REMOTE
-    });
+    });*/
 
     return frontendOptions;
-});*/
+});
 
 /*const countryOptions = computed(() => {
     return objectToFormOptions(props.countries);
 });*/
 
-/*const isLocalFrontend = computed(() => {
+const isLocalFrontend = computed(() => {
     return props.form.frontend_type.$model !== FRONTEND_REMOTE;
-});*/
+});
 
-/*const isShoutcastFrontend = computed(() => {
+const isShoutcastFrontend = computed(() => {
     return props.form.frontend_type.$model === FRONTEND_SHOUTCAST;
-});*/
+});
 
 /*const clearCountries = () => {
     props.form.frontend_config.banned_countries.$model = [];

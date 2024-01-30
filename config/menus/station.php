@@ -278,10 +278,24 @@ return static function (App\Event\BuildStationMenu $e) {
                         'permission' => StationPermissions::Broadcasting,
                         'visible' => $hasLocalServices && $reloadSupported,
                     ],
-                    'restart' => [
-                        'label' => __('Restart Broadcasting'),
+                    'stop' => [
+                        'label' => __('AutoDJ Stop'),
                         'class' => 'api-call',
-                        'url' => $router->fromHere('api:stations:restart'),
+                        'url' => $router->fromHere('api:stations:backend', ['do' => 'stop']),
+                        'permission' => StationPermissions::Broadcasting,
+                        'visible' => $hasLocalServices,
+                    ],
+                    'start' => [
+                        'label' => __('AutoDJ Start'),
+                        'class' => 'api-call',
+                        'url' => $router->fromHere('api:stations:backend', ['do' => 'start']),
+                        'permission' => StationPermissions::Broadcasting,
+                        'visible' => $hasLocalServices,
+                    ],
+                    'restart' => [
+                        'label' => __('AutoDJ Neustart'),
+                        'class' => 'api-call',
+                        'url' => $router->fromHere('api:stations:backend', ['do' => 'restart']),
                         'confirm' => $willDisconnectMessage,
                         'permission' => StationPermissions::Broadcasting,
                         'visible' => $hasLocalServices,

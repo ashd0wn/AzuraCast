@@ -170,6 +170,14 @@ return static function (App\Event\BuildStationMenu $e) {
                         'permission' => StationPermissions::spShowIt,
                         'external' => true,
                     ],
+
+                    'disconnect' => [
+                        'label' => __('Disconnect Streamer'),
+                        'class' => 'api-call',
+                        'url' => $router->fromHere('api:stations:backend', ['do' => 'disconnect']),
+                        'permission' => StationPermissions::Broadcasting,
+                        'visible' => $hasLocalServices,
+                    ],
                 ],
             ],
 
@@ -264,6 +272,13 @@ return static function (App\Event\BuildStationMenu $e) {
                         'permission' => StationPermissions::Broadcasting,
                         'permission' => StationPermissions::spShowIt,
                     ],
+                ],
+            ],
+
+            'tools' => [
+                'label' => __('Tools'),
+                'icon' => 'pan_tools',
+                'items' => [
                     'queue' => [
                         'label' => __('Upcoming Song Queue'),
                         'url' => $router->fromHere('stations:queue:index'),
@@ -278,6 +293,13 @@ return static function (App\Event\BuildStationMenu $e) {
                         'permission' => StationPermissions::Broadcasting,
                         'visible' => $hasLocalServices && $reloadSupported,
                     ],
+                ],
+            ],
+
+            'autodj' => [
+                'label' => __('AutoDJ'),
+                'icon' => 'music_note',
+                'items' => [
                     'stop' => [
                         'label' => __('AutoDJ Stop'),
                         'class' => 'api-call',
